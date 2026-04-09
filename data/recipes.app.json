@@ -1,0 +1,8137 @@
+[
+  {
+    "blueprintId": 82128,
+    "blueprintName": "AC Gyrojet Ammo 1 (S) Blueprint",
+    "outputTypeId": 82128,
+    "outputName": "AC Gyrojet Ammo 1 (S)",
+    "outputQuantity": 100,
+    "category": "Ammo",
+    "group": "Gyrojet Ammunition",
+    "manufacturingTime": 3,
+    "maxProductionLimit": 34,
+    "materials": [
+      {
+        "typeId": 89260,
+        "name": "Iron-Rich Nodules",
+        "quantity": 24
+      }
+    ],
+    "products": [
+      {
+        "typeId": 82128,
+        "name": "AC Gyrojet Ammo 1 (S)",
+        "quantity": 100,
+        "manufacturingTime": 3
+      }
+    ]
+  },
+  {
+    "blueprintId": 82126,
+    "blueprintName": "AC Gyrojet Ammo 2 (S) Blueprint",
+    "outputTypeId": 82126,
+    "outputName": "AC Gyrojet Ammo 2 (S)",
+    "outputQuantity": 100,
+    "category": "Ammo",
+    "group": "Gyrojet Ammunition",
+    "manufacturingTime": 5,
+    "maxProductionLimit": 136,
+    "materials": [
+      {
+        "typeId": 77801,
+        "name": "Nickel-Iron Veins",
+        "quantity": 230
+      }
+    ],
+    "products": [
+      {
+        "typeId": 82126,
+        "name": "AC Gyrojet Ammo 2 (S)",
+        "quantity": 100,
+        "manufacturingTime": 5
+      }
+    ]
+  },
+  {
+    "blueprintId": 82127,
+    "blueprintName": "AC Gyrojet Ammo 3 (S) Blueprint",
+    "outputTypeId": 82127,
+    "outputName": "AC Gyrojet Ammo 3 (S)",
+    "outputQuantity": 100,
+    "category": "Ammo",
+    "group": "Gyrojet Ammunition",
+    "manufacturingTime": 5,
+    "maxProductionLimit": 136,
+    "materials": [
+      {
+        "typeId": 77801,
+        "name": "Nickel-Iron Veins",
+        "quantity": 230
+      }
+    ],
+    "products": [
+      {
+        "typeId": 82127,
+        "name": "AC Gyrojet Ammo 3 (S)",
+        "quantity": 100,
+        "manufacturingTime": 5
+      }
+    ]
+  },
+  {
+    "blueprintId": 83441,
+    "blueprintName": "Adaptive Nanitic Armor Weave II Blueprint",
+    "outputTypeId": 83441,
+    "outputName": "Adaptive Nanitic Armor Weave II",
+    "outputQuantity": 1,
+    "category": "Modules",
+    "group": "Flex Armor Hardener",
+    "manufacturingTime": 97,
+    "maxProductionLimit": 420,
+    "materials": [
+      {
+        "typeId": 88561,
+        "name": "Thermal Composites",
+        "quantity": 1
+      }
+    ],
+    "products": [
+      {
+        "typeId": 83441,
+        "name": "Adaptive Nanitic Armor Weave II",
+        "quantity": 1,
+        "manufacturingTime": 97
+      }
+    ]
+  },
+  {
+    "blueprintId": 83442,
+    "blueprintName": "Adaptive Nanitic Armor Weave III Blueprint",
+    "outputTypeId": 83442,
+    "outputName": "Adaptive Nanitic Armor Weave III",
+    "outputQuantity": 1,
+    "category": "Modules",
+    "group": "Flex Armor Hardener",
+    "manufacturingTime": 194,
+    "maxProductionLimit": 210,
+    "materials": [
+      {
+        "typeId": 88561,
+        "name": "Thermal Composites",
+        "quantity": 1
+      },
+      {
+        "typeId": 92483,
+        "name": "Still Kernel",
+        "quantity": 1
+      }
+    ],
+    "products": [
+      {
+        "typeId": 83442,
+        "name": "Adaptive Nanitic Armor Weave III",
+        "quantity": 1,
+        "manufacturingTime": 194
+      }
+    ]
+  },
+  {
+    "blueprintId": 83443,
+    "blueprintName": "Adaptive Nanitic Armor Weave IV Blueprint",
+    "outputTypeId": 83443,
+    "outputName": "Adaptive Nanitic Armor Weave IV",
+    "outputQuantity": 1,
+    "category": null,
+    "group": "Flex Armor Hardener",
+    "manufacturingTime": 804,
+    "maxProductionLimit": 420,
+    "materials": [
+      {
+        "typeId": 88561,
+        "name": "Thermal Composites",
+        "quantity": 12
+      },
+      {
+        "typeId": 92483,
+        "name": "Still Kernel",
+        "quantity": 6
+      }
+    ],
+    "products": [
+      {
+        "typeId": 83443,
+        "name": "Adaptive Nanitic Armor Weave IV",
+        "quantity": 1,
+        "manufacturingTime": 804
+      }
+    ]
+  },
+  {
+    "blueprintId": 82681,
+    "blueprintName": "Afterburner II Blueprint",
+    "outputTypeId": 82681,
+    "outputName": "Afterburner II",
+    "outputQuantity": 1,
+    "category": "Modules",
+    "group": "Propulsion Module",
+    "manufacturingTime": 97,
+    "maxProductionLimit": 420,
+    "materials": [
+      {
+        "typeId": 88561,
+        "name": "Thermal Composites",
+        "quantity": 1
+      }
+    ],
+    "products": [
+      {
+        "typeId": 82681,
+        "name": "Afterburner II",
+        "quantity": 1,
+        "manufacturingTime": 97
+      }
+    ]
+  },
+  {
+    "blueprintId": 83536,
+    "blueprintName": "Afterburner III Blueprint",
+    "outputTypeId": 83536,
+    "outputName": "Afterburner III",
+    "outputQuantity": 1,
+    "category": "Modules",
+    "group": "Propulsion Module",
+    "manufacturingTime": 194,
+    "maxProductionLimit": 210,
+    "materials": [
+      {
+        "typeId": 88561,
+        "name": "Thermal Composites",
+        "quantity": 1
+      },
+      {
+        "typeId": 92483,
+        "name": "Still Kernel",
+        "quantity": 1
+      }
+    ],
+    "products": [
+      {
+        "typeId": 83536,
+        "name": "Afterburner III",
+        "quantity": 1,
+        "manufacturingTime": 194
+      }
+    ]
+  },
+  {
+    "blueprintId": 82915,
+    "blueprintName": "Afterburner IV Blueprint",
+    "outputTypeId": 82915,
+    "outputName": "Afterburner IV",
+    "outputQuantity": 1,
+    "category": null,
+    "group": "Propulsion Module",
+    "manufacturingTime": 798,
+    "maxProductionLimit": 420,
+    "materials": [
+      {
+        "typeId": 84180,
+        "name": "Printed Circuits",
+        "quantity": 4
+      },
+      {
+        "typeId": 84210,
+        "name": "Carbon Weave",
+        "quantity": 4
+      },
+      {
+        "typeId": 88561,
+        "name": "Thermal Composites",
+        "quantity": 4
+      },
+      {
+        "typeId": 92483,
+        "name": "Still Kernel",
+        "quantity": 3
+      }
+    ],
+    "products": [
+      {
+        "typeId": 82915,
+        "name": "Afterburner IV",
+        "quantity": 1,
+        "manufacturingTime": 798
+      }
+    ]
+  },
+  {
+    "blueprintId": 91967,
+    "blueprintName": "Aggressive Shell Blueprint",
+    "outputTypeId": 91967,
+    "outputName": "Aggressive Shell",
+    "outputQuantity": 1,
+    "category": null,
+    "group": "Synthetic",
+    "manufacturingTime": 46400,
+    "maxProductionLimit": 50,
+    "materials": [
+      {
+        "typeId": 78418,
+        "name": "Nomad Program Frame",
+        "quantity": 1
+      },
+      {
+        "typeId": 83839,
+        "name": "Salt",
+        "quantity": 3
+      },
+      {
+        "typeId": 92483,
+        "name": "Still Kernel",
+        "quantity": 1
+      }
+    ],
+    "products": [
+      {
+        "typeId": 91967,
+        "name": "Aggressive Shell",
+        "quantity": 1,
+        "manufacturingTime": 46400
+      }
+    ]
+  },
+  {
+    "blueprintId": 78416,
+    "blueprintName": "Apocalypse Protocol Frame Blueprint",
+    "outputTypeId": 78416,
+    "outputName": "Apocalypse Protocol Frame",
+    "outputQuantity": 1,
+    "category": "Frames",
+    "group": "Exotronic Frames",
+    "manufacturingTime": 46,
+    "maxProductionLimit": 12,
+    "materials": [
+      {
+        "typeId": 88565,
+        "name": "Still Knot",
+        "quantity": 1
+      },
+      {
+        "typeId": 88780,
+        "name": "Echo Chamber",
+        "quantity": 1
+      },
+      {
+        "typeId": 88783,
+        "name": "Kerogen Tar",
+        "quantity": 128
+      }
+    ],
+    "products": [
+      {
+        "typeId": 78416,
+        "name": "Apocalypse Protocol Frame",
+        "quantity": 1,
+        "manufacturingTime": 46
+      }
+    ]
+  },
+  {
+    "blueprintId": 78420,
+    "blueprintName": "Archangel Protocol Frame Blueprint",
+    "outputTypeId": 78420,
+    "outputName": "Archangel Protocol Frame",
+    "outputQuantity": 1,
+    "category": "Frames",
+    "group": "Exotronic Frames",
+    "manufacturingTime": 31,
+    "maxProductionLimit": 36,
+    "materials": [
+      {
+        "typeId": 88565,
+        "name": "Still Knot",
+        "quantity": 1
+      },
+      {
+        "typeId": 88780,
+        "name": "Echo Chamber",
+        "quantity": 1
+      },
+      {
+        "typeId": 88783,
+        "name": "Kerogen Tar",
+        "quantity": 38
+      }
+    ],
+    "products": [
+      {
+        "typeId": 78420,
+        "name": "Archangel Protocol Frame",
+        "quantity": 1,
+        "manufacturingTime": 31
+      }
+    ]
+  },
+  {
+    "blueprintId": 78448,
+    "blueprintName": "Aromatic Carbon Veins Blueprint",
+    "outputTypeId": 78448,
+    "outputName": "Aromatic Carbon Veins",
+    "outputQuantity": 1,
+    "category": null,
+    "group": "Glint Ores",
+    "manufacturingTime": 15,
+    "maxProductionLimit": 222,
+    "materials": [
+      {
+        "typeId": 78448,
+        "name": "Aromatic Carbon Veins",
+        "quantity": 100
+      }
+    ],
+    "products": [
+      {
+        "typeId": 88781,
+        "name": "Chitinous Organics",
+        "quantity": 1,
+        "manufacturingTime": 15
+      },
+      {
+        "typeId": 88782,
+        "name": "Aromatic Carbon Weave",
+        "quantity": 4,
+        "manufacturingTime": 15
+      },
+      {
+        "typeId": 88783,
+        "name": "Kerogen Tar",
+        "quantity": 8,
+        "manufacturingTime": 15
+      }
+    ]
+  },
+  {
+    "blueprintId": 82653,
+    "blueprintName": "Attuned Shield Generator II Blueprint",
+    "outputTypeId": 82653,
+    "outputName": "Attuned Shield Generator II",
+    "outputQuantity": 1,
+    "category": "Modules",
+    "group": "Defensive System",
+    "manufacturingTime": 207,
+    "maxProductionLimit": 70,
+    "materials": [
+      {
+        "typeId": 84180,
+        "name": "Printed Circuits",
+        "quantity": 4
+      },
+      {
+        "typeId": 84210,
+        "name": "Carbon Weave",
+        "quantity": 8
+      }
+    ],
+    "products": [
+      {
+        "typeId": 82653,
+        "name": "Attuned Shield Generator II",
+        "quantity": 1,
+        "manufacturingTime": 207
+      }
+    ]
+  },
+  {
+    "blueprintId": 83450,
+    "blueprintName": "Attuned Shield Generator III Blueprint",
+    "outputTypeId": 83450,
+    "outputName": "Attuned Shield Generator III",
+    "outputQuantity": 1,
+    "category": "Modules",
+    "group": "Defensive System",
+    "manufacturingTime": 505,
+    "maxProductionLimit": 28,
+    "materials": [
+      {
+        "typeId": 84180,
+        "name": "Printed Circuits",
+        "quantity": 12
+      },
+      {
+        "typeId": 84210,
+        "name": "Carbon Weave",
+        "quantity": 24
+      }
+    ],
+    "products": [
+      {
+        "typeId": 83450,
+        "name": "Attuned Shield Generator III",
+        "quantity": 1,
+        "manufacturingTime": 505
+      }
+    ]
+  },
+  {
+    "blueprintId": 83451,
+    "blueprintName": "Attuned Shield Generator IV Blueprint",
+    "outputTypeId": 83451,
+    "outputName": "Attuned Shield Generator IV",
+    "outputQuantity": 1,
+    "category": null,
+    "group": "Defensive System",
+    "manufacturingTime": 1169,
+    "maxProductionLimit": 28,
+    "materials": [
+      {
+        "typeId": 84180,
+        "name": "Printed Circuits",
+        "quantity": 31
+      },
+      {
+        "typeId": 84210,
+        "name": "Carbon Weave",
+        "quantity": 62
+      }
+    ],
+    "products": [
+      {
+        "typeId": 83451,
+        "name": "Attuned Shield Generator IV",
+        "quantity": 1,
+        "manufacturingTime": 1169
+      }
+    ]
+  },
+  {
+    "blueprintId": 81974,
+    "blueprintName": "Base Autocannon (S) Blueprint",
+    "outputTypeId": 81974,
+    "outputName": "Base Autocannon (S)",
+    "outputQuantity": 1,
+    "category": "Weapons & Tools",
+    "group": "Projectile Weapon",
+    "manufacturingTime": 156,
+    "maxProductionLimit": 420,
+    "materials": [
+      {
+        "typeId": 89260,
+        "name": "Iron-Rich Nodules",
+        "quantity": 10
+      },
+      {
+        "typeId": 89259,
+        "name": "Silica Grains",
+        "quantity": 30
+      }
+    ],
+    "products": [
+      {
+        "typeId": 81974,
+        "name": "Base Autocannon (S)",
+        "quantity": 1,
+        "manufacturingTime": 156
+      }
+    ]
+  },
+  {
+    "blueprintId": 82028,
+    "blueprintName": "Base Coilgun (M) Blueprint",
+    "outputTypeId": 82028,
+    "outputName": "Base Coilgun (M)",
+    "outputQuantity": 1,
+    "category": null,
+    "group": "Mass Driver Weapon",
+    "manufacturingTime": 574,
+    "maxProductionLimit": 105,
+    "materials": [
+      {
+        "typeId": 77805,
+        "name": "Platinum-Group Veins",
+        "quantity": 120
+      },
+      {
+        "typeId": 84180,
+        "name": "Printed Circuits",
+        "quantity": 2
+      },
+      {
+        "typeId": 84182,
+        "name": "Reinforced Alloys",
+        "quantity": 2
+      },
+      {
+        "typeId": 99001,
+        "name": "Palladium",
+        "quantity": 120
+      }
+    ],
+    "products": [
+      {
+        "typeId": 82028,
+        "name": "Base Coilgun (M)",
+        "quantity": 1,
+        "manufacturingTime": 574
+      }
+    ]
+  },
+  {
+    "blueprintId": 81972,
+    "blueprintName": "Base Coilgun (S) Blueprint",
+    "outputTypeId": 81972,
+    "outputName": "Base Coilgun (S)",
+    "outputQuantity": 1,
+    "category": "Weapons & Tools",
+    "group": "Mass Driver Weapon",
+    "manufacturingTime": 115,
+    "maxProductionLimit": 420,
+    "materials": [
+      {
+        "typeId": 77805,
+        "name": "Platinum-Group Veins",
+        "quantity": 60
+      },
+      {
+        "typeId": 84180,
+        "name": "Printed Circuits",
+        "quantity": 1
+      },
+      {
+        "typeId": 84182,
+        "name": "Reinforced Alloys",
+        "quantity": 1
+      },
+      {
+        "typeId": 99001,
+        "name": "Palladium",
+        "quantity": 60
+      }
+    ],
+    "products": [
+      {
+        "typeId": 81972,
+        "name": "Base Coilgun (S)",
+        "quantity": 1,
+        "manufacturingTime": 115
+      }
+    ]
+  },
+  {
+    "blueprintId": 82030,
+    "blueprintName": "Base Howitzer (M) Blueprint",
+    "outputTypeId": 82030,
+    "outputName": "Base Howitzer (M)",
+    "outputQuantity": 1,
+    "category": null,
+    "group": "Projectile Weapon",
+    "manufacturingTime": 632,
+    "maxProductionLimit": 105,
+    "materials": [
+      {
+        "typeId": 84180,
+        "name": "Printed Circuits",
+        "quantity": 2
+      },
+      {
+        "typeId": 84182,
+        "name": "Reinforced Alloys",
+        "quantity": 2
+      },
+      {
+        "typeId": 88235,
+        "name": "Feldspar Crystal Shards",
+        "quantity": 150
+      }
+    ],
+    "products": [
+      {
+        "typeId": 82030,
+        "name": "Base Howitzer (M)",
+        "quantity": 1,
+        "manufacturingTime": 632
+      }
+    ]
+  },
+  {
+    "blueprintId": 82032,
+    "blueprintName": "Base Rapid Plasma (S) Blueprint",
+    "outputTypeId": 82032,
+    "outputName": "Base Rapid Plasma (S)",
+    "outputQuantity": 1,
+    "category": "Weapons & Tools",
+    "group": "Plasma Weapon",
+    "manufacturingTime": 132,
+    "maxProductionLimit": 420,
+    "materials": [
+      {
+        "typeId": 84180,
+        "name": "Printed Circuits",
+        "quantity": 1
+      },
+      {
+        "typeId": 84182,
+        "name": "Reinforced Alloys",
+        "quantity": 1
+      },
+      {
+        "typeId": 88234,
+        "name": "Troilite Sulfide Grains",
+        "quantity": 90
+      }
+    ],
+    "products": [
+      {
+        "typeId": 82032,
+        "name": "Base Rapid Plasma (S)",
+        "quantity": 1,
+        "manufacturingTime": 132
+      }
+    ]
+  },
+  {
+    "blueprintId": 78417,
+    "blueprintName": "Bastion Program Frame Blueprint",
+    "outputTypeId": 78417,
+    "outputName": "Bastion Program Frame",
+    "outputQuantity": 1,
+    "category": "Frames",
+    "group": "Exotronic Frames",
+    "manufacturingTime": 31,
+    "maxProductionLimit": 36,
+    "materials": [
+      {
+        "typeId": 88565,
+        "name": "Still Knot",
+        "quantity": 1
+      },
+      {
+        "typeId": 88780,
+        "name": "Echo Chamber",
+        "quantity": 1
+      },
+      {
+        "typeId": 88783,
+        "name": "Kerogen Tar",
+        "quantity": 38
+      }
+    ],
+    "products": [
+      {
+        "typeId": 78417,
+        "name": "Bastion Program Frame",
+        "quantity": 1,
+        "manufacturingTime": 31
+      }
+    ]
+  },
+  {
+    "blueprintId": 88841,
+    "blueprintName": "Batched Carbon Weave Blueprint",
+    "outputTypeId": 88841,
+    "outputName": "Batched Carbon Weave",
+    "outputQuantity": 1,
+    "category": "Materials & Resources",
+    "group": "Manufacturing Component",
+    "manufacturingTime": 8,
+    "maxProductionLimit": 28,
+    "materials": [
+      {
+        "typeId": 84210,
+        "name": "Carbon Weave",
+        "quantity": 10
+      }
+    ],
+    "products": [
+      {
+        "typeId": 88841,
+        "name": "Batched Carbon Weave",
+        "quantity": 1,
+        "manufacturingTime": 8
+      }
+    ]
+  },
+  {
+    "blueprintId": 88839,
+    "blueprintName": "Batched Printed Circuits Blueprint",
+    "outputTypeId": 88839,
+    "outputName": "Batched Printed Circuits",
+    "outputQuantity": 1,
+    "category": "Materials & Resources",
+    "group": "Manufacturing Component",
+    "manufacturingTime": 5,
+    "maxProductionLimit": 100,
+    "materials": [
+      {
+        "typeId": 84180,
+        "name": "Printed Circuits",
+        "quantity": 10
+      }
+    ],
+    "products": [
+      {
+        "typeId": 88839,
+        "name": "Batched Printed Circuits",
+        "quantity": 1,
+        "manufacturingTime": 5
+      }
+    ]
+  },
+  {
+    "blueprintId": 84204,
+    "blueprintName": "Batched Reinforced Alloys Blueprint",
+    "outputTypeId": 84204,
+    "outputName": "Batched Reinforced Alloys",
+    "outputQuantity": 1,
+    "category": null,
+    "group": "Manufacturing Component",
+    "manufacturingTime": 7,
+    "maxProductionLimit": 40,
+    "materials": [
+      {
+        "typeId": 84182,
+        "name": "Reinforced Alloys",
+        "quantity": 10
+      }
+    ],
+    "products": [
+      {
+        "typeId": 84204,
+        "name": "Batched Reinforced Alloys",
+        "quantity": 1,
+        "manufacturingTime": 7
+      }
+    ]
+  },
+  {
+    "blueprintId": 88843,
+    "blueprintName": "Batched Thermal Composites Blueprint",
+    "outputTypeId": 88843,
+    "outputName": "Batched Thermal Composites",
+    "outputQuantity": 1,
+    "category": "Materials & Resources",
+    "group": "Manufacturing Component",
+    "manufacturingTime": 7,
+    "maxProductionLimit": 40,
+    "materials": [
+      {
+        "typeId": 88561,
+        "name": "Thermal Composites",
+        "quantity": 10
+      }
+    ],
+    "products": [
+      {
+        "typeId": 88843,
+        "name": "Batched Thermal Composites",
+        "quantity": 1,
+        "manufacturingTime": 7
+      }
+    ]
+  },
+  {
+    "blueprintId": 89089,
+    "blueprintName": "Building Foam Blueprint",
+    "outputTypeId": 89089,
+    "outputName": "Building Foam",
+    "outputQuantity": 10,
+    "category": "Materials & Resources",
+    "group": "Manufacturing Component",
+    "manufacturingTime": 25,
+    "maxProductionLimit": 3,
+    "materials": [
+      {
+        "typeId": 84182,
+        "name": "Reinforced Alloys",
+        "quantity": 65
+      },
+      {
+        "typeId": 84210,
+        "name": "Carbon Weave",
+        "quantity": 65
+      },
+      {
+        "typeId": 88561,
+        "name": "Thermal Composites",
+        "quantity": 65
+      }
+    ],
+    "products": [
+      {
+        "typeId": 89089,
+        "name": "Building Foam",
+        "quantity": 10,
+        "manufacturingTime": 25
+      }
+    ]
+  },
+  {
+    "blueprintId": 82647,
+    "blueprintName": "Bulky Armor Plates II Blueprint",
+    "outputTypeId": 82647,
+    "outputName": "Bulky Armor Plates II",
+    "outputQuantity": 1,
+    "category": "Modules",
+    "group": "Defensive System",
+    "manufacturingTime": 155,
+    "maxProductionLimit": 210,
+    "materials": [
+      {
+        "typeId": 84182,
+        "name": "Reinforced Alloys",
+        "quantity": 4
+      }
+    ],
+    "products": [
+      {
+        "typeId": 82647,
+        "name": "Bulky Armor Plates II",
+        "quantity": 1,
+        "manufacturingTime": 155
+      }
+    ]
+  },
+  {
+    "blueprintId": 83421,
+    "blueprintName": "Bulky Armor Plates III Blueprint",
+    "outputTypeId": 83421,
+    "outputName": "Bulky Armor Plates III",
+    "outputQuantity": 1,
+    "category": "Modules",
+    "group": "Defensive System",
+    "manufacturingTime": 357,
+    "maxProductionLimit": 105,
+    "materials": [
+      {
+        "typeId": 84182,
+        "name": "Reinforced Alloys",
+        "quantity": 7
+      }
+    ],
+    "products": [
+      {
+        "typeId": 83421,
+        "name": "Bulky Armor Plates III",
+        "quantity": 1,
+        "manufacturingTime": 357
+      }
+    ]
+  },
+  {
+    "blueprintId": 83423,
+    "blueprintName": "Bulky Armor Plates V Blueprint",
+    "outputTypeId": 83423,
+    "outputName": "Bulky Armor Plates V",
+    "outputQuantity": 1,
+    "category": null,
+    "group": "Defensive System",
+    "manufacturingTime": 921,
+    "maxProductionLimit": 27,
+    "materials": [
+      {
+        "typeId": 84182,
+        "name": "Reinforced Alloys",
+        "quantity": 24
+      }
+    ],
+    "products": [
+      {
+        "typeId": 83423,
+        "name": "Bulky Armor Plates V",
+        "quantity": 1,
+        "manufacturingTime": 921
+      }
+    ]
+  },
+  {
+    "blueprintId": 82652,
+    "blueprintName": "Bulwark Shield Generator II Blueprint",
+    "outputTypeId": 82652,
+    "outputName": "Bulwark Shield Generator II",
+    "outputQuantity": 1,
+    "category": "Modules",
+    "group": "Defensive System",
+    "manufacturingTime": 207,
+    "maxProductionLimit": 70,
+    "materials": [
+      {
+        "typeId": 84180,
+        "name": "Printed Circuits",
+        "quantity": 4
+      },
+      {
+        "typeId": 84210,
+        "name": "Carbon Weave",
+        "quantity": 7
+      },
+      {
+        "typeId": 99001,
+        "name": "Palladium",
+        "quantity": 150
+      }
+    ],
+    "products": [
+      {
+        "typeId": 82652,
+        "name": "Bulwark Shield Generator II",
+        "quantity": 1,
+        "manufacturingTime": 207
+      }
+    ]
+  },
+  {
+    "blueprintId": 83448,
+    "blueprintName": "Bulwark Shield Generator III Blueprint",
+    "outputTypeId": 83448,
+    "outputName": "Bulwark Shield Generator III",
+    "outputQuantity": 1,
+    "category": "Modules",
+    "group": "Defensive System",
+    "manufacturingTime": 505,
+    "maxProductionLimit": 28,
+    "materials": [
+      {
+        "typeId": 84180,
+        "name": "Printed Circuits",
+        "quantity": 12
+      },
+      {
+        "typeId": 84210,
+        "name": "Carbon Weave",
+        "quantity": 21
+      },
+      {
+        "typeId": 99001,
+        "name": "Palladium",
+        "quantity": 450
+      }
+    ],
+    "products": [
+      {
+        "typeId": 83448,
+        "name": "Bulwark Shield Generator III",
+        "quantity": 1,
+        "manufacturingTime": 505
+      }
+    ]
+  },
+  {
+    "blueprintId": 83449,
+    "blueprintName": "Bulwark Shield Generator IV Blueprint",
+    "outputTypeId": 83449,
+    "outputName": "Bulwark Shield Generator IV",
+    "outputQuantity": 1,
+    "category": null,
+    "group": "Defensive System",
+    "manufacturingTime": 1169,
+    "maxProductionLimit": 14,
+    "materials": [
+      {
+        "typeId": 84180,
+        "name": "Printed Circuits",
+        "quantity": 31
+      },
+      {
+        "typeId": 84210,
+        "name": "Carbon Weave",
+        "quantity": 60
+      },
+      {
+        "typeId": 99001,
+        "name": "Palladium",
+        "quantity": 600
+      }
+    ],
+    "products": [
+      {
+        "typeId": 83449,
+        "name": "Bulwark Shield Generator IV",
+        "quantity": 1,
+        "manufacturingTime": 1169
+      }
+    ]
+  },
+  {
+    "blueprintId": 84210,
+    "blueprintName": "Carbon Weave Blueprint",
+    "outputTypeId": 84210,
+    "outputName": "Carbon Weave",
+    "outputQuantity": 14,
+    "category": "Materials & Resources",
+    "group": "Manufacturing Component",
+    "manufacturingTime": 5,
+    "maxProductionLimit": 5,
+    "materials": [
+      {
+        "typeId": 89258,
+        "name": "Hydrocarbon Residue",
+        "quantity": 350
+      },
+      {
+        "typeId": 77804,
+        "name": "Tholin Aggregates",
+        "quantity": 3150
+      }
+    ],
+    "products": [
+      {
+        "typeId": 84210,
+        "name": "Carbon Weave",
+        "quantity": 14,
+        "manufacturingTime": 5
+      },
+      {
+        "typeId": 84210,
+        "name": "Carbon Weave",
+        "quantity": 14,
+        "manufacturingTime": 5
+      }
+    ]
+  },
+  {
+    "blueprintId": 84210,
+    "blueprintName": "Carbon Weave Blueprint",
+    "outputTypeId": 84210,
+    "outputName": "Carbon Weave",
+    "outputQuantity": 14,
+    "category": "Materials & Resources",
+    "group": "Manufacturing Component",
+    "manufacturingTime": 5,
+    "maxProductionLimit": 5,
+    "materials": [
+      {
+        "typeId": 89258,
+        "name": "Hydrocarbon Residue",
+        "quantity": 350
+      },
+      {
+        "typeId": 77804,
+        "name": "Tholin Aggregates",
+        "quantity": 3150
+      }
+    ],
+    "products": [
+      {
+        "typeId": 84210,
+        "name": "Carbon Weave",
+        "quantity": 14,
+        "manufacturingTime": 5
+      },
+      {
+        "typeId": 84210,
+        "name": "Carbon Weave",
+        "quantity": 14,
+        "manufacturingTime": 5
+      }
+    ]
+  },
+  {
+    "blueprintId": 83497,
+    "blueprintName": "Cargo Grid II Blueprint",
+    "outputTypeId": 83497,
+    "outputName": "Cargo Grid II",
+    "outputQuantity": 1,
+    "category": "Modules",
+    "group": "Expanded Cargohold",
+    "manufacturingTime": 209,
+    "maxProductionLimit": 17,
+    "materials": [
+      {
+        "typeId": 84182,
+        "name": "Reinforced Alloys",
+        "quantity": 4
+      },
+      {
+        "typeId": 84210,
+        "name": "Carbon Weave",
+        "quantity": 7
+      }
+    ],
+    "products": [
+      {
+        "typeId": 83497,
+        "name": "Cargo Grid II",
+        "quantity": 1,
+        "manufacturingTime": 209
+      }
+    ]
+  },
+  {
+    "blueprintId": 83498,
+    "blueprintName": "Cargo Grid III Blueprint",
+    "outputTypeId": 83498,
+    "outputName": "Cargo Grid III",
+    "outputQuantity": 1,
+    "category": "Modules",
+    "group": "Expanded Cargohold",
+    "manufacturingTime": 469,
+    "maxProductionLimit": 9,
+    "materials": [
+      {
+        "typeId": 84182,
+        "name": "Reinforced Alloys",
+        "quantity": 7
+      },
+      {
+        "typeId": 84210,
+        "name": "Carbon Weave",
+        "quantity": 13
+      }
+    ],
+    "products": [
+      {
+        "typeId": 83498,
+        "name": "Cargo Grid III",
+        "quantity": 1,
+        "manufacturingTime": 469
+      }
+    ]
+  },
+  {
+    "blueprintId": 83499,
+    "blueprintName": "Cargo Grid IV Blueprint",
+    "outputTypeId": 83499,
+    "outputName": "Cargo Grid IV",
+    "outputQuantity": 1,
+    "category": "Modules",
+    "group": "Expanded Cargohold",
+    "manufacturingTime": 1054,
+    "maxProductionLimit": 5,
+    "materials": [
+      {
+        "typeId": 84182,
+        "name": "Reinforced Alloys",
+        "quantity": 14
+      },
+      {
+        "typeId": 84210,
+        "name": "Carbon Weave",
+        "quantity": 26
+      }
+    ],
+    "products": [
+      {
+        "typeId": 83499,
+        "name": "Cargo Grid IV",
+        "quantity": 1,
+        "manufacturingTime": 1054
+      }
+    ]
+  },
+  {
+    "blueprintId": 83500,
+    "blueprintName": "Cargo Grid V Blueprint",
+    "outputTypeId": 83500,
+    "outputName": "Cargo Grid V",
+    "outputQuantity": 1,
+    "category": "Modules",
+    "group": "Expanded Cargohold",
+    "manufacturingTime": 2339,
+    "maxProductionLimit": 3,
+    "materials": [
+      {
+        "typeId": 84182,
+        "name": "Reinforced Alloys",
+        "quantity": 28
+      },
+      {
+        "typeId": 84210,
+        "name": "Carbon Weave",
+        "quantity": 52
+      }
+    ],
+    "products": [
+      {
+        "typeId": 83500,
+        "name": "Cargo Grid V",
+        "quantity": 1,
+        "manufacturingTime": 2339
+      }
+    ]
+  },
+  {
+    "blueprintId": 83501,
+    "blueprintName": "Cargo Grid VI Blueprint",
+    "outputTypeId": 83501,
+    "outputName": "Cargo Grid VI",
+    "outputQuantity": 1,
+    "category": "Modules",
+    "group": "Expanded Cargohold",
+    "manufacturingTime": 5144,
+    "maxProductionLimit": 2,
+    "materials": [
+      {
+        "typeId": 84182,
+        "name": "Reinforced Alloys",
+        "quantity": 56
+      },
+      {
+        "typeId": 84210,
+        "name": "Carbon Weave",
+        "quantity": 104
+      }
+    ],
+    "products": [
+      {
+        "typeId": 83501,
+        "name": "Cargo Grid VI",
+        "quantity": 1,
+        "manufacturingTime": 5144
+      }
+    ]
+  },
+  {
+    "blueprintId": 91107,
+    "blueprintName": "Carom Blueprint",
+    "outputTypeId": 91107,
+    "outputName": "Carom",
+    "outputQuantity": 1,
+    "category": null,
+    "group": "Corvette",
+    "manufacturingTime": 10260,
+    "maxProductionLimit": 1,
+    "materials": [
+      {
+        "typeId": 89979,
+        "name": "Carom Stack",
+        "quantity": 1
+      },
+      {
+        "typeId": 78418,
+        "name": "Nomad Program Frame",
+        "quantity": 2
+      },
+      {
+        "typeId": 84210,
+        "name": "Carbon Weave",
+        "quantity": 44
+      },
+      {
+        "typeId": 88561,
+        "name": "Thermal Composites",
+        "quantity": 44
+      },
+      {
+        "typeId": 84182,
+        "name": "Reinforced Alloys",
+        "quantity": 88
+      }
+    ],
+    "products": [
+      {
+        "typeId": 91107,
+        "name": "Carom",
+        "quantity": 1,
+        "manufacturingTime": 10260
+      }
+    ]
+  },
+  {
+    "blueprintId": 89979,
+    "blueprintName": "Carom Stack Blueprint",
+    "outputTypeId": 89979,
+    "outputName": "Carom Stack",
+    "outputQuantity": 1,
+    "category": null,
+    "group": "Miscellaneous",
+    "manufacturingTime": 43200,
+    "maxProductionLimit": 10000,
+    "materials": [
+      {
+        "typeId": 89981,
+        "name": "Stack Slice 5DW",
+        "quantity": 1
+      },
+      {
+        "typeId": 89983,
+        "name": "Stack Slice 5DE",
+        "quantity": 1
+      },
+      {
+        "typeId": 89985,
+        "name": "Stack Slice 5C1",
+        "quantity": 1
+      },
+      {
+        "typeId": 89987,
+        "name": "Stack Slice 31V",
+        "quantity": 1
+      },
+      {
+        "typeId": 89988,
+        "name": "Stack Slice 31Q",
+        "quantity": 1
+      },
+      {
+        "typeId": 89989,
+        "name": "Stack Slice 31F",
+        "quantity": 1
+      }
+    ],
+    "products": [
+      {
+        "typeId": 89979,
+        "name": "Carom Stack",
+        "quantity": 1,
+        "manufacturingTime": 43200
+      }
+    ]
+  },
+  {
+    "blueprintId": 78506,
+    "blueprintName": "Celerity CD01 Blueprint",
+    "outputTypeId": 78506,
+    "outputName": "Celerity CD01",
+    "outputQuantity": 1,
+    "category": "Modules",
+    "group": "Crude Engines",
+    "manufacturingTime": 207,
+    "maxProductionLimit": 84,
+    "materials": [
+      {
+        "typeId": 84180,
+        "name": "Printed Circuits",
+        "quantity": 4
+      },
+      {
+        "typeId": 84182,
+        "name": "Reinforced Alloys",
+        "quantity": 4
+      },
+      {
+        "typeId": 88561,
+        "name": "Thermal Composites",
+        "quantity": 8
+      }
+    ],
+    "products": [
+      {
+        "typeId": 78506,
+        "name": "Celerity CD01",
+        "quantity": 1,
+        "manufacturingTime": 207
+      }
+    ]
+  },
+  {
+    "blueprintId": 78507,
+    "blueprintName": "Celerity CD02 Blueprint",
+    "outputTypeId": 78507,
+    "outputName": "Celerity CD02",
+    "outputQuantity": 1,
+    "category": null,
+    "group": "Crude Engines",
+    "manufacturingTime": 471,
+    "maxProductionLimit": 42,
+    "materials": [
+      {
+        "typeId": 84180,
+        "name": "Printed Circuits",
+        "quantity": 8
+      },
+      {
+        "typeId": 84182,
+        "name": "Reinforced Alloys",
+        "quantity": 8
+      },
+      {
+        "typeId": 88561,
+        "name": "Thermal Composites",
+        "quantity": 16
+      },
+      {
+        "typeId": 92483,
+        "name": "Still Kernel",
+        "quantity": 1
+      }
+    ],
+    "products": [
+      {
+        "typeId": 78507,
+        "name": "Celerity CD02",
+        "quantity": 1,
+        "manufacturingTime": 471
+      }
+    ]
+  },
+  {
+    "blueprintId": 78508,
+    "blueprintName": "Celerity CD03 Blueprint",
+    "outputTypeId": 78508,
+    "outputName": "Celerity CD03",
+    "outputQuantity": 1,
+    "category": "Modules",
+    "group": "Crude Engines",
+    "manufacturingTime": 4230,
+    "maxProductionLimit": 21,
+    "materials": [
+      {
+        "typeId": 84180,
+        "name": "Printed Circuits",
+        "quantity": 16
+      },
+      {
+        "typeId": 84182,
+        "name": "Reinforced Alloys",
+        "quantity": 16
+      },
+      {
+        "typeId": 88561,
+        "name": "Thermal Composites",
+        "quantity": 32
+      },
+      {
+        "typeId": 92483,
+        "name": "Still Kernel",
+        "quantity": 2
+      }
+    ],
+    "products": [
+      {
+        "typeId": 78508,
+        "name": "Celerity CD03",
+        "quantity": 1,
+        "manufacturingTime": 4230
+      }
+    ]
+  },
+  {
+    "blueprintId": 81611,
+    "blueprintName": "Chumaq Blueprint",
+    "outputTypeId": 81611,
+    "outputName": "Chumaq",
+    "outputQuantity": 1,
+    "category": "Ships",
+    "group": "Combat Battlecruiser",
+    "manufacturingTime": 324000,
+    "maxProductionLimit": 1,
+    "materials": [
+      {
+        "typeId": 78422,
+        "name": "Equilibrium Program Frame",
+        "quantity": 1
+      },
+      {
+        "typeId": 88842,
+        "name": "Packaged Carbon Weave",
+        "quantity": 128
+      },
+      {
+        "typeId": 88844,
+        "name": "Packaged Thermal Composites",
+        "quantity": 128
+      },
+      {
+        "typeId": 84206,
+        "name": "Packaged Reinforced Alloys",
+        "quantity": 256
+      }
+    ],
+    "products": [
+      {
+        "typeId": 81611,
+        "name": "Chumaq",
+        "quantity": 1,
+        "manufacturingTime": 324000
+      }
+    ]
+  },
+  {
+    "blueprintId": 82648,
+    "blueprintName": "Coated Armor Plates II Blueprint",
+    "outputTypeId": 82648,
+    "outputName": "Coated Armor Plates II",
+    "outputQuantity": 1,
+    "category": "Modules",
+    "group": "Defensive System",
+    "manufacturingTime": 172,
+    "maxProductionLimit": 210,
+    "materials": [
+      {
+        "typeId": 84210,
+        "name": "Carbon Weave",
+        "quantity": 4
+      }
+    ],
+    "products": [
+      {
+        "typeId": 82648,
+        "name": "Coated Armor Plates II",
+        "quantity": 1,
+        "manufacturingTime": 172
+      }
+    ]
+  },
+  {
+    "blueprintId": 83425,
+    "blueprintName": "Coated Armor Plates III Blueprint",
+    "outputTypeId": 83425,
+    "outputName": "Coated Armor Plates III",
+    "outputQuantity": 1,
+    "category": "Modules",
+    "group": "Defensive System",
+    "manufacturingTime": 391,
+    "maxProductionLimit": 105,
+    "materials": [
+      {
+        "typeId": 84210,
+        "name": "Carbon Weave",
+        "quantity": 7
+      }
+    ],
+    "products": [
+      {
+        "typeId": 83425,
+        "name": "Coated Armor Plates III",
+        "quantity": 1,
+        "manufacturingTime": 391
+      }
+    ]
+  },
+  {
+    "blueprintId": 83426,
+    "blueprintName": "Coated Armor Plates IV Blueprint",
+    "outputTypeId": 83426,
+    "outputName": "Coated Armor Plates IV",
+    "outputQuantity": 1,
+    "category": null,
+    "group": "Defensive System",
+    "manufacturingTime": 921,
+    "maxProductionLimit": 50,
+    "materials": [
+      {
+        "typeId": 84210,
+        "name": "Carbon Weave",
+        "quantity": 16
+      }
+    ],
+    "products": [
+      {
+        "typeId": 83426,
+        "name": "Coated Armor Plates IV",
+        "quantity": 1,
+        "manufacturingTime": 921
+      }
+    ]
+  },
+  {
+    "blueprintId": 82134,
+    "blueprintName": "Coilgun Ammo 1 (M) Blueprint",
+    "outputTypeId": 82134,
+    "outputName": "Coilgun Ammo 1 (M)",
+    "outputQuantity": 100,
+    "category": null,
+    "group": "Coilgun Charge",
+    "manufacturingTime": 13,
+    "maxProductionLimit": 308,
+    "materials": [
+      {
+        "typeId": 84182,
+        "name": "Reinforced Alloys",
+        "quantity": 7
+      }
+    ],
+    "products": [
+      {
+        "typeId": 82134,
+        "name": "Coilgun Ammo 1 (M)",
+        "quantity": 100,
+        "manufacturingTime": 13
+      }
+    ]
+  },
+  {
+    "blueprintId": 82133,
+    "blueprintName": "Coilgun Ammo 1 (S) Blueprint",
+    "outputTypeId": 82133,
+    "outputName": "Coilgun Ammo 1 (S)",
+    "outputQuantity": 100,
+    "category": "Ammo",
+    "group": "Coilgun Charge",
+    "manufacturingTime": 5,
+    "maxProductionLimit": 34,
+    "materials": [
+      {
+        "typeId": 77801,
+        "name": "Nickel-Iron Veins",
+        "quantity": 230
+      }
+    ],
+    "products": [
+      {
+        "typeId": 82133,
+        "name": "Coilgun Ammo 1 (S)",
+        "quantity": 100,
+        "manufacturingTime": 5
+      }
+    ]
+  },
+  {
+    "blueprintId": 88887,
+    "blueprintName": "Compressed Coolant Blueprint",
+    "outputTypeId": 88887,
+    "outputName": "Compressed Coolant",
+    "outputQuantity": 10,
+    "category": "Materials & Resources",
+    "group": "Heat Sink Charge",
+    "manufacturingTime": 3,
+    "maxProductionLimit": 20,
+    "materials": [
+      {
+        "typeId": 88335,
+        "name": "D1 Fuel",
+        "quantity": 115
+      },
+      {
+        "typeId": 89260,
+        "name": "Iron-Rich Nodules",
+        "quantity": 1
+      }
+    ],
+    "products": [
+      {
+        "typeId": 88887,
+        "name": "Compressed Coolant",
+        "quantity": 10,
+        "manufacturingTime": 3
+      }
+    ]
+  },
+  {
+    "blueprintId": 77484,
+    "blueprintName": "Crude Extractor Blueprint",
+    "outputTypeId": 77484,
+    "outputName": "Crude Extractor",
+    "outputQuantity": 1,
+    "category": "Weapons & Tools",
+    "group": "Crude Extractor",
+    "manufacturingTime": 750,
+    "maxProductionLimit": 420,
+    "materials": [
+      {
+        "typeId": 84180,
+        "name": "Printed Circuits",
+        "quantity": 3
+      },
+      {
+        "typeId": 84210,
+        "name": "Carbon Weave",
+        "quantity": 5
+      }
+    ],
+    "products": [
+      {
+        "typeId": 77484,
+        "name": "Crude Extractor",
+        "quantity": 1,
+        "manufacturingTime": 750
+      }
+    ]
+  },
+  {
+    "blueprintId": 87599,
+    "blueprintName": "Cryogenic Ejector S Blueprint",
+    "outputTypeId": 87599,
+    "outputName": "Cryogenic Ejector S",
+    "outputQuantity": 1,
+    "category": "Modules",
+    "group": "Heat Ejector",
+    "manufacturingTime": 904,
+    "maxProductionLimit": 105,
+    "materials": [
+      {
+        "typeId": 77805,
+        "name": "Platinum-Group Veins",
+        "quantity": 35
+      },
+      {
+        "typeId": 84182,
+        "name": "Reinforced Alloys",
+        "quantity": 6
+      },
+      {
+        "typeId": 88335,
+        "name": "D1 Fuel",
+        "quantity": 560
+      },
+      {
+        "typeId": 99001,
+        "name": "Palladium",
+        "quantity": 35
+      }
+    ],
+    "products": [
+      {
+        "typeId": 87599,
+        "name": "Cryogenic Ejector S",
+        "quantity": 1,
+        "manufacturingTime": 904
+      }
+    ]
+  },
+  {
+    "blueprintId": 88319,
+    "blueprintName": "D2 Fuel Blueprint",
+    "outputTypeId": 88319,
+    "outputName": "D2 Fuel",
+    "outputQuantity": 200,
+    "category": "Materials & Resources",
+    "group": "Hydrogen Fuel",
+    "manufacturingTime": 6,
+    "maxProductionLimit": 18,
+    "materials": [
+      {
+        "typeId": 83839,
+        "name": "Salt",
+        "quantity": 1
+      },
+      {
+        "typeId": 88335,
+        "name": "D1 Fuel",
+        "quantity": 200
+      },
+      {
+        "typeId": 88319,
+        "name": "D2 Fuel",
+        "quantity": 200
+      }
+    ],
+    "products": [
+      {
+        "typeId": 88319,
+        "name": "D2 Fuel",
+        "quantity": 200,
+        "manufacturingTime": 6
+      },
+      {
+        "typeId": 83839,
+        "name": "Salt",
+        "quantity": 1,
+        "manufacturingTime": 3
+      }
+    ]
+  },
+  {
+    "blueprintId": 88319,
+    "blueprintName": "D2 Fuel Blueprint",
+    "outputTypeId": 88319,
+    "outputName": "D2 Fuel",
+    "outputQuantity": 1,
+    "category": "Materials & Resources",
+    "group": "Hydrogen Fuel",
+    "manufacturingTime": 3,
+    "maxProductionLimit": 199500,
+    "materials": [
+      {
+        "typeId": 83839,
+        "name": "Salt",
+        "quantity": 1
+      },
+      {
+        "typeId": 88335,
+        "name": "D1 Fuel",
+        "quantity": 200
+      },
+      {
+        "typeId": 88319,
+        "name": "D2 Fuel",
+        "quantity": 200
+      }
+    ],
+    "products": [
+      {
+        "typeId": 88319,
+        "name": "D2 Fuel",
+        "quantity": 200,
+        "manufacturingTime": 6
+      },
+      {
+        "typeId": 83839,
+        "name": "Salt",
+        "quantity": 1,
+        "manufacturingTime": 3
+      }
+    ]
+  },
+  {
+    "blueprintId": 82137,
+    "blueprintName": "EM Disintegrator Charge (M) Blueprint",
+    "outputTypeId": 82137,
+    "outputName": "EM Disintegrator Charge (M)",
+    "outputQuantity": 100,
+    "category": null,
+    "group": "EM Disintegrator Charge ",
+    "manufacturingTime": 3,
+    "maxProductionLimit": 3336,
+    "materials": [
+      {
+        "typeId": 77801,
+        "name": "Nickel-Iron Veins",
+        "quantity": 20
+      },
+      {
+        "typeId": 77805,
+        "name": "Platinum-Group Veins",
+        "quantity": 60
+      },
+      {
+        "typeId": 77801,
+        "name": "Nickel-Iron Veins",
+        "quantity": 6
+      },
+      {
+        "typeId": 77805,
+        "name": "Platinum-Group Veins",
+        "quantity": 20
+      }
+    ],
+    "products": [
+      {
+        "typeId": 82137,
+        "name": "EM Disintegrator Charge (M)",
+        "quantity": 100,
+        "manufacturingTime": 3
+      },
+      {
+        "typeId": 82137,
+        "name": "EM Disintegrator Charge (M)",
+        "quantity": 100,
+        "manufacturingTime": 3
+      }
+    ]
+  },
+  {
+    "blueprintId": 82137,
+    "blueprintName": "EM Disintegrator Charge (M) Blueprint",
+    "outputTypeId": 82137,
+    "outputName": "EM Disintegrator Charge (M)",
+    "outputQuantity": 100,
+    "category": null,
+    "group": "EM Disintegrator Charge ",
+    "manufacturingTime": 3,
+    "maxProductionLimit": 16667,
+    "materials": [
+      {
+        "typeId": 77801,
+        "name": "Nickel-Iron Veins",
+        "quantity": 20
+      },
+      {
+        "typeId": 77805,
+        "name": "Platinum-Group Veins",
+        "quantity": 60
+      },
+      {
+        "typeId": 77801,
+        "name": "Nickel-Iron Veins",
+        "quantity": 6
+      },
+      {
+        "typeId": 77805,
+        "name": "Platinum-Group Veins",
+        "quantity": 20
+      }
+    ],
+    "products": [
+      {
+        "typeId": 82137,
+        "name": "EM Disintegrator Charge (M)",
+        "quantity": 100,
+        "manufacturingTime": 3
+      },
+      {
+        "typeId": 82137,
+        "name": "EM Disintegrator Charge (M)",
+        "quantity": 100,
+        "manufacturingTime": 3
+      }
+    ]
+  },
+  {
+    "blueprintId": 81658,
+    "blueprintName": "EM Disintegrator Charge (S) Blueprint",
+    "outputTypeId": 81658,
+    "outputName": "EM Disintegrator Charge (S)",
+    "outputQuantity": 100,
+    "category": "Ammo",
+    "group": "EM Disintegrator Charge ",
+    "manufacturingTime": 3,
+    "maxProductionLimit": 6668,
+    "materials": [
+      {
+        "typeId": 77801,
+        "name": "Nickel-Iron Veins",
+        "quantity": 3
+      },
+      {
+        "typeId": 77805,
+        "name": "Platinum-Group Veins",
+        "quantity": 10
+      }
+    ],
+    "products": [
+      {
+        "typeId": 81658,
+        "name": "EM Disintegrator Charge (S)",
+        "quantity": 100,
+        "manufacturingTime": 3
+      }
+    ]
+  },
+  {
+    "blueprintId": 83768,
+    "blueprintName": "EM Field Array II Blueprint",
+    "outputTypeId": 83768,
+    "outputName": "EM Field Array II",
+    "outputQuantity": 1,
+    "category": "Modules",
+    "group": "Shield Hardener",
+    "manufacturingTime": 218,
+    "maxProductionLimit": 420,
+    "materials": [
+      {
+        "typeId": 84210,
+        "name": "Carbon Weave",
+        "quantity": 12
+      }
+    ],
+    "products": [
+      {
+        "typeId": 83768,
+        "name": "EM Field Array II",
+        "quantity": 1,
+        "manufacturingTime": 218
+      }
+    ]
+  },
+  {
+    "blueprintId": 83769,
+    "blueprintName": "EM Field Array III Blueprint",
+    "outputTypeId": 83769,
+    "outputName": "EM Field Array III",
+    "outputQuantity": 1,
+    "category": "Modules",
+    "group": "Shield Hardener",
+    "manufacturingTime": 461,
+    "maxProductionLimit": 210,
+    "materials": [
+      {
+        "typeId": 84210,
+        "name": "Carbon Weave",
+        "quantity": 16
+      }
+    ],
+    "products": [
+      {
+        "typeId": 83769,
+        "name": "EM Field Array III",
+        "quantity": 1,
+        "manufacturingTime": 461
+      }
+    ]
+  },
+  {
+    "blueprintId": 83770,
+    "blueprintName": "EM Field Array IV Blueprint",
+    "outputTypeId": 83770,
+    "outputName": "EM Field Array IV",
+    "outputQuantity": 1,
+    "category": "Modules",
+    "group": "Shield Hardener",
+    "manufacturingTime": 949,
+    "maxProductionLimit": 105,
+    "materials": [
+      {
+        "typeId": 84210,
+        "name": "Carbon Weave",
+        "quantity": 19
+      }
+    ],
+    "products": [
+      {
+        "typeId": 83770,
+        "name": "EM Field Array IV",
+        "quantity": 1,
+        "manufacturingTime": 949
+      }
+    ]
+  },
+  {
+    "blueprintId": 82411,
+    "blueprintName": "EM Nanite Sequencer Blueprint",
+    "outputTypeId": 82411,
+    "outputName": "EM Nanite Sequencer",
+    "outputQuantity": 1,
+    "category": "Modules",
+    "group": "Nanitic Armor Weave Sequencer",
+    "manufacturingTime": 248,
+    "maxProductionLimit": 200,
+    "materials": [
+      {
+        "typeId": 84180,
+        "name": "Printed Circuits",
+        "quantity": 1
+      },
+      {
+        "typeId": 84210,
+        "name": "Carbon Weave",
+        "quantity": 1
+      }
+    ],
+    "products": [
+      {
+        "typeId": 82411,
+        "name": "EM Nanite Sequencer",
+        "quantity": 1,
+        "manufacturingTime": 248
+      }
+    ]
+  },
+  {
+    "blueprintId": 78437,
+    "blueprintName": "EU-90 Fuel Blueprint",
+    "outputTypeId": 78437,
+    "outputName": "EU-90 Fuel",
+    "outputQuantity": 600,
+    "category": "Materials & Resources",
+    "group": "Crude Fuel",
+    "manufacturingTime": 35,
+    "maxProductionLimit": 120,
+    "materials": [
+      {
+        "typeId": 78516,
+        "name": "EU-40 Fuel",
+        "quantity": 600
+      },
+      {
+        "typeId": 83899,
+        "name": "Catalytic Dust",
+        "quantity": 60
+      }
+    ],
+    "products": [
+      {
+        "typeId": 78437,
+        "name": "EU-90 Fuel",
+        "quantity": 600,
+        "manufacturingTime": 35
+      }
+    ]
+  },
+  {
+    "blueprintId": 88780,
+    "blueprintName": "Echo Chamber Blueprint",
+    "outputTypeId": 88780,
+    "outputName": "Echo Chamber",
+    "outputQuantity": 1,
+    "category": "Uncategorized",
+    "group": "Manufacturing Component",
+    "manufacturingTime": 17,
+    "maxProductionLimit": 200,
+    "materials": [
+      {
+        "typeId": 77801,
+        "name": "Nickel-Iron Veins",
+        "quantity": 120
+      },
+      {
+        "typeId": 88234,
+        "name": "Troilite Sulfide Grains",
+        "quantity": 45
+      },
+      {
+        "typeId": 88235,
+        "name": "Feldspar Crystal Shards",
+        "quantity": 105
+      }
+    ],
+    "products": [
+      {
+        "typeId": 88780,
+        "name": "Echo Chamber",
+        "quantity": 1,
+        "manufacturingTime": 17
+      }
+    ]
+  },
+  {
+    "blueprintId": 83898,
+    "blueprintName": "Eclipsite Mining Lens Blueprint",
+    "outputTypeId": 83898,
+    "outputName": "Eclipsite Mining Lens",
+    "outputQuantity": 1,
+    "category": null,
+    "group": "Asteroid Mining Crystal",
+    "manufacturingTime": 5,
+    "maxProductionLimit": 800,
+    "materials": [
+      {
+        "typeId": 77803,
+        "name": "Silicon Dust",
+        "quantity": 50
+      },
+      {
+        "typeId": 83893,
+        "name": "Eclipsite",
+        "quantity": 1
+      }
+    ],
+    "products": [
+      {
+        "typeId": 83898,
+        "name": "Eclipsite Mining Lens",
+        "quantity": 1,
+        "manufacturingTime": 5
+      }
+    ]
+  },
+  {
+    "blueprintId": 77753,
+    "blueprintName": "Embark Blueprint",
+    "outputTypeId": 77753,
+    "outputName": "Embark",
+    "outputQuantity": 1,
+    "category": "Ships",
+    "group": "Hydrogen Engines",
+    "manufacturingTime": 89,
+    "maxProductionLimit": 168,
+    "materials": [
+      {
+        "typeId": 84180,
+        "name": "Printed Circuits",
+        "quantity": 2
+      },
+      {
+        "typeId": 84182,
+        "name": "Reinforced Alloys",
+        "quantity": 2
+      },
+      {
+        "typeId": 88561,
+        "name": "Thermal Composites",
+        "quantity": 4
+      }
+    ],
+    "products": [
+      {
+        "typeId": 77753,
+        "name": "Embark",
+        "quantity": 1,
+        "manufacturingTime": 89
+      }
+    ]
+  },
+  {
+    "blueprintId": 78422,
+    "blueprintName": "Equilibrium Program Frame Blueprint",
+    "outputTypeId": 78422,
+    "outputName": "Equilibrium Program Frame",
+    "outputQuantity": 1,
+    "category": "Frames",
+    "group": "Exotronic Frames",
+    "manufacturingTime": 126,
+    "maxProductionLimit": 4,
+    "materials": [
+      {
+        "typeId": 88565,
+        "name": "Still Knot",
+        "quantity": 1
+      },
+      {
+        "typeId": 88780,
+        "name": "Echo Chamber",
+        "quantity": 1
+      },
+      {
+        "typeId": 88782,
+        "name": "Aromatic Carbon Weave",
+        "quantity": 1347
+      }
+    ],
+    "products": [
+      {
+        "typeId": 78422,
+        "name": "Equilibrium Program Frame",
+        "quantity": 1,
+        "manufacturingTime": 126
+      }
+    ]
+  },
+  {
+    "blueprintId": 78435,
+    "blueprintName": "Eupraxite Blueprint",
+    "outputTypeId": 78435,
+    "outputName": "Eupraxite",
+    "outputQuantity": 600,
+    "category": null,
+    "group": "Mineral",
+    "manufacturingTime": 18,
+    "maxProductionLimit": 120,
+    "materials": [
+      {
+        "typeId": 78435,
+        "name": "Eupraxite",
+        "quantity": 10
+      },
+      {
+        "typeId": 92394,
+        "name": "Fine Young Crude Matter",
+        "quantity": 30
+      }
+    ],
+    "products": [
+      {
+        "typeId": 78516,
+        "name": "EU-40 Fuel",
+        "quantity": 600,
+        "manufacturingTime": 18
+      },
+      {
+        "typeId": 78435,
+        "name": "Eupraxite",
+        "quantity": 3,
+        "manufacturingTime": 20
+      },
+      {
+        "typeId": 92422,
+        "name": "Brine",
+        "quantity": 26,
+        "manufacturingTime": 20
+      }
+    ]
+  },
+  {
+    "blueprintId": 78435,
+    "blueprintName": "Eupraxite Blueprint",
+    "outputTypeId": 78435,
+    "outputName": "Eupraxite",
+    "outputQuantity": 3,
+    "category": null,
+    "group": "Mineral",
+    "manufacturingTime": 20,
+    "maxProductionLimit": 100,
+    "materials": [
+      {
+        "typeId": 78435,
+        "name": "Eupraxite",
+        "quantity": 10
+      },
+      {
+        "typeId": 92394,
+        "name": "Fine Young Crude Matter",
+        "quantity": 30
+      }
+    ],
+    "products": [
+      {
+        "typeId": 78516,
+        "name": "EU-40 Fuel",
+        "quantity": 600,
+        "manufacturingTime": 18
+      },
+      {
+        "typeId": 78435,
+        "name": "Eupraxite",
+        "quantity": 3,
+        "manufacturingTime": 20
+      },
+      {
+        "typeId": 92422,
+        "name": "Brine",
+        "quantity": 26,
+        "manufacturingTime": 20
+      }
+    ]
+  },
+  {
+    "blueprintId": 83623,
+    "blueprintName": "Explo-electro Nanitic Brace II Blueprint",
+    "outputTypeId": 83623,
+    "outputName": "Explo-electro Nanitic Brace II",
+    "outputQuantity": 1,
+    "category": "Modules",
+    "group": "Nanitic Brace",
+    "manufacturingTime": 159,
+    "maxProductionLimit": 420,
+    "materials": [
+      {
+        "typeId": 84180,
+        "name": "Printed Circuits",
+        "quantity": 1
+      },
+      {
+        "typeId": 84210,
+        "name": "Carbon Weave",
+        "quantity": 2
+      },
+      {
+        "typeId": 88561,
+        "name": "Thermal Composites",
+        "quantity": 1
+      }
+    ],
+    "products": [
+      {
+        "typeId": 83623,
+        "name": "Explo-electro Nanitic Brace II",
+        "quantity": 1,
+        "manufacturingTime": 159
+      }
+    ]
+  },
+  {
+    "blueprintId": 83624,
+    "blueprintName": "Explo-electro Nanitic Brace III Blueprint",
+    "outputTypeId": 83624,
+    "outputName": "Explo-electro Nanitic Brace III",
+    "outputQuantity": 1,
+    "category": "Modules",
+    "group": "Nanitic Brace",
+    "manufacturingTime": 350,
+    "maxProductionLimit": 210,
+    "materials": [
+      {
+        "typeId": 84180,
+        "name": "Printed Circuits",
+        "quantity": 1
+      },
+      {
+        "typeId": 84210,
+        "name": "Carbon Weave",
+        "quantity": 2
+      },
+      {
+        "typeId": 88561,
+        "name": "Thermal Composites",
+        "quantity": 3
+      }
+    ],
+    "products": [
+      {
+        "typeId": 83624,
+        "name": "Explo-electro Nanitic Brace III",
+        "quantity": 1,
+        "manufacturingTime": 350
+      }
+    ]
+  },
+  {
+    "blueprintId": 83625,
+    "blueprintName": "Explo-electro Nanitic Brace IV Blueprint",
+    "outputTypeId": 83625,
+    "outputName": "Explo-electro Nanitic Brace IV",
+    "outputQuantity": 1,
+    "category": "Modules",
+    "group": "Nanitic Brace",
+    "manufacturingTime": 796,
+    "maxProductionLimit": 105,
+    "materials": [
+      {
+        "typeId": 84180,
+        "name": "Printed Circuits",
+        "quantity": 1
+      },
+      {
+        "typeId": 84210,
+        "name": "Carbon Weave",
+        "quantity": 2
+      },
+      {
+        "typeId": 88561,
+        "name": "Thermal Composites",
+        "quantity": 8
+      }
+    ],
+    "products": [
+      {
+        "typeId": 83625,
+        "name": "Explo-electro Nanitic Brace IV",
+        "quantity": 1,
+        "manufacturingTime": 796
+      }
+    ]
+  },
+  {
+    "blueprintId": 83618,
+    "blueprintName": "Explonetic-electro Nanitic Brace II Blueprint",
+    "outputTypeId": 83618,
+    "outputName": "Explonetic-electro Nanitic Brace II",
+    "outputQuantity": 1,
+    "category": "Modules",
+    "group": "Nanitic Brace",
+    "manufacturingTime": 159,
+    "maxProductionLimit": 420,
+    "materials": [
+      {
+        "typeId": 84180,
+        "name": "Printed Circuits",
+        "quantity": 1
+      },
+      {
+        "typeId": 84210,
+        "name": "Carbon Weave",
+        "quantity": 2
+      },
+      {
+        "typeId": 88561,
+        "name": "Thermal Composites",
+        "quantity": 1
+      }
+    ],
+    "products": [
+      {
+        "typeId": 83618,
+        "name": "Explonetic-electro Nanitic Brace II",
+        "quantity": 1,
+        "manufacturingTime": 159
+      }
+    ]
+  },
+  {
+    "blueprintId": 83619,
+    "blueprintName": "Explonetic-electro Nanitic Brace III Blueprint",
+    "outputTypeId": 83619,
+    "outputName": "Explonetic-electro Nanitic Brace III",
+    "outputQuantity": 1,
+    "category": "Modules",
+    "group": "Nanitic Brace",
+    "manufacturingTime": 362,
+    "maxProductionLimit": 210,
+    "materials": [
+      {
+        "typeId": 84180,
+        "name": "Printed Circuits",
+        "quantity": 1
+      },
+      {
+        "typeId": 84210,
+        "name": "Carbon Weave",
+        "quantity": 2
+      },
+      {
+        "typeId": 88561,
+        "name": "Thermal Composites",
+        "quantity": 4
+      }
+    ],
+    "products": [
+      {
+        "typeId": 83619,
+        "name": "Explonetic-electro Nanitic Brace III",
+        "quantity": 1,
+        "manufacturingTime": 362
+      }
+    ]
+  },
+  {
+    "blueprintId": 83620,
+    "blueprintName": "Explonetic-electro Nanitic Brace IV Blueprint",
+    "outputTypeId": 83620,
+    "outputName": "Explonetic-electro Nanitic Brace IV",
+    "outputQuantity": 1,
+    "category": "Modules",
+    "group": "Nanitic Brace",
+    "manufacturingTime": 835,
+    "maxProductionLimit": 105,
+    "materials": [
+      {
+        "typeId": 84180,
+        "name": "Printed Circuits",
+        "quantity": 1
+      },
+      {
+        "typeId": 84210,
+        "name": "Carbon Weave",
+        "quantity": 2
+      },
+      {
+        "typeId": 88561,
+        "name": "Thermal Composites",
+        "quantity": 11
+      }
+    ],
+    "products": [
+      {
+        "typeId": 83620,
+        "name": "Explonetic-electro Nanitic Brace IV",
+        "quantity": 1,
+        "manufacturingTime": 835
+      }
+    ]
+  },
+  {
+    "blueprintId": 83777,
+    "blueprintName": "Explosive Field Array II Blueprint",
+    "outputTypeId": 83777,
+    "outputName": "Explosive Field Array II",
+    "outputQuantity": 1,
+    "category": "Modules",
+    "group": "Shield Hardener",
+    "manufacturingTime": 201,
+    "maxProductionLimit": 420,
+    "materials": [
+      {
+        "typeId": 84182,
+        "name": "Reinforced Alloys",
+        "quantity": 6
+      },
+      {
+        "typeId": 88561,
+        "name": "Thermal Composites",
+        "quantity": 6
+      }
+    ],
+    "products": [
+      {
+        "typeId": 83777,
+        "name": "Explosive Field Array II",
+        "quantity": 1,
+        "manufacturingTime": 201
+      }
+    ]
+  },
+  {
+    "blueprintId": 83778,
+    "blueprintName": "Explosive Field Array III Blueprint",
+    "outputTypeId": 83778,
+    "outputName": "Explosive Field Array III",
+    "outputQuantity": 1,
+    "category": "Modules",
+    "group": "Shield Hardener",
+    "manufacturingTime": 415,
+    "maxProductionLimit": 210,
+    "materials": [
+      {
+        "typeId": 84182,
+        "name": "Reinforced Alloys",
+        "quantity": 7
+      },
+      {
+        "typeId": 88561,
+        "name": "Thermal Composites",
+        "quantity": 7
+      }
+    ],
+    "products": [
+      {
+        "typeId": 83778,
+        "name": "Explosive Field Array III",
+        "quantity": 1,
+        "manufacturingTime": 415
+      }
+    ]
+  },
+  {
+    "blueprintId": 83779,
+    "blueprintName": "Explosive Field Array IV Blueprint",
+    "outputTypeId": 83779,
+    "outputName": "Explosive Field Array IV",
+    "outputQuantity": 1,
+    "category": "Modules",
+    "group": "Shield Hardener",
+    "manufacturingTime": 863,
+    "maxProductionLimit": 105,
+    "materials": [
+      {
+        "typeId": 84182,
+        "name": "Reinforced Alloys",
+        "quantity": 9
+      },
+      {
+        "typeId": 88561,
+        "name": "Thermal Composites",
+        "quantity": 8
+      }
+    ],
+    "products": [
+      {
+        "typeId": 83779,
+        "name": "Explosive Field Array IV",
+        "quantity": 1,
+        "manufacturingTime": 863
+      }
+    ]
+  },
+  {
+    "blueprintId": 82410,
+    "blueprintName": "Explosive Nanite Sequencer Blueprint",
+    "outputTypeId": 82410,
+    "outputName": "Explosive Nanite Sequencer",
+    "outputQuantity": 1,
+    "category": "Modules",
+    "group": "Nanitic Armor Weave Sequencer",
+    "manufacturingTime": 222,
+    "maxProductionLimit": 200,
+    "materials": [
+      {
+        "typeId": 84180,
+        "name": "Printed Circuits",
+        "quantity": 1
+      },
+      {
+        "typeId": 88561,
+        "name": "Thermal Composites",
+        "quantity": 1
+      }
+    ],
+    "products": [
+      {
+        "typeId": 82410,
+        "name": "Explosive Nanite Sequencer",
+        "quantity": 1,
+        "manufacturingTime": 222
+      }
+    ]
+  },
+  {
+    "blueprintId": 78421,
+    "blueprintName": "Exterminata Protocol Frame Blueprint",
+    "outputTypeId": 78421,
+    "outputName": "Exterminata Protocol Frame",
+    "outputQuantity": 1,
+    "category": "Frames",
+    "group": "Exotronic Frames",
+    "manufacturingTime": 31,
+    "maxProductionLimit": 36,
+    "materials": [
+      {
+        "typeId": 88565,
+        "name": "Still Knot",
+        "quantity": 1
+      },
+      {
+        "typeId": 88780,
+        "name": "Echo Chamber",
+        "quantity": 1
+      },
+      {
+        "typeId": 88783,
+        "name": "Kerogen Tar",
+        "quantity": 38
+      }
+    ],
+    "products": [
+      {
+        "typeId": 78421,
+        "name": "Exterminata Protocol Frame",
+        "quantity": 1,
+        "manufacturingTime": 31
+      }
+    ]
+  },
+  {
+    "blueprintId": 77800,
+    "blueprintName": "Feldspar Crystals Blueprint",
+    "outputTypeId": 77800,
+    "outputName": "Feldspar Crystals",
+    "outputQuantity": 5,
+    "category": null,
+    "group": "Char Ores",
+    "manufacturingTime": 3,
+    "maxProductionLimit": 25,
+    "materials": [
+      {
+        "typeId": 77800,
+        "name": "Feldspar Crystals",
+        "quantity": 20
+      },
+      {
+        "typeId": 77800,
+        "name": "Feldspar Crystals",
+        "quantity": 40
+      },
+      {
+        "typeId": 77800,
+        "name": "Feldspar Crystals",
+        "quantity": 120
+      }
+    ],
+    "products": [
+      {
+        "typeId": 89258,
+        "name": "Hydrocarbon Residue",
+        "quantity": 5,
+        "manufacturingTime": 3
+      },
+      {
+        "typeId": 89259,
+        "name": "Silica Grains",
+        "quantity": 15,
+        "manufacturingTime": 3
+      },
+      {
+        "typeId": 89258,
+        "name": "Hydrocarbon Residue",
+        "quantity": 10,
+        "manufacturingTime": 3
+      },
+      {
+        "typeId": 89259,
+        "name": "Silica Grains",
+        "quantity": 30,
+        "manufacturingTime": 3
+      },
+      {
+        "typeId": 89258,
+        "name": "Hydrocarbon Residue",
+        "quantity": 30,
+        "manufacturingTime": 4
+      },
+      {
+        "typeId": 89259,
+        "name": "Silica Grains",
+        "quantity": 90,
+        "manufacturingTime": 4
+      }
+    ]
+  },
+  {
+    "blueprintId": 77800,
+    "blueprintName": "Feldspar Crystals Blueprint",
+    "outputTypeId": 77800,
+    "outputName": "Feldspar Crystals",
+    "outputQuantity": 10,
+    "category": null,
+    "group": "Char Ores",
+    "manufacturingTime": 3,
+    "maxProductionLimit": 100,
+    "materials": [
+      {
+        "typeId": 77800,
+        "name": "Feldspar Crystals",
+        "quantity": 20
+      },
+      {
+        "typeId": 77800,
+        "name": "Feldspar Crystals",
+        "quantity": 40
+      },
+      {
+        "typeId": 77800,
+        "name": "Feldspar Crystals",
+        "quantity": 120
+      }
+    ],
+    "products": [
+      {
+        "typeId": 89258,
+        "name": "Hydrocarbon Residue",
+        "quantity": 5,
+        "manufacturingTime": 3
+      },
+      {
+        "typeId": 89259,
+        "name": "Silica Grains",
+        "quantity": 15,
+        "manufacturingTime": 3
+      },
+      {
+        "typeId": 89258,
+        "name": "Hydrocarbon Residue",
+        "quantity": 10,
+        "manufacturingTime": 3
+      },
+      {
+        "typeId": 89259,
+        "name": "Silica Grains",
+        "quantity": 30,
+        "manufacturingTime": 3
+      },
+      {
+        "typeId": 89258,
+        "name": "Hydrocarbon Residue",
+        "quantity": 30,
+        "manufacturingTime": 4
+      },
+      {
+        "typeId": 89259,
+        "name": "Silica Grains",
+        "quantity": 90,
+        "manufacturingTime": 4
+      }
+    ]
+  },
+  {
+    "blueprintId": 77800,
+    "blueprintName": "Feldspar Crystals Blueprint",
+    "outputTypeId": 77800,
+    "outputName": "Feldspar Crystals",
+    "outputQuantity": 30,
+    "category": null,
+    "group": "Char Ores",
+    "manufacturingTime": 4,
+    "maxProductionLimit": 171,
+    "materials": [
+      {
+        "typeId": 77800,
+        "name": "Feldspar Crystals",
+        "quantity": 20
+      },
+      {
+        "typeId": 77800,
+        "name": "Feldspar Crystals",
+        "quantity": 40
+      },
+      {
+        "typeId": 77800,
+        "name": "Feldspar Crystals",
+        "quantity": 120
+      }
+    ],
+    "products": [
+      {
+        "typeId": 89258,
+        "name": "Hydrocarbon Residue",
+        "quantity": 5,
+        "manufacturingTime": 3
+      },
+      {
+        "typeId": 89259,
+        "name": "Silica Grains",
+        "quantity": 15,
+        "manufacturingTime": 3
+      },
+      {
+        "typeId": 89258,
+        "name": "Hydrocarbon Residue",
+        "quantity": 10,
+        "manufacturingTime": 3
+      },
+      {
+        "typeId": 89259,
+        "name": "Silica Grains",
+        "quantity": 30,
+        "manufacturingTime": 3
+      },
+      {
+        "typeId": 89258,
+        "name": "Hydrocarbon Residue",
+        "quantity": 30,
+        "manufacturingTime": 4
+      },
+      {
+        "typeId": 89259,
+        "name": "Silica Grains",
+        "quantity": 90,
+        "manufacturingTime": 4
+      }
+    ]
+  },
+  {
+    "blueprintId": 83896,
+    "blueprintName": "Gravionite Mining Lens Blueprint",
+    "outputTypeId": 83896,
+    "outputName": "Gravionite Mining Lens",
+    "outputQuantity": 1,
+    "category": null,
+    "group": "Asteroid Mining Crystal",
+    "manufacturingTime": 5,
+    "maxProductionLimit": 800,
+    "materials": [
+      {
+        "typeId": 77803,
+        "name": "Silicon Dust",
+        "quantity": 50
+      },
+      {
+        "typeId": 83891,
+        "name": "Gravionite",
+        "quantity": 1
+      }
+    ],
+    "products": [
+      {
+        "typeId": 83896,
+        "name": "Gravionite Mining Lens",
+        "quantity": 1,
+        "manufacturingTime": 5
+      }
+    ]
+  },
+  {
+    "blueprintId": 82424,
+    "blueprintName": "HAF Blueprint",
+    "outputTypeId": 82424,
+    "outputName": "HAF",
+    "outputQuantity": 1,
+    "category": "Ships",
+    "group": "Frigate",
+    "manufacturingTime": 82800,
+    "maxProductionLimit": 2,
+    "materials": [
+      {
+        "typeId": 78421,
+        "name": "Exterminata Protocol Frame",
+        "quantity": 1
+      },
+      {
+        "typeId": 84204,
+        "name": "Batched Reinforced Alloys",
+        "quantity": 160
+      },
+      {
+        "typeId": 88841,
+        "name": "Batched Carbon Weave",
+        "quantity": 74
+      },
+      {
+        "typeId": 88843,
+        "name": "Batched Thermal Composites",
+        "quantity": 74
+      }
+    ],
+    "products": [
+      {
+        "typeId": 82424,
+        "name": "HAF",
+        "quantity": 1,
+        "manufacturingTime": 82800
+      }
+    ]
+  },
+  {
+    "blueprintId": 88889,
+    "blueprintName": "Heat Exchanger S Blueprint",
+    "outputTypeId": 88889,
+    "outputName": "Heat Exchanger S",
+    "outputQuantity": 1,
+    "category": "Modules",
+    "group": "Heat Ejector",
+    "manufacturingTime": 452,
+    "maxProductionLimit": 105,
+    "materials": [
+      {
+        "typeId": 77805,
+        "name": "Platinum-Group Veins",
+        "quantity": 35
+      },
+      {
+        "typeId": 84182,
+        "name": "Reinforced Alloys",
+        "quantity": 6
+      },
+      {
+        "typeId": 88335,
+        "name": "D1 Fuel",
+        "quantity": 560
+      },
+      {
+        "typeId": 99001,
+        "name": "Palladium",
+        "quantity": 35
+      }
+    ],
+    "products": [
+      {
+        "typeId": 88889,
+        "name": "Heat Exchanger S",
+        "quantity": 1,
+        "manufacturingTime": 452
+      }
+    ]
+  },
+  {
+    "blueprintId": 88886,
+    "blueprintName": "Heat Exchanger XS Blueprint",
+    "outputTypeId": 88886,
+    "outputName": "Heat Exchanger XS",
+    "outputQuantity": 1,
+    "category": "Modules",
+    "group": "Heat Ejector",
+    "manufacturingTime": 197,
+    "maxProductionLimit": 210,
+    "materials": [
+      {
+        "typeId": 84182,
+        "name": "Reinforced Alloys",
+        "quantity": 3
+      },
+      {
+        "typeId": 88335,
+        "name": "D1 Fuel",
+        "quantity": 280
+      },
+      {
+        "typeId": 99001,
+        "name": "Palladium",
+        "quantity": 2
+      }
+    ],
+    "products": [
+      {
+        "typeId": 88886,
+        "name": "Heat Exchanger XS",
+        "quantity": 1,
+        "manufacturingTime": 197
+      }
+    ]
+  },
+  {
+    "blueprintId": 90887,
+    "blueprintName": "Hop Blueprint",
+    "outputTypeId": 90887,
+    "outputName": "Hop",
+    "outputQuantity": 1,
+    "category": null,
+    "group": "Warp Accelerator",
+    "manufacturingTime": 120,
+    "maxProductionLimit": 50,
+    "materials": [
+      {
+        "typeId": 88561,
+        "name": "Thermal Composites",
+        "quantity": 2
+      },
+      {
+        "typeId": 84180,
+        "name": "Printed Circuits",
+        "quantity": 1
+      }
+    ],
+    "products": [
+      {
+        "typeId": 90887,
+        "name": "Hop",
+        "quantity": 1,
+        "manufacturingTime": 120
+      }
+    ]
+  },
+  {
+    "blueprintId": 82140,
+    "blueprintName": "Howitzer Ammo 1 (M) Blueprint",
+    "outputTypeId": 82140,
+    "outputName": "Howitzer Ammo 1 (M)",
+    "outputQuantity": 100,
+    "category": null,
+    "group": "Projectile Ammo",
+    "manufacturingTime": 13,
+    "maxProductionLimit": 308,
+    "materials": [
+      {
+        "typeId": 84182,
+        "name": "Reinforced Alloys",
+        "quantity": 6
+      },
+      {
+        "typeId": 88234,
+        "name": "Troilite Sulfide Grains",
+        "quantity": 400
+      }
+    ],
+    "products": [
+      {
+        "typeId": 82140,
+        "name": "Howitzer Ammo 1 (M)",
+        "quantity": 100,
+        "manufacturingTime": 13
+      }
+    ]
+  },
+  {
+    "blueprintId": 72960,
+    "blueprintName": "Hull Repairer Blueprint",
+    "outputTypeId": 72960,
+    "outputName": "Hull Repairer",
+    "outputQuantity": 1,
+    "category": null,
+    "group": "Hull Repair Unit",
+    "manufacturingTime": 148,
+    "maxProductionLimit": 672,
+    "materials": [
+      {
+        "typeId": 84180,
+        "name": "Printed Circuits",
+        "quantity": 1
+      },
+      {
+        "typeId": 84210,
+        "name": "Carbon Weave",
+        "quantity": 2
+      }
+    ],
+    "products": [
+      {
+        "typeId": 72960,
+        "name": "Hull Repairer",
+        "quantity": 1,
+        "manufacturingTime": 148
+      }
+    ]
+  },
+  {
+    "blueprintId": 77811,
+    "blueprintName": "Hydrated Sulfide Matrix Blueprint",
+    "outputTypeId": 77811,
+    "outputName": "Hydrated Sulfide Matrix",
+    "outputQuantity": 10,
+    "category": null,
+    "group": "Comet Ores",
+    "manufacturingTime": 3,
+    "maxProductionLimit": 25,
+    "materials": [
+      {
+        "typeId": 77811,
+        "name": "Hydrated Sulfide Matrix",
+        "quantity": 20
+      },
+      {
+        "typeId": 77811,
+        "name": "Hydrated Sulfide Matrix",
+        "quantity": 40
+      },
+      {
+        "typeId": 77811,
+        "name": "Hydrated Sulfide Matrix",
+        "quantity": 120
+      }
+    ],
+    "products": [
+      {
+        "typeId": 89258,
+        "name": "Hydrocarbon Residue",
+        "quantity": 10,
+        "manufacturingTime": 3
+      },
+      {
+        "typeId": 78423,
+        "name": "Water Ice",
+        "quantity": 150,
+        "manufacturingTime": 3
+      },
+      {
+        "typeId": 89258,
+        "name": "Hydrocarbon Residue",
+        "quantity": 20,
+        "manufacturingTime": 3
+      },
+      {
+        "typeId": 78423,
+        "name": "Water Ice",
+        "quantity": 200,
+        "manufacturingTime": 3
+      },
+      {
+        "typeId": 89258,
+        "name": "Hydrocarbon Residue",
+        "quantity": 60,
+        "manufacturingTime": 4
+      },
+      {
+        "typeId": 78423,
+        "name": "Water Ice",
+        "quantity": 600,
+        "manufacturingTime": 4
+      }
+    ]
+  },
+  {
+    "blueprintId": 77811,
+    "blueprintName": "Hydrated Sulfide Matrix Blueprint",
+    "outputTypeId": 77811,
+    "outputName": "Hydrated Sulfide Matrix",
+    "outputQuantity": 20,
+    "category": null,
+    "group": "Comet Ores",
+    "manufacturingTime": 3,
+    "maxProductionLimit": 100,
+    "materials": [
+      {
+        "typeId": 77811,
+        "name": "Hydrated Sulfide Matrix",
+        "quantity": 20
+      },
+      {
+        "typeId": 77811,
+        "name": "Hydrated Sulfide Matrix",
+        "quantity": 40
+      },
+      {
+        "typeId": 77811,
+        "name": "Hydrated Sulfide Matrix",
+        "quantity": 120
+      }
+    ],
+    "products": [
+      {
+        "typeId": 89258,
+        "name": "Hydrocarbon Residue",
+        "quantity": 10,
+        "manufacturingTime": 3
+      },
+      {
+        "typeId": 78423,
+        "name": "Water Ice",
+        "quantity": 150,
+        "manufacturingTime": 3
+      },
+      {
+        "typeId": 89258,
+        "name": "Hydrocarbon Residue",
+        "quantity": 20,
+        "manufacturingTime": 3
+      },
+      {
+        "typeId": 78423,
+        "name": "Water Ice",
+        "quantity": 200,
+        "manufacturingTime": 3
+      },
+      {
+        "typeId": 89258,
+        "name": "Hydrocarbon Residue",
+        "quantity": 60,
+        "manufacturingTime": 4
+      },
+      {
+        "typeId": 78423,
+        "name": "Water Ice",
+        "quantity": 600,
+        "manufacturingTime": 4
+      }
+    ]
+  },
+  {
+    "blueprintId": 77811,
+    "blueprintName": "Hydrated Sulfide Matrix Blueprint",
+    "outputTypeId": 77811,
+    "outputName": "Hydrated Sulfide Matrix",
+    "outputQuantity": 60,
+    "category": null,
+    "group": "Comet Ores",
+    "manufacturingTime": 4,
+    "maxProductionLimit": 171,
+    "materials": [
+      {
+        "typeId": 77811,
+        "name": "Hydrated Sulfide Matrix",
+        "quantity": 20
+      },
+      {
+        "typeId": 77811,
+        "name": "Hydrated Sulfide Matrix",
+        "quantity": 40
+      },
+      {
+        "typeId": 77811,
+        "name": "Hydrated Sulfide Matrix",
+        "quantity": 120
+      }
+    ],
+    "products": [
+      {
+        "typeId": 89258,
+        "name": "Hydrocarbon Residue",
+        "quantity": 10,
+        "manufacturingTime": 3
+      },
+      {
+        "typeId": 78423,
+        "name": "Water Ice",
+        "quantity": 150,
+        "manufacturingTime": 3
+      },
+      {
+        "typeId": 89258,
+        "name": "Hydrocarbon Residue",
+        "quantity": 20,
+        "manufacturingTime": 3
+      },
+      {
+        "typeId": 78423,
+        "name": "Water Ice",
+        "quantity": 200,
+        "manufacturingTime": 3
+      },
+      {
+        "typeId": 89258,
+        "name": "Hydrocarbon Residue",
+        "quantity": 60,
+        "manufacturingTime": 4
+      },
+      {
+        "typeId": 78423,
+        "name": "Water Ice",
+        "quantity": 600,
+        "manufacturingTime": 4
+      }
+    ]
+  },
+  {
+    "blueprintId": 89258,
+    "blueprintName": "Hydrocarbon Residue Blueprint",
+    "outputTypeId": 89258,
+    "outputName": "Hydrocarbon Residue",
+    "outputQuantity": 20,
+    "category": null,
+    "group": "Mineral",
+    "manufacturingTime": 9,
+    "maxProductionLimit": 200,
+    "materials": [
+      {
+        "typeId": 89258,
+        "name": "Hydrocarbon Residue",
+        "quantity": 20
+      },
+      {
+        "typeId": 89258,
+        "name": "Hydrocarbon Residue",
+        "quantity": 60
+      }
+    ],
+    "products": [
+      {
+        "typeId": 88234,
+        "name": "Troilite Sulfide Grains",
+        "quantity": 20,
+        "manufacturingTime": 9
+      },
+      {
+        "typeId": 77804,
+        "name": "Tholin Aggregates",
+        "quantity": 180,
+        "manufacturingTime": 9
+      },
+      {
+        "typeId": 88234,
+        "name": "Troilite Sulfide Grains",
+        "quantity": 60,
+        "manufacturingTime": 25
+      },
+      {
+        "typeId": 77804,
+        "name": "Tholin Aggregates",
+        "quantity": 540,
+        "manufacturingTime": 25
+      }
+    ]
+  },
+  {
+    "blueprintId": 89258,
+    "blueprintName": "Hydrocarbon Residue Blueprint",
+    "outputTypeId": 89258,
+    "outputName": "Hydrocarbon Residue",
+    "outputQuantity": 60,
+    "category": null,
+    "group": "Mineral",
+    "manufacturingTime": 25,
+    "maxProductionLimit": 336,
+    "materials": [
+      {
+        "typeId": 89258,
+        "name": "Hydrocarbon Residue",
+        "quantity": 20
+      },
+      {
+        "typeId": 89258,
+        "name": "Hydrocarbon Residue",
+        "quantity": 60
+      }
+    ],
+    "products": [
+      {
+        "typeId": 88234,
+        "name": "Troilite Sulfide Grains",
+        "quantity": 20,
+        "manufacturingTime": 9
+      },
+      {
+        "typeId": 77804,
+        "name": "Tholin Aggregates",
+        "quantity": 180,
+        "manufacturingTime": 9
+      },
+      {
+        "typeId": 88234,
+        "name": "Troilite Sulfide Grains",
+        "quantity": 60,
+        "manufacturingTime": 25
+      },
+      {
+        "typeId": 77804,
+        "name": "Tholin Aggregates",
+        "quantity": 540,
+        "manufacturingTime": 25
+      }
+    ]
+  },
+  {
+    "blueprintId": 78426,
+    "blueprintName": "Iridosmine Nodules Blueprint",
+    "outputTypeId": 78426,
+    "outputName": "Iridosmine Nodules",
+    "outputQuantity": 40,
+    "category": null,
+    "group": "Ingot Ores",
+    "manufacturingTime": 5,
+    "maxProductionLimit": 100,
+    "materials": [
+      {
+        "typeId": 78426,
+        "name": "Iridosmine Nodules",
+        "quantity": 40
+      },
+      {
+        "typeId": 78426,
+        "name": "Iridosmine Nodules",
+        "quantity": 120
+      }
+    ],
+    "products": [
+      {
+        "typeId": 89260,
+        "name": "Iron-Rich Nodules",
+        "quantity": 40,
+        "manufacturingTime": 5
+      },
+      {
+        "typeId": 89260,
+        "name": "Iron-Rich Nodules",
+        "quantity": 120,
+        "manufacturingTime": 8
+      }
+    ]
+  },
+  {
+    "blueprintId": 78426,
+    "blueprintName": "Iridosmine Nodules Blueprint",
+    "outputTypeId": 78426,
+    "outputName": "Iridosmine Nodules",
+    "outputQuantity": 120,
+    "category": null,
+    "group": "Ingot Ores",
+    "manufacturingTime": 8,
+    "maxProductionLimit": 171,
+    "materials": [
+      {
+        "typeId": 78426,
+        "name": "Iridosmine Nodules",
+        "quantity": 40
+      },
+      {
+        "typeId": 78426,
+        "name": "Iridosmine Nodules",
+        "quantity": 120
+      }
+    ],
+    "products": [
+      {
+        "typeId": 89260,
+        "name": "Iron-Rich Nodules",
+        "quantity": 40,
+        "manufacturingTime": 5
+      },
+      {
+        "typeId": 89260,
+        "name": "Iron-Rich Nodules",
+        "quantity": 120,
+        "manufacturingTime": 8
+      }
+    ]
+  },
+  {
+    "blueprintId": 89260,
+    "blueprintName": "Iron-Rich Nodules Blueprint",
+    "outputTypeId": 89260,
+    "outputName": "Iron-Rich Nodules",
+    "outputQuantity": 20,
+    "category": null,
+    "group": "Mineral",
+    "manufacturingTime": 9,
+    "maxProductionLimit": 200,
+    "materials": [
+      {
+        "typeId": 89260,
+        "name": "Iron-Rich Nodules",
+        "quantity": 10
+      },
+      {
+        "typeId": 89260,
+        "name": "Iron-Rich Nodules",
+        "quantity": 60
+      }
+    ],
+    "products": [
+      {
+        "typeId": 77805,
+        "name": "Platinum-Group Veins",
+        "quantity": 20,
+        "manufacturingTime": 9
+      },
+      {
+        "typeId": 77801,
+        "name": "Nickel-Iron Veins",
+        "quantity": 198,
+        "manufacturingTime": 9
+      },
+      {
+        "typeId": 77805,
+        "name": "Platinum-Group Veins",
+        "quantity": 60,
+        "manufacturingTime": 25
+      },
+      {
+        "typeId": 77801,
+        "name": "Nickel-Iron Veins",
+        "quantity": 594,
+        "manufacturingTime": 25
+      }
+    ]
+  },
+  {
+    "blueprintId": 89260,
+    "blueprintName": "Iron-Rich Nodules Blueprint",
+    "outputTypeId": 89260,
+    "outputName": "Iron-Rich Nodules",
+    "outputQuantity": 60,
+    "category": null,
+    "group": "Mineral",
+    "manufacturingTime": 25,
+    "maxProductionLimit": 336,
+    "materials": [
+      {
+        "typeId": 89260,
+        "name": "Iron-Rich Nodules",
+        "quantity": 10
+      },
+      {
+        "typeId": 89260,
+        "name": "Iron-Rich Nodules",
+        "quantity": 60
+      }
+    ],
+    "products": [
+      {
+        "typeId": 77805,
+        "name": "Platinum-Group Veins",
+        "quantity": 20,
+        "manufacturingTime": 9
+      },
+      {
+        "typeId": 77801,
+        "name": "Nickel-Iron Veins",
+        "quantity": 198,
+        "manufacturingTime": 9
+      },
+      {
+        "typeId": 77805,
+        "name": "Platinum-Group Veins",
+        "quantity": 60,
+        "manufacturingTime": 25
+      },
+      {
+        "typeId": 77801,
+        "name": "Nickel-Iron Veins",
+        "quantity": 594,
+        "manufacturingTime": 25
+      }
+    ]
+  },
+  {
+    "blueprintId": 83782,
+    "blueprintName": "Kinetic Field Array II Blueprint",
+    "outputTypeId": 83782,
+    "outputName": "Kinetic Field Array II",
+    "outputQuantity": 1,
+    "category": "Modules",
+    "group": "Shield Hardener",
+    "manufacturingTime": 184,
+    "maxProductionLimit": 420,
+    "materials": [
+      {
+        "typeId": 84182,
+        "name": "Reinforced Alloys",
+        "quantity": 8
+      }
+    ],
+    "products": [
+      {
+        "typeId": 83782,
+        "name": "Kinetic Field Array II",
+        "quantity": 1,
+        "manufacturingTime": 184
+      }
+    ]
+  },
+  {
+    "blueprintId": 83783,
+    "blueprintName": "Kinetic Field Array III Blueprint",
+    "outputTypeId": 83783,
+    "outputName": "Kinetic Field Array III",
+    "outputQuantity": 1,
+    "category": "Modules",
+    "group": "Shield Hardener",
+    "manufacturingTime": 387,
+    "maxProductionLimit": 210,
+    "materials": [
+      {
+        "typeId": 84182,
+        "name": "Reinforced Alloys",
+        "quantity": 10
+      }
+    ],
+    "products": [
+      {
+        "typeId": 83783,
+        "name": "Kinetic Field Array III",
+        "quantity": 1,
+        "manufacturingTime": 387
+      }
+    ]
+  },
+  {
+    "blueprintId": 83784,
+    "blueprintName": "Kinetic Field Array IV Blueprint",
+    "outputTypeId": 83784,
+    "outputName": "Kinetic Field Array IV",
+    "outputQuantity": 1,
+    "category": "Modules",
+    "group": "Shield Hardener",
+    "manufacturingTime": 804,
+    "maxProductionLimit": 105,
+    "materials": [
+      {
+        "typeId": 84182,
+        "name": "Reinforced Alloys",
+        "quantity": 12
+      }
+    ],
+    "products": [
+      {
+        "typeId": 83784,
+        "name": "Kinetic Field Array IV",
+        "quantity": 1,
+        "manufacturingTime": 804
+      }
+    ]
+  },
+  {
+    "blueprintId": 82413,
+    "blueprintName": "Kinetic Nanite Sequencer Blueprint",
+    "outputTypeId": 82413,
+    "outputName": "Kinetic Nanite Sequencer",
+    "outputQuantity": 1,
+    "category": "Modules",
+    "group": "Nanitic Armor Weave Sequencer",
+    "manufacturingTime": 222,
+    "maxProductionLimit": 200,
+    "materials": [
+      {
+        "typeId": 84180,
+        "name": "Printed Circuits",
+        "quantity": 1
+      },
+      {
+        "typeId": 88561,
+        "name": "Thermal Composites",
+        "quantity": 1
+      }
+    ],
+    "products": [
+      {
+        "typeId": 82413,
+        "name": "Kinetic Nanite Sequencer",
+        "quantity": 1,
+        "manufacturingTime": 222
+      }
+    ]
+  },
+  {
+    "blueprintId": 82425,
+    "blueprintName": "LAI Blueprint",
+    "outputTypeId": 82425,
+    "outputName": "LAI",
+    "outputQuantity": 1,
+    "category": null,
+    "group": "Frigate",
+    "manufacturingTime": 78000,
+    "maxProductionLimit": 2,
+    "materials": [
+      {
+        "typeId": 78421,
+        "name": "Exterminata Protocol Frame",
+        "quantity": 1
+      },
+      {
+        "typeId": 84204,
+        "name": "Batched Reinforced Alloys",
+        "quantity": 80
+      },
+      {
+        "typeId": 88841,
+        "name": "Batched Carbon Weave",
+        "quantity": 70
+      },
+      {
+        "typeId": 88843,
+        "name": "Batched Thermal Composites",
+        "quantity": 70
+      },
+      {
+        "typeId": 92483,
+        "name": "Still Kernel",
+        "quantity": 4
+      }
+    ],
+    "products": [
+      {
+        "typeId": 82425,
+        "name": "LAI",
+        "quantity": 1,
+        "manufacturingTime": 78000
+      }
+    ]
+  },
+  {
+    "blueprintId": 82426,
+    "blueprintName": "LORHA Blueprint",
+    "outputTypeId": 82426,
+    "outputName": "LORHA",
+    "outputQuantity": 1,
+    "category": "Ships",
+    "group": "Frigate",
+    "manufacturingTime": 8320,
+    "maxProductionLimit": 2,
+    "materials": [
+      {
+        "typeId": 78417,
+        "name": "Bastion Program Frame",
+        "quantity": 1
+      },
+      {
+        "typeId": 84204,
+        "name": "Batched Reinforced Alloys",
+        "quantity": 58
+      },
+      {
+        "typeId": 88841,
+        "name": "Batched Carbon Weave",
+        "quantity": 29
+      },
+      {
+        "typeId": 88843,
+        "name": "Batched Thermal Composites",
+        "quantity": 29
+      }
+    ],
+    "products": [
+      {
+        "typeId": 82426,
+        "name": "LORHA",
+        "quantity": 1,
+        "manufacturingTime": 8320
+      }
+    ]
+  },
+  {
+    "blueprintId": 83524,
+    "blueprintName": "Large Cutting Laser Blueprint",
+    "outputTypeId": 83524,
+    "outputName": "Large Cutting Laser",
+    "outputQuantity": 1,
+    "category": "Weapons & Tools",
+    "group": "Asteroid Mining Laser",
+    "manufacturingTime": 14863,
+    "maxProductionLimit": 77,
+    "materials": [
+      {
+        "typeId": 84180,
+        "name": "Printed Circuits",
+        "quantity": 7
+      },
+      {
+        "typeId": 84210,
+        "name": "Carbon Weave",
+        "quantity": 15
+      }
+    ],
+    "products": [
+      {
+        "typeId": 83524,
+        "name": "Large Cutting Laser",
+        "quantity": 1,
+        "manufacturingTime": 14863
+      }
+    ]
+  },
+  {
+    "blueprintId": 92421,
+    "blueprintName": "Leap Blueprint",
+    "outputTypeId": 92421,
+    "outputName": "Leap",
+    "outputQuantity": 1,
+    "category": null,
+    "group": "Warp Accelerator",
+    "manufacturingTime": 320,
+    "maxProductionLimit": 50,
+    "materials": [
+      {
+        "typeId": 88561,
+        "name": "Thermal Composites",
+        "quantity": 4
+      },
+      {
+        "typeId": 84180,
+        "name": "Printed Circuits",
+        "quantity": 4
+      },
+      {
+        "typeId": 84182,
+        "name": "Reinforced Alloys",
+        "quantity": 4
+      }
+    ],
+    "products": [
+      {
+        "typeId": 92421,
+        "name": "Leap",
+        "quantity": 1,
+        "manufacturingTime": 320
+      }
+    ]
+  },
+  {
+    "blueprintId": 83897,
+    "blueprintName": "Luminalis Mining Lens Blueprint",
+    "outputTypeId": 83897,
+    "outputName": "Luminalis Mining Lens",
+    "outputQuantity": 1,
+    "category": null,
+    "group": "Asteroid Mining Crystal",
+    "manufacturingTime": 3,
+    "maxProductionLimit": 334,
+    "materials": [
+      {
+        "typeId": 77803,
+        "name": "Silicon Dust",
+        "quantity": 45
+      },
+      {
+        "typeId": 83892,
+        "name": "Luminalis",
+        "quantity": 1
+      }
+    ],
+    "products": [
+      {
+        "typeId": 83897,
+        "name": "Luminalis Mining Lens",
+        "quantity": 1,
+        "manufacturingTime": 3
+      }
+    ]
+  },
+  {
+    "blueprintId": 92390,
+    "blueprintName": "Lunge Blueprint",
+    "outputTypeId": 92390,
+    "outputName": "Lunge",
+    "outputQuantity": 1,
+    "category": null,
+    "group": "Warp Accelerator",
+    "manufacturingTime": 800,
+    "maxProductionLimit": 50,
+    "materials": [
+      {
+        "typeId": 88561,
+        "name": "Thermal Composites",
+        "quantity": 8
+      },
+      {
+        "typeId": 84180,
+        "name": "Printed Circuits",
+        "quantity": 16
+      },
+      {
+        "typeId": 84182,
+        "name": "Reinforced Alloys",
+        "quantity": 16
+      }
+    ],
+    "products": [
+      {
+        "typeId": 92390,
+        "name": "Lunge",
+        "quantity": 1,
+        "manufacturingTime": 800
+      }
+    ]
+  },
+  {
+    "blueprintId": 82430,
+    "blueprintName": "MAUL Blueprint",
+    "outputTypeId": 82430,
+    "outputName": "MAUL",
+    "outputQuantity": 1,
+    "category": null,
+    "group": "Cruiser",
+    "manufacturingTime": 244800,
+    "maxProductionLimit": 2,
+    "materials": [
+      {
+        "typeId": 78416,
+        "name": "Apocalypse Protocol Frame",
+        "quantity": 1
+      },
+      {
+        "typeId": 84206,
+        "name": "Packaged Reinforced Alloys",
+        "quantity": 46
+      },
+      {
+        "typeId": 88842,
+        "name": "Packaged Carbon Weave",
+        "quantity": 30
+      },
+      {
+        "typeId": 88844,
+        "name": "Packaged Thermal Composites",
+        "quantity": 30
+      },
+      {
+        "typeId": 88780,
+        "name": "Echo Chamber",
+        "quantity": 7
+      },
+      {
+        "typeId": 88565,
+        "name": "Still Knot",
+        "quantity": 2
+      }
+    ],
+    "products": [
+      {
+        "typeId": 82430,
+        "name": "MAUL",
+        "quantity": 1,
+        "manufacturingTime": 244800
+      }
+    ]
+  },
+  {
+    "blueprintId": 81904,
+    "blueprintName": "MCF Blueprint",
+    "outputTypeId": 81904,
+    "outputName": "MCF",
+    "outputQuantity": 1,
+    "category": "Ships",
+    "group": "Frigate",
+    "manufacturingTime": 79200,
+    "maxProductionLimit": 2,
+    "materials": [
+      {
+        "typeId": 78421,
+        "name": "Exterminata Protocol Frame",
+        "quantity": 1
+      },
+      {
+        "typeId": 84204,
+        "name": "Batched Reinforced Alloys",
+        "quantity": 88
+      },
+      {
+        "typeId": 88841,
+        "name": "Batched Carbon Weave",
+        "quantity": 48
+      },
+      {
+        "typeId": 88843,
+        "name": "Batched Thermal Composites",
+        "quantity": 48
+      },
+      {
+        "typeId": 92483,
+        "name": "Still Kernel",
+        "quantity": 3
+      }
+    ],
+    "products": [
+      {
+        "typeId": 81904,
+        "name": "MCF",
+        "quantity": 1,
+        "manufacturingTime": 79200
+      }
+    ]
+  },
+  {
+    "blueprintId": 83528,
+    "blueprintName": "Medium Cutting Laser Blueprint",
+    "outputTypeId": 83528,
+    "outputName": "Medium Cutting Laser",
+    "outputQuantity": 1,
+    "category": "Weapons & Tools",
+    "group": "Asteroid Mining Laser",
+    "manufacturingTime": 863,
+    "maxProductionLimit": 112,
+    "materials": [
+      {
+        "typeId": 84180,
+        "name": "Printed Circuits",
+        "quantity": 5
+      },
+      {
+        "typeId": 84210,
+        "name": "Carbon Weave",
+        "quantity": 10
+      }
+    ],
+    "products": [
+      {
+        "typeId": 83528,
+        "name": "Medium Cutting Laser",
+        "quantity": 1,
+        "manufacturingTime": 863
+      }
+    ]
+  },
+  {
+    "blueprintId": 78446,
+    "blueprintName": "Methane Ice Shards Blueprint",
+    "outputTypeId": 78446,
+    "outputName": "Methane Ice Shards",
+    "outputQuantity": 1,
+    "category": null,
+    "group": "Dewdrop Ores",
+    "manufacturingTime": 15,
+    "maxProductionLimit": 348,
+    "materials": [
+      {
+        "typeId": 78446,
+        "name": "Methane Ice Shards",
+        "quantity": 100
+      }
+    ],
+    "products": [
+      {
+        "typeId": 88781,
+        "name": "Chitinous Organics",
+        "quantity": 1,
+        "manufacturingTime": 15
+      },
+      {
+        "typeId": 77804,
+        "name": "Tholin Aggregates",
+        "quantity": 126,
+        "manufacturingTime": 15
+      },
+      {
+        "typeId": 78423,
+        "name": "Water Ice",
+        "quantity": 349,
+        "manufacturingTime": 15
+      }
+    ]
+  },
+  {
+    "blueprintId": 88765,
+    "blueprintName": "Mummified Clone Blueprint",
+    "outputTypeId": 88765,
+    "outputName": "Mummified Clone",
+    "outputQuantity": 7,
+    "category": null,
+    "group": "Salvage",
+    "manufacturingTime": 3,
+    "maxProductionLimit": 715,
+    "materials": [
+      {
+        "typeId": 88765,
+        "name": "Mummified Clone",
+        "quantity": 1
+      },
+      {
+        "typeId": 88765,
+        "name": "Mummified Clone",
+        "quantity": 5
+      }
+    ],
+    "products": [
+      {
+        "typeId": 78423,
+        "name": "Water Ice",
+        "quantity": 7,
+        "manufacturingTime": 3
+      },
+      {
+        "typeId": 88782,
+        "name": "Aromatic Carbon Weave",
+        "quantity": 1,
+        "manufacturingTime": 3
+      },
+      {
+        "typeId": 88783,
+        "name": "Kerogen Tar",
+        "quantity": 1,
+        "manufacturingTime": 3
+      },
+      {
+        "typeId": 78423,
+        "name": "Water Ice",
+        "quantity": 50,
+        "manufacturingTime": 3
+      }
+    ]
+  },
+  {
+    "blueprintId": 88765,
+    "blueprintName": "Mummified Clone Blueprint",
+    "outputTypeId": 88765,
+    "outputName": "Mummified Clone",
+    "outputQuantity": 1,
+    "category": null,
+    "group": "Salvage",
+    "manufacturingTime": 3,
+    "maxProductionLimit": 998,
+    "materials": [
+      {
+        "typeId": 88765,
+        "name": "Mummified Clone",
+        "quantity": 1
+      },
+      {
+        "typeId": 88765,
+        "name": "Mummified Clone",
+        "quantity": 5
+      }
+    ],
+    "products": [
+      {
+        "typeId": 78423,
+        "name": "Water Ice",
+        "quantity": 7,
+        "manufacturingTime": 3
+      },
+      {
+        "typeId": 88782,
+        "name": "Aromatic Carbon Weave",
+        "quantity": 1,
+        "manufacturingTime": 3
+      },
+      {
+        "typeId": 88783,
+        "name": "Kerogen Tar",
+        "quantity": 1,
+        "manufacturingTime": 3
+      },
+      {
+        "typeId": 78423,
+        "name": "Water Ice",
+        "quantity": 50,
+        "manufacturingTime": 3
+      }
+    ]
+  },
+  {
+    "blueprintId": 82650,
+    "blueprintName": "Nimble Armor Plates II Blueprint",
+    "outputTypeId": 82650,
+    "outputName": "Nimble Armor Plates II",
+    "outputQuantity": 1,
+    "category": "Modules",
+    "group": "Defensive System",
+    "manufacturingTime": 150,
+    "maxProductionLimit": 210,
+    "materials": [
+      {
+        "typeId": 84182,
+        "name": "Reinforced Alloys",
+        "quantity": 2
+      },
+      {
+        "typeId": 84210,
+        "name": "Carbon Weave",
+        "quantity": 1
+      }
+    ],
+    "products": [
+      {
+        "typeId": 82650,
+        "name": "Nimble Armor Plates II",
+        "quantity": 1,
+        "manufacturingTime": 150
+      }
+    ]
+  },
+  {
+    "blueprintId": 83433,
+    "blueprintName": "Nimble Armor Plates III Blueprint",
+    "outputTypeId": 83433,
+    "outputName": "Nimble Armor Plates III",
+    "outputQuantity": 1,
+    "category": "Modules",
+    "group": "Defensive System",
+    "manufacturingTime": 357,
+    "maxProductionLimit": 105,
+    "materials": [
+      {
+        "typeId": 84182,
+        "name": "Reinforced Alloys",
+        "quantity": 4
+      },
+      {
+        "typeId": 84210,
+        "name": "Carbon Weave",
+        "quantity": 2
+      }
+    ],
+    "products": [
+      {
+        "typeId": 83433,
+        "name": "Nimble Armor Plates III",
+        "quantity": 1,
+        "manufacturingTime": 357
+      }
+    ]
+  },
+  {
+    "blueprintId": 83434,
+    "blueprintName": "Nimble Armor Plates IV Blueprint",
+    "outputTypeId": 83434,
+    "outputName": "Nimble Armor Plates IV",
+    "outputQuantity": 1,
+    "category": null,
+    "group": "Defensive System",
+    "manufacturingTime": 830,
+    "maxProductionLimit": 50,
+    "materials": [
+      {
+        "typeId": 84182,
+        "name": "Reinforced Alloys",
+        "quantity": 8
+      },
+      {
+        "typeId": 84210,
+        "name": "Carbon Weave",
+        "quantity": 4
+      }
+    ],
+    "products": [
+      {
+        "typeId": 83434,
+        "name": "Nimble Armor Plates IV",
+        "quantity": 1,
+        "manufacturingTime": 830
+      }
+    ]
+  },
+  {
+    "blueprintId": 78418,
+    "blueprintName": "Nomad Program Frame Blueprint",
+    "outputTypeId": 78418,
+    "outputName": "Nomad Program Frame",
+    "outputQuantity": 1,
+    "category": "Frames",
+    "group": "Exotronic Frames",
+    "manufacturingTime": 20,
+    "maxProductionLimit": 34,
+    "materials": [
+      {
+        "typeId": 83818,
+        "name": "Fossilized Exotronics",
+        "quantity": 5
+      }
+    ],
+    "products": [
+      {
+        "typeId": 78418,
+        "name": "Nomad Program Frame",
+        "quantity": 1,
+        "manufacturingTime": 20
+      }
+    ]
+  },
+  {
+    "blueprintId": 88842,
+    "blueprintName": "Packaged Carbon Weave Blueprint",
+    "outputTypeId": 88842,
+    "outputName": "Packaged Carbon Weave",
+    "outputQuantity": 1,
+    "category": "Materials & Resources",
+    "group": "Manufacturing Component",
+    "manufacturingTime": 37,
+    "maxProductionLimit": 13,
+    "materials": [
+      {
+        "typeId": 88841,
+        "name": "Batched Carbon Weave",
+        "quantity": 10
+      }
+    ],
+    "products": [
+      {
+        "typeId": 88842,
+        "name": "Packaged Carbon Weave",
+        "quantity": 1,
+        "manufacturingTime": 37
+      }
+    ]
+  },
+  {
+    "blueprintId": 88840,
+    "blueprintName": "Packaged Printed Circuits Blueprint",
+    "outputTypeId": 88840,
+    "outputName": "Packaged Printed Circuits",
+    "outputQuantity": 1,
+    "category": "Materials & Resources",
+    "group": "Manufacturing Component",
+    "manufacturingTime": 24,
+    "maxProductionLimit": 51,
+    "materials": [
+      {
+        "typeId": 88839,
+        "name": "Batched Printed Circuits",
+        "quantity": 10
+      }
+    ],
+    "products": [
+      {
+        "typeId": 88840,
+        "name": "Packaged Printed Circuits",
+        "quantity": 1,
+        "manufacturingTime": 24
+      }
+    ]
+  },
+  {
+    "blueprintId": 84206,
+    "blueprintName": "Packaged Reinforced Alloys Blueprint",
+    "outputTypeId": 84206,
+    "outputName": "Packaged Reinforced Alloys",
+    "outputQuantity": 1,
+    "category": "Materials & Resources",
+    "group": "Manufacturing Component",
+    "manufacturingTime": 32,
+    "maxProductionLimit": 20,
+    "materials": [
+      {
+        "typeId": 84204,
+        "name": "Batched Reinforced Alloys",
+        "quantity": 10
+      }
+    ],
+    "products": [
+      {
+        "typeId": 84206,
+        "name": "Packaged Reinforced Alloys",
+        "quantity": 1,
+        "manufacturingTime": 32
+      }
+    ]
+  },
+  {
+    "blueprintId": 88844,
+    "blueprintName": "Packaged Thermal Composites Blueprint",
+    "outputTypeId": 88844,
+    "outputName": "Packaged Thermal Composites",
+    "outputQuantity": 1,
+    "category": "Materials & Resources",
+    "group": "Manufacturing Component",
+    "manufacturingTime": 32,
+    "maxProductionLimit": 20,
+    "materials": [
+      {
+        "typeId": 88843,
+        "name": "Batched Thermal Composites",
+        "quantity": 10
+      }
+    ],
+    "products": [
+      {
+        "typeId": 88844,
+        "name": "Packaged Thermal Composites",
+        "quantity": 1,
+        "manufacturingTime": 32
+      }
+    ]
+  },
+  {
+    "blueprintId": 77810,
+    "blueprintName": "Platinum-Palladium Matrix Blueprint",
+    "outputTypeId": 77810,
+    "outputName": "Platinum-Palladium Matrix",
+    "outputQuantity": 8,
+    "category": null,
+    "group": "Slag Ores",
+    "manufacturingTime": 3,
+    "maxProductionLimit": 25,
+    "materials": [
+      {
+        "typeId": 77810,
+        "name": "Platinum-Palladium Matrix",
+        "quantity": 20
+      },
+      {
+        "typeId": 77810,
+        "name": "Platinum-Palladium Matrix",
+        "quantity": 40
+      },
+      {
+        "typeId": 77810,
+        "name": "Platinum-Palladium Matrix",
+        "quantity": 120
+      }
+    ],
+    "products": [
+      {
+        "typeId": 89259,
+        "name": "Silica Grains",
+        "quantity": 8,
+        "manufacturingTime": 3
+      },
+      {
+        "typeId": 89260,
+        "name": "Iron-Rich Nodules",
+        "quantity": 15,
+        "manufacturingTime": 3
+      },
+      {
+        "typeId": 99001,
+        "name": "Palladium",
+        "quantity": 4,
+        "manufacturingTime": 3
+      },
+      {
+        "typeId": 89259,
+        "name": "Silica Grains",
+        "quantity": 10,
+        "manufacturingTime": 3
+      },
+      {
+        "typeId": 89260,
+        "name": "Iron-Rich Nodules",
+        "quantity": 30,
+        "manufacturingTime": 3
+      },
+      {
+        "typeId": 99001,
+        "name": "Palladium",
+        "quantity": 8,
+        "manufacturingTime": 3
+      },
+      {
+        "typeId": 89259,
+        "name": "Silica Grains",
+        "quantity": 30,
+        "manufacturingTime": 4
+      },
+      {
+        "typeId": 89260,
+        "name": "Iron-Rich Nodules",
+        "quantity": 90,
+        "manufacturingTime": 4
+      },
+      {
+        "typeId": 99001,
+        "name": "Palladium",
+        "quantity": 24,
+        "manufacturingTime": 4
+      }
+    ]
+  },
+  {
+    "blueprintId": 77810,
+    "blueprintName": "Platinum-Palladium Matrix Blueprint",
+    "outputTypeId": 77810,
+    "outputName": "Platinum-Palladium Matrix",
+    "outputQuantity": 10,
+    "category": null,
+    "group": "Slag Ores",
+    "manufacturingTime": 3,
+    "maxProductionLimit": 100,
+    "materials": [
+      {
+        "typeId": 77810,
+        "name": "Platinum-Palladium Matrix",
+        "quantity": 20
+      },
+      {
+        "typeId": 77810,
+        "name": "Platinum-Palladium Matrix",
+        "quantity": 40
+      },
+      {
+        "typeId": 77810,
+        "name": "Platinum-Palladium Matrix",
+        "quantity": 120
+      }
+    ],
+    "products": [
+      {
+        "typeId": 89259,
+        "name": "Silica Grains",
+        "quantity": 8,
+        "manufacturingTime": 3
+      },
+      {
+        "typeId": 89260,
+        "name": "Iron-Rich Nodules",
+        "quantity": 15,
+        "manufacturingTime": 3
+      },
+      {
+        "typeId": 99001,
+        "name": "Palladium",
+        "quantity": 4,
+        "manufacturingTime": 3
+      },
+      {
+        "typeId": 89259,
+        "name": "Silica Grains",
+        "quantity": 10,
+        "manufacturingTime": 3
+      },
+      {
+        "typeId": 89260,
+        "name": "Iron-Rich Nodules",
+        "quantity": 30,
+        "manufacturingTime": 3
+      },
+      {
+        "typeId": 99001,
+        "name": "Palladium",
+        "quantity": 8,
+        "manufacturingTime": 3
+      },
+      {
+        "typeId": 89259,
+        "name": "Silica Grains",
+        "quantity": 30,
+        "manufacturingTime": 4
+      },
+      {
+        "typeId": 89260,
+        "name": "Iron-Rich Nodules",
+        "quantity": 90,
+        "manufacturingTime": 4
+      },
+      {
+        "typeId": 99001,
+        "name": "Palladium",
+        "quantity": 24,
+        "manufacturingTime": 4
+      }
+    ]
+  },
+  {
+    "blueprintId": 77810,
+    "blueprintName": "Platinum-Palladium Matrix Blueprint",
+    "outputTypeId": 77810,
+    "outputName": "Platinum-Palladium Matrix",
+    "outputQuantity": 30,
+    "category": null,
+    "group": "Slag Ores",
+    "manufacturingTime": 4,
+    "maxProductionLimit": 171,
+    "materials": [
+      {
+        "typeId": 77810,
+        "name": "Platinum-Palladium Matrix",
+        "quantity": 20
+      },
+      {
+        "typeId": 77810,
+        "name": "Platinum-Palladium Matrix",
+        "quantity": 40
+      },
+      {
+        "typeId": 77810,
+        "name": "Platinum-Palladium Matrix",
+        "quantity": 120
+      }
+    ],
+    "products": [
+      {
+        "typeId": 89259,
+        "name": "Silica Grains",
+        "quantity": 8,
+        "manufacturingTime": 3
+      },
+      {
+        "typeId": 89260,
+        "name": "Iron-Rich Nodules",
+        "quantity": 15,
+        "manufacturingTime": 3
+      },
+      {
+        "typeId": 99001,
+        "name": "Palladium",
+        "quantity": 4,
+        "manufacturingTime": 3
+      },
+      {
+        "typeId": 89259,
+        "name": "Silica Grains",
+        "quantity": 10,
+        "manufacturingTime": 3
+      },
+      {
+        "typeId": 89260,
+        "name": "Iron-Rich Nodules",
+        "quantity": 30,
+        "manufacturingTime": 3
+      },
+      {
+        "typeId": 99001,
+        "name": "Palladium",
+        "quantity": 8,
+        "manufacturingTime": 3
+      },
+      {
+        "typeId": 89259,
+        "name": "Silica Grains",
+        "quantity": 30,
+        "manufacturingTime": 4
+      },
+      {
+        "typeId": 89260,
+        "name": "Iron-Rich Nodules",
+        "quantity": 90,
+        "manufacturingTime": 4
+      },
+      {
+        "typeId": 99001,
+        "name": "Palladium",
+        "quantity": 24,
+        "manufacturingTime": 4
+      }
+    ]
+  },
+  {
+    "blueprintId": 78447,
+    "blueprintName": "Primitive Kerogen Matrix Blueprint",
+    "outputTypeId": 78447,
+    "outputName": "Primitive Kerogen Matrix",
+    "outputQuantity": 1,
+    "category": null,
+    "group": "Ember Ores",
+    "manufacturingTime": 15,
+    "maxProductionLimit": 222,
+    "materials": [
+      {
+        "typeId": 78447,
+        "name": "Primitive Kerogen Matrix",
+        "quantity": 100
+      }
+    ],
+    "products": [
+      {
+        "typeId": 88781,
+        "name": "Chitinous Organics",
+        "quantity": 1,
+        "manufacturingTime": 15
+      },
+      {
+        "typeId": 88783,
+        "name": "Kerogen Tar",
+        "quantity": 16,
+        "manufacturingTime": 15
+      }
+    ]
+  },
+  {
+    "blueprintId": 84180,
+    "blueprintName": "Printed Circuits Blueprint",
+    "outputTypeId": 84180,
+    "outputName": "Printed Circuits",
+    "outputQuantity": 1,
+    "category": "Materials & Resources",
+    "group": "Manufacturing Component",
+    "manufacturingTime": 3,
+    "maxProductionLimit": 250,
+    "materials": [
+      {
+        "typeId": 89258,
+        "name": "Hydrocarbon Residue",
+        "quantity": 3
+      },
+      {
+        "typeId": 89259,
+        "name": "Silica Grains",
+        "quantity": 5
+      },
+      {
+        "typeId": 77803,
+        "name": "Silicon Dust",
+        "quantity": 37
+      },
+      {
+        "typeId": 77804,
+        "name": "Tholin Aggregates",
+        "quantity": 22
+      }
+    ],
+    "products": [
+      {
+        "typeId": 84180,
+        "name": "Printed Circuits",
+        "quantity": 1,
+        "manufacturingTime": 3
+      },
+      {
+        "typeId": 84180,
+        "name": "Printed Circuits",
+        "quantity": 1,
+        "manufacturingTime": 3
+      }
+    ]
+  },
+  {
+    "blueprintId": 84180,
+    "blueprintName": "Printed Circuits Blueprint",
+    "outputTypeId": 84180,
+    "outputName": "Printed Circuits",
+    "outputQuantity": 1,
+    "category": "Materials & Resources",
+    "group": "Manufacturing Component",
+    "manufacturingTime": 3,
+    "maxProductionLimit": 250,
+    "materials": [
+      {
+        "typeId": 89258,
+        "name": "Hydrocarbon Residue",
+        "quantity": 3
+      },
+      {
+        "typeId": 89259,
+        "name": "Silica Grains",
+        "quantity": 5
+      },
+      {
+        "typeId": 77803,
+        "name": "Silicon Dust",
+        "quantity": 37
+      },
+      {
+        "typeId": 77804,
+        "name": "Tholin Aggregates",
+        "quantity": 22
+      }
+    ],
+    "products": [
+      {
+        "typeId": 84180,
+        "name": "Printed Circuits",
+        "quantity": 1,
+        "manufacturingTime": 3
+      },
+      {
+        "typeId": 84180,
+        "name": "Printed Circuits",
+        "quantity": 1,
+        "manufacturingTime": 3
+      }
+    ]
+  },
+  {
+    "blueprintId": 83895,
+    "blueprintName": "Radiantium Mining Lens Blueprint",
+    "outputTypeId": 83895,
+    "outputName": "Radiantium Mining Lens",
+    "outputQuantity": 1,
+    "category": null,
+    "group": "Asteroid Mining Crystal",
+    "manufacturingTime": 3,
+    "maxProductionLimit": 334,
+    "materials": [
+      {
+        "typeId": 77803,
+        "name": "Silicon Dust",
+        "quantity": 45
+      },
+      {
+        "typeId": 83894,
+        "name": "Radiantium",
+        "quantity": 1
+      }
+    ],
+    "products": [
+      {
+        "typeId": 83895,
+        "name": "Radiantium Mining Lens",
+        "quantity": 1,
+        "manufacturingTime": 3
+      }
+    ]
+  },
+  {
+    "blueprintId": 82033,
+    "blueprintName": "Rapid Plasma (M) Blueprint",
+    "outputTypeId": 82033,
+    "outputName": "Rapid Plasma (M)",
+    "outputQuantity": 1,
+    "category": null,
+    "group": "Plasma Weapon",
+    "manufacturingTime": 643,
+    "maxProductionLimit": 105,
+    "materials": [
+      {
+        "typeId": 84180,
+        "name": "Printed Circuits",
+        "quantity": 2
+      },
+      {
+        "typeId": 84182,
+        "name": "Reinforced Alloys",
+        "quantity": 2
+      },
+      {
+        "typeId": 88234,
+        "name": "Troilite Sulfide Grains",
+        "quantity": 180
+      }
+    ],
+    "products": [
+      {
+        "typeId": 82033,
+        "name": "Rapid Plasma (M)",
+        "quantity": 1,
+        "manufacturingTime": 643
+      }
+    ]
+  },
+  {
+    "blueprintId": 82132,
+    "blueprintName": "Rapid Plasma Ammo 1 (M) Blueprint",
+    "outputTypeId": 82132,
+    "outputName": "Rapid Plasma Ammo 1 (M)",
+    "outputQuantity": 100,
+    "category": null,
+    "group": "Plasma Charge",
+    "manufacturingTime": 13,
+    "maxProductionLimit": 308,
+    "materials": [
+      {
+        "typeId": 84182,
+        "name": "Reinforced Alloys",
+        "quantity": 4
+      },
+      {
+        "typeId": 88234,
+        "name": "Troilite Sulfide Grains",
+        "quantity": 800
+      },
+      {
+        "typeId": 77801,
+        "name": "Nickel-Iron Veins",
+        "quantity": 1000
+      },
+      {
+        "typeId": 88234,
+        "name": "Troilite Sulfide Grains",
+        "quantity": 400
+      },
+      {
+        "typeId": 99001,
+        "name": "Palladium",
+        "quantity": 700
+      },
+      {
+        "typeId": 77811,
+        "name": "Hydrated Sulfide Matrix",
+        "quantity": 100
+      }
+    ],
+    "products": [
+      {
+        "typeId": 82132,
+        "name": "Rapid Plasma Ammo 1 (M)",
+        "quantity": 100,
+        "manufacturingTime": 13
+      }
+    ]
+  },
+  {
+    "blueprintId": 82130,
+    "blueprintName": "Rapid Plasma Ammo 1 (S) Blueprint",
+    "outputTypeId": 82130,
+    "outputName": "Rapid Plasma Ammo 1 (S)",
+    "outputQuantity": 100,
+    "category": "Ammo",
+    "group": "Plasma Charge",
+    "manufacturingTime": 5,
+    "maxProductionLimit": 34,
+    "materials": [
+      {
+        "typeId": 77805,
+        "name": "Platinum-Group Veins",
+        "quantity": 400
+      },
+      {
+        "typeId": 88234,
+        "name": "Troilite Sulfide Grains",
+        "quantity": 400
+      }
+    ],
+    "products": [
+      {
+        "typeId": 82130,
+        "name": "Rapid Plasma Ammo 1 (S)",
+        "quantity": 100,
+        "manufacturingTime": 5
+      }
+    ]
+  },
+  {
+    "blueprintId": 82131,
+    "blueprintName": "Rapid Plasma Ammo 2 (S) Blueprint",
+    "outputTypeId": 82131,
+    "outputName": "Rapid Plasma Ammo 2 (S)",
+    "outputQuantity": 100,
+    "category": "Ammo",
+    "group": "Plasma Charge",
+    "manufacturingTime": 5,
+    "maxProductionLimit": 136,
+    "materials": [
+      {
+        "typeId": 77805,
+        "name": "Platinum-Group Veins",
+        "quantity": 400
+      },
+      {
+        "typeId": 88234,
+        "name": "Troilite Sulfide Grains",
+        "quantity": 400
+      }
+    ],
+    "products": [
+      {
+        "typeId": 82131,
+        "name": "Rapid Plasma Ammo 2 (S)",
+        "quantity": 100,
+        "manufacturingTime": 5
+      }
+    ]
+  },
+  {
+    "blueprintId": 82649,
+    "blueprintName": "Reactive Armor Plates II Blueprint",
+    "outputTypeId": 82649,
+    "outputName": "Reactive Armor Plates II",
+    "outputQuantity": 1,
+    "category": "Modules",
+    "group": "Defensive System",
+    "manufacturingTime": 182,
+    "maxProductionLimit": 210,
+    "materials": [
+      {
+        "typeId": 84210,
+        "name": "Carbon Weave",
+        "quantity": 3
+      },
+      {
+        "typeId": 88561,
+        "name": "Thermal Composites",
+        "quantity": 3
+      }
+    ],
+    "products": [
+      {
+        "typeId": 82649,
+        "name": "Reactive Armor Plates II",
+        "quantity": 1,
+        "manufacturingTime": 182
+      }
+    ]
+  },
+  {
+    "blueprintId": 83429,
+    "blueprintName": "Reactive Armor Plates III Blueprint",
+    "outputTypeId": 83429,
+    "outputName": "Reactive Armor Plates III",
+    "outputQuantity": 1,
+    "category": "Modules",
+    "group": "Defensive System",
+    "manufacturingTime": 421,
+    "maxProductionLimit": 105,
+    "materials": [
+      {
+        "typeId": 84210,
+        "name": "Carbon Weave",
+        "quantity": 6
+      },
+      {
+        "typeId": 88561,
+        "name": "Thermal Composites",
+        "quantity": 6
+      }
+    ],
+    "products": [
+      {
+        "typeId": 83429,
+        "name": "Reactive Armor Plates III",
+        "quantity": 1,
+        "manufacturingTime": 421
+      }
+    ]
+  },
+  {
+    "blueprintId": 83430,
+    "blueprintName": "Reactive Armor Plates IV Blueprint",
+    "outputTypeId": 83430,
+    "outputName": "Reactive Armor Plates IV",
+    "outputQuantity": 1,
+    "category": null,
+    "group": "Defensive System",
+    "manufacturingTime": 943,
+    "maxProductionLimit": 50,
+    "materials": [
+      {
+        "typeId": 84210,
+        "name": "Carbon Weave",
+        "quantity": 11
+      },
+      {
+        "typeId": 88561,
+        "name": "Thermal Composites",
+        "quantity": 11
+      }
+    ],
+    "products": [
+      {
+        "typeId": 83430,
+        "name": "Reactive Armor Plates IV",
+        "quantity": 1,
+        "manufacturingTime": 943
+      }
+    ]
+  },
+  {
+    "blueprintId": 91749,
+    "blueprintName": "Reaping Shell Blueprint",
+    "outputTypeId": 91749,
+    "outputName": "Reaping Shell",
+    "outputQuantity": 1,
+    "category": null,
+    "group": "Synthetic",
+    "manufacturingTime": 50800,
+    "maxProductionLimit": 50,
+    "materials": [
+      {
+        "typeId": 78421,
+        "name": "Exterminata Protocol Frame",
+        "quantity": 1
+      },
+      {
+        "typeId": 77728,
+        "name": "Sophrogon",
+        "quantity": 3
+      },
+      {
+        "typeId": 92483,
+        "name": "Still Kernel",
+        "quantity": 1
+      },
+      {
+        "typeId": 78423,
+        "name": "Water Ice",
+        "quantity": 8
+      }
+    ],
+    "products": [
+      {
+        "typeId": 91749,
+        "name": "Reaping Shell",
+        "quantity": 1,
+        "manufacturingTime": 50800
+      }
+    ]
+  },
+  {
+    "blueprintId": 87846,
+    "blueprintName": "Recurve Blueprint",
+    "outputTypeId": 87846,
+    "outputName": "Recurve",
+    "outputQuantity": 1,
+    "category": "Ships",
+    "group": "Corvette",
+    "manufacturingTime": 130,
+    "maxProductionLimit": 1,
+    "materials": [
+      {
+        "typeId": 78418,
+        "name": "Nomad Program Frame",
+        "quantity": 2
+      },
+      {
+        "typeId": 84210,
+        "name": "Carbon Weave",
+        "quantity": 25
+      },
+      {
+        "typeId": 88561,
+        "name": "Thermal Composites",
+        "quantity": 25
+      },
+      {
+        "typeId": 84182,
+        "name": "Reinforced Alloys",
+        "quantity": 45
+      },
+      {
+        "typeId": 92483,
+        "name": "Still Kernel",
+        "quantity": 2
+      }
+    ],
+    "products": [
+      {
+        "typeId": 87846,
+        "name": "Recurve",
+        "quantity": 1,
+        "manufacturingTime": 130
+      }
+    ]
+  },
+  {
+    "blueprintId": 87847,
+    "blueprintName": "Reflex Blueprint",
+    "outputTypeId": 87847,
+    "outputName": "Reflex",
+    "outputQuantity": 1,
+    "category": "Materials & Resources",
+    "group": "Corvette",
+    "manufacturingTime": 50,
+    "maxProductionLimit": 1,
+    "materials": [
+      {
+        "typeId": 78418,
+        "name": "Nomad Program Frame",
+        "quantity": 1
+      },
+      {
+        "typeId": 84182,
+        "name": "Reinforced Alloys",
+        "quantity": 28
+      },
+      {
+        "typeId": 89258,
+        "name": "Hydrocarbon Residue",
+        "quantity": 40
+      }
+    ],
+    "products": [
+      {
+        "typeId": 87847,
+        "name": "Reflex",
+        "quantity": 1,
+        "manufacturingTime": 50
+      }
+    ]
+  },
+  {
+    "blueprintId": 84182,
+    "blueprintName": "Reinforced Alloys Blueprint",
+    "outputTypeId": 84182,
+    "outputName": "Reinforced Alloys",
+    "outputQuantity": 8,
+    "category": "Materials & Resources",
+    "group": "Manufacturing Component",
+    "manufacturingTime": 4,
+    "maxProductionLimit": 8,
+    "materials": [
+      {
+        "typeId": 89259,
+        "name": "Silica Grains",
+        "quantity": 105
+      },
+      {
+        "typeId": 89260,
+        "name": "Iron-Rich Nodules",
+        "quantity": 70
+      },
+      {
+        "typeId": 99001,
+        "name": "Palladium",
+        "quantity": 70
+      },
+      {
+        "typeId": 77801,
+        "name": "Nickel-Iron Veins",
+        "quantity": 1050
+      },
+      {
+        "typeId": 88235,
+        "name": "Feldspar Crystal Shards",
+        "quantity": 1050
+      }
+    ],
+    "products": [
+      {
+        "typeId": 84182,
+        "name": "Reinforced Alloys",
+        "quantity": 8,
+        "manufacturingTime": 4
+      },
+      {
+        "typeId": 84182,
+        "name": "Reinforced Alloys",
+        "quantity": 14,
+        "manufacturingTime": 4
+      }
+    ]
+  },
+  {
+    "blueprintId": 84182,
+    "blueprintName": "Reinforced Alloys Blueprint",
+    "outputTypeId": 84182,
+    "outputName": "Reinforced Alloys",
+    "outputQuantity": 14,
+    "category": "Materials & Resources",
+    "group": "Manufacturing Component",
+    "manufacturingTime": 4,
+    "maxProductionLimit": 8,
+    "materials": [
+      {
+        "typeId": 89259,
+        "name": "Silica Grains",
+        "quantity": 105
+      },
+      {
+        "typeId": 89260,
+        "name": "Iron-Rich Nodules",
+        "quantity": 70
+      },
+      {
+        "typeId": 99001,
+        "name": "Palladium",
+        "quantity": 70
+      },
+      {
+        "typeId": 77801,
+        "name": "Nickel-Iron Veins",
+        "quantity": 1050
+      },
+      {
+        "typeId": 88235,
+        "name": "Feldspar Crystal Shards",
+        "quantity": 1050
+      }
+    ],
+    "products": [
+      {
+        "typeId": 84182,
+        "name": "Reinforced Alloys",
+        "quantity": 8,
+        "manufacturingTime": 4
+      },
+      {
+        "typeId": 84182,
+        "name": "Reinforced Alloys",
+        "quantity": 14,
+        "manufacturingTime": 4
+      }
+    ]
+  },
+  {
+    "blueprintId": 82654,
+    "blueprintName": "Reinforced Shield Generator II Blueprint",
+    "outputTypeId": 82654,
+    "outputName": "Reinforced Shield Generator II",
+    "outputQuantity": 1,
+    "category": "Modules",
+    "group": "Defensive System",
+    "manufacturingTime": 207,
+    "maxProductionLimit": 70,
+    "materials": [
+      {
+        "typeId": 84180,
+        "name": "Printed Circuits",
+        "quantity": 4
+      },
+      {
+        "typeId": 84210,
+        "name": "Carbon Weave",
+        "quantity": 8
+      }
+    ],
+    "products": [
+      {
+        "typeId": 82654,
+        "name": "Reinforced Shield Generator II",
+        "quantity": 1,
+        "manufacturingTime": 207
+      }
+    ]
+  },
+  {
+    "blueprintId": 83456,
+    "blueprintName": "Reinforced Shield Generator III Blueprint",
+    "outputTypeId": 83456,
+    "outputName": "Reinforced Shield Generator III",
+    "outputQuantity": 1,
+    "category": "Modules",
+    "group": "Defensive System",
+    "manufacturingTime": 505,
+    "maxProductionLimit": 28,
+    "materials": [
+      {
+        "typeId": 84180,
+        "name": "Printed Circuits",
+        "quantity": 12
+      },
+      {
+        "typeId": 84210,
+        "name": "Carbon Weave",
+        "quantity": 24
+      }
+    ],
+    "products": [
+      {
+        "typeId": 83456,
+        "name": "Reinforced Shield Generator III",
+        "quantity": 1,
+        "manufacturingTime": 505
+      }
+    ]
+  },
+  {
+    "blueprintId": 83457,
+    "blueprintName": "Reinforced Shield Generator IV Blueprint",
+    "outputTypeId": 83457,
+    "outputName": "Reinforced Shield Generator IV",
+    "outputQuantity": 1,
+    "category": null,
+    "group": "Defensive System",
+    "manufacturingTime": 1169,
+    "maxProductionLimit": 9,
+    "materials": [
+      {
+        "typeId": 84180,
+        "name": "Printed Circuits",
+        "quantity": 31
+      },
+      {
+        "typeId": 84210,
+        "name": "Carbon Weave",
+        "quantity": 62
+      }
+    ],
+    "products": [
+      {
+        "typeId": 83457,
+        "name": "Reinforced Shield Generator IV",
+        "quantity": 1,
+        "manufacturingTime": 1169
+      }
+    ]
+  },
+  {
+    "blueprintId": 87848,
+    "blueprintName": "Reiver Blueprint",
+    "outputTypeId": 87848,
+    "outputName": "Reiver",
+    "outputQuantity": 1,
+    "category": "Ships",
+    "group": "Corvette",
+    "manufacturingTime": 150,
+    "maxProductionLimit": 1,
+    "materials": [
+      {
+        "typeId": 78418,
+        "name": "Nomad Program Frame",
+        "quantity": 2
+      },
+      {
+        "typeId": 84210,
+        "name": "Carbon Weave",
+        "quantity": 33
+      },
+      {
+        "typeId": 88561,
+        "name": "Thermal Composites",
+        "quantity": 33
+      },
+      {
+        "typeId": 84182,
+        "name": "Reinforced Alloys",
+        "quantity": 78
+      }
+    ],
+    "products": [
+      {
+        "typeId": 87848,
+        "name": "Reiver",
+        "quantity": 1,
+        "manufacturingTime": 150
+      }
+    ]
+  },
+  {
+    "blueprintId": 77729,
+    "blueprintName": "Rough Old Crude Matter Blueprint",
+    "outputTypeId": 77729,
+    "outputName": "Rough Old Crude Matter",
+    "outputQuantity": 16,
+    "category": null,
+    "group": "Rift",
+    "manufacturingTime": 20,
+    "maxProductionLimit": 678,
+    "materials": [
+      {
+        "typeId": 77729,
+        "name": "Rough Old Crude Matter",
+        "quantity": 30
+      }
+    ],
+    "products": [
+      {
+        "typeId": 83839,
+        "name": "Salt",
+        "quantity": 16,
+        "manufacturingTime": 20
+      },
+      {
+        "typeId": 77728,
+        "name": "Sophrogon",
+        "quantity": 28,
+        "manufacturingTime": 20
+      }
+    ]
+  },
+  {
+    "blueprintId": 78434,
+    "blueprintName": "Rough Young Crude Matter Blueprint",
+    "outputTypeId": 78434,
+    "outputName": "Rough Young Crude Matter",
+    "outputQuantity": 1,
+    "category": null,
+    "group": "Rift",
+    "manufacturingTime": 20,
+    "maxProductionLimit": 712,
+    "materials": [
+      {
+        "typeId": 78434,
+        "name": "Rough Young Crude Matter",
+        "quantity": 30
+      }
+    ],
+    "products": [
+      {
+        "typeId": 83839,
+        "name": "Salt",
+        "quantity": 1,
+        "manufacturingTime": 20
+      },
+      {
+        "typeId": 78435,
+        "name": "Eupraxite",
+        "quantity": 28,
+        "manufacturingTime": 20
+      }
+    ]
+  },
+  {
+    "blueprintId": 91968,
+    "blueprintName": "Rugged Shell Blueprint",
+    "outputTypeId": 91968,
+    "outputName": "Rugged Shell",
+    "outputQuantity": 1,
+    "category": null,
+    "group": "Synthetic",
+    "manufacturingTime": 37100,
+    "maxProductionLimit": 50,
+    "materials": [
+      {
+        "typeId": 78416,
+        "name": "Apocalypse Protocol Frame",
+        "quantity": 1
+      },
+      {
+        "typeId": 88781,
+        "name": "Chitinous Organics",
+        "quantity": 6
+      },
+      {
+        "typeId": 88783,
+        "name": "Kerogen Tar",
+        "quantity": 4
+      },
+      {
+        "typeId": 83839,
+        "name": "Salt",
+        "quantity": 2
+      },
+      {
+        "typeId": 92483,
+        "name": "Still Kernel",
+        "quantity": 1
+      },
+      {
+        "typeId": 78423,
+        "name": "Water Ice",
+        "quantity": 4
+      }
+    ],
+    "products": [
+      {
+        "typeId": 91968,
+        "name": "Rugged Shell",
+        "quantity": 1,
+        "manufacturingTime": 37100
+      }
+    ]
+  },
+  {
+    "blueprintId": 78515,
+    "blueprintName": "SOF-80 Fuel Blueprint",
+    "outputTypeId": 78515,
+    "outputName": "SOF-80 Fuel",
+    "outputQuantity": 600,
+    "category": "Materials & Resources",
+    "group": "Crude Fuel",
+    "manufacturingTime": 35,
+    "maxProductionLimit": 24,
+    "materials": [
+      {
+        "typeId": 83899,
+        "name": "Catalytic Dust",
+        "quantity": 44
+      },
+      {
+        "typeId": 84868,
+        "name": "SOF-40 Fuel",
+        "quantity": 600
+      }
+    ],
+    "products": [
+      {
+        "typeId": 78515,
+        "name": "SOF-80 Fuel",
+        "quantity": 600,
+        "manufacturingTime": 35
+      }
+    ]
+  },
+  {
+    "blueprintId": 88764,
+    "blueprintName": "Salvaged Materials Blueprint",
+    "outputTypeId": 88764,
+    "outputName": "Salvaged Materials",
+    "outputQuantity": 1,
+    "category": null,
+    "group": "Salvage",
+    "manufacturingTime": 3,
+    "maxProductionLimit": 50,
+    "materials": [
+      {
+        "typeId": 88764,
+        "name": "Salvaged Materials",
+        "quantity": 3
+      },
+      {
+        "typeId": 88764,
+        "name": "Salvaged Materials",
+        "quantity": 10
+      }
+    ],
+    "products": [
+      {
+        "typeId": 84182,
+        "name": "Reinforced Alloys",
+        "quantity": 1,
+        "manufacturingTime": 3
+      },
+      {
+        "typeId": 84210,
+        "name": "Carbon Weave",
+        "quantity": 1,
+        "manufacturingTime": 4
+      },
+      {
+        "typeId": 88561,
+        "name": "Thermal Composites",
+        "quantity": 2,
+        "manufacturingTime": 4
+      },
+      {
+        "typeId": 84182,
+        "name": "Reinforced Alloys",
+        "quantity": 6,
+        "manufacturingTime": 4
+      }
+    ]
+  },
+  {
+    "blueprintId": 88764,
+    "blueprintName": "Salvaged Materials Blueprint",
+    "outputTypeId": 88764,
+    "outputName": "Salvaged Materials",
+    "outputQuantity": 1,
+    "category": null,
+    "group": "Salvage",
+    "manufacturingTime": 4,
+    "maxProductionLimit": 211,
+    "materials": [
+      {
+        "typeId": 88764,
+        "name": "Salvaged Materials",
+        "quantity": 3
+      },
+      {
+        "typeId": 88764,
+        "name": "Salvaged Materials",
+        "quantity": 10
+      }
+    ],
+    "products": [
+      {
+        "typeId": 84182,
+        "name": "Reinforced Alloys",
+        "quantity": 1,
+        "manufacturingTime": 3
+      },
+      {
+        "typeId": 84210,
+        "name": "Carbon Weave",
+        "quantity": 1,
+        "manufacturingTime": 4
+      },
+      {
+        "typeId": 88561,
+        "name": "Thermal Composites",
+        "quantity": 2,
+        "manufacturingTime": 4
+      },
+      {
+        "typeId": 84182,
+        "name": "Reinforced Alloys",
+        "quantity": 6,
+        "manufacturingTime": 4
+      }
+    ]
+  },
+  {
+    "blueprintId": 82667,
+    "blueprintName": "Shield Restorer II Blueprint",
+    "outputTypeId": 82667,
+    "outputName": "Shield Restorer II",
+    "outputQuantity": 1,
+    "category": "Materials & Resources",
+    "group": "Shield Recharger",
+    "manufacturingTime": 243,
+    "maxProductionLimit": 56,
+    "materials": [
+      {
+        "typeId": 77805,
+        "name": "Platinum-Group Veins",
+        "quantity": 13
+      },
+      {
+        "typeId": 84180,
+        "name": "Printed Circuits",
+        "quantity": 17
+      },
+      {
+        "typeId": 84210,
+        "name": "Carbon Weave",
+        "quantity": 17
+      }
+    ],
+    "products": [
+      {
+        "typeId": 82667,
+        "name": "Shield Restorer II",
+        "quantity": 1,
+        "manufacturingTime": 243
+      }
+    ]
+  },
+  {
+    "blueprintId": 83458,
+    "blueprintName": "Shield Restorer III Blueprint",
+    "outputTypeId": 83458,
+    "outputName": "Shield Restorer III",
+    "outputQuantity": 1,
+    "category": "Materials & Resources",
+    "group": "Shield Recharger",
+    "manufacturingTime": 496,
+    "maxProductionLimit": 56,
+    "materials": [
+      {
+        "typeId": 77805,
+        "name": "Platinum-Group Veins",
+        "quantity": 15
+      },
+      {
+        "typeId": 84180,
+        "name": "Printed Circuits",
+        "quantity": 20
+      },
+      {
+        "typeId": 84210,
+        "name": "Carbon Weave",
+        "quantity": 19
+      }
+    ],
+    "products": [
+      {
+        "typeId": 83458,
+        "name": "Shield Restorer III",
+        "quantity": 1,
+        "manufacturingTime": 496
+      }
+    ]
+  },
+  {
+    "blueprintId": 83459,
+    "blueprintName": "Shield Restorer IV Blueprint",
+    "outputTypeId": 83459,
+    "outputName": "Shield Restorer IV",
+    "outputQuantity": 1,
+    "category": null,
+    "group": "Shield Recharger",
+    "manufacturingTime": 970,
+    "maxProductionLimit": 42,
+    "materials": [
+      {
+        "typeId": 77805,
+        "name": "Platinum-Group Veins",
+        "quantity": 13
+      },
+      {
+        "typeId": 84180,
+        "name": "Printed Circuits",
+        "quantity": 17
+      },
+      {
+        "typeId": 84210,
+        "name": "Carbon Weave",
+        "quantity": 17
+      },
+      {
+        "typeId": 92483,
+        "name": "Still Kernel",
+        "quantity": 3
+      }
+    ],
+    "products": [
+      {
+        "typeId": 83459,
+        "name": "Shield Restorer IV",
+        "quantity": 1,
+        "manufacturingTime": 970
+      }
+    ]
+  },
+  {
+    "blueprintId": 89259,
+    "blueprintName": "Silica Grains Blueprint",
+    "outputTypeId": 89259,
+    "outputName": "Silica Grains",
+    "outputQuantity": 50,
+    "category": null,
+    "group": "Mineral",
+    "manufacturingTime": 9,
+    "maxProductionLimit": 200,
+    "materials": [
+      {
+        "typeId": 89259,
+        "name": "Silica Grains",
+        "quantity": 20
+      },
+      {
+        "typeId": 89259,
+        "name": "Silica Grains",
+        "quantity": 60
+      }
+    ],
+    "products": [
+      {
+        "typeId": 88235,
+        "name": "Feldspar Crystal Shards",
+        "quantity": 50,
+        "manufacturingTime": 9
+      },
+      {
+        "typeId": 77803,
+        "name": "Silicon Dust",
+        "quantity": 150,
+        "manufacturingTime": 9
+      },
+      {
+        "typeId": 88235,
+        "name": "Feldspar Crystal Shards",
+        "quantity": 150,
+        "manufacturingTime": 25
+      },
+      {
+        "typeId": 77803,
+        "name": "Silicon Dust",
+        "quantity": 450,
+        "manufacturingTime": 25
+      }
+    ]
+  },
+  {
+    "blueprintId": 89259,
+    "blueprintName": "Silica Grains Blueprint",
+    "outputTypeId": 89259,
+    "outputName": "Silica Grains",
+    "outputQuantity": 150,
+    "category": null,
+    "group": "Mineral",
+    "manufacturingTime": 25,
+    "maxProductionLimit": 336,
+    "materials": [
+      {
+        "typeId": 89259,
+        "name": "Silica Grains",
+        "quantity": 20
+      },
+      {
+        "typeId": 89259,
+        "name": "Silica Grains",
+        "quantity": 60
+      }
+    ],
+    "products": [
+      {
+        "typeId": 88235,
+        "name": "Feldspar Crystal Shards",
+        "quantity": 50,
+        "manufacturingTime": 9
+      },
+      {
+        "typeId": 77803,
+        "name": "Silicon Dust",
+        "quantity": 150,
+        "manufacturingTime": 9
+      },
+      {
+        "typeId": 88235,
+        "name": "Feldspar Crystal Shards",
+        "quantity": 150,
+        "manufacturingTime": 25
+      },
+      {
+        "typeId": 77803,
+        "name": "Silicon Dust",
+        "quantity": 450,
+        "manufacturingTime": 25
+      }
+    ]
+  },
+  {
+    "blueprintId": 92389,
+    "blueprintName": "Skip Blueprint",
+    "outputTypeId": 92389,
+    "outputName": "Skip",
+    "outputQuantity": 1,
+    "category": null,
+    "group": "Warp Accelerator",
+    "manufacturingTime": 97,
+    "maxProductionLimit": 50,
+    "materials": [
+      {
+        "typeId": 88561,
+        "name": "Thermal Composites",
+        "quantity": 1
+      }
+    ],
+    "products": [
+      {
+        "typeId": 92389,
+        "name": "Skip",
+        "quantity": 1,
+        "manufacturingTime": 97
+      }
+    ]
+  },
+  {
+    "blueprintId": 77852,
+    "blueprintName": "Small Cutting Laser Blueprint",
+    "outputTypeId": 77852,
+    "outputName": "Small Cutting Laser",
+    "outputQuantity": 1,
+    "category": "Weapons & Tools",
+    "group": "Asteroid Mining Laser",
+    "manufacturingTime": 167,
+    "maxProductionLimit": 420,
+    "materials": [
+      {
+        "typeId": 84180,
+        "name": "Printed Circuits",
+        "quantity": 2
+      },
+      {
+        "typeId": 84210,
+        "name": "Carbon Weave",
+        "quantity": 3
+      }
+    ],
+    "products": [
+      {
+        "typeId": 77852,
+        "name": "Small Cutting Laser",
+        "quantity": 1,
+        "manufacturingTime": 167
+      }
+    ]
+  },
+  {
+    "blueprintId": 81846,
+    "blueprintName": "Sojourn Blueprint",
+    "outputTypeId": 81846,
+    "outputName": "Sojourn",
+    "outputQuantity": 1,
+    "category": "Ships",
+    "group": "Hydrogen Engines",
+    "manufacturingTime": 39,
+    "maxProductionLimit": 168,
+    "materials": [
+      {
+        "typeId": 84182,
+        "name": "Reinforced Alloys",
+        "quantity": 2
+      },
+      {
+        "typeId": 89258,
+        "name": "Hydrocarbon Residue",
+        "quantity": 10
+      }
+    ],
+    "products": [
+      {
+        "typeId": 81846,
+        "name": "Sojourn",
+        "quantity": 1,
+        "manufacturingTime": 39
+      }
+    ]
+  },
+  {
+    "blueprintId": 77728,
+    "blueprintName": "Sophrogon Blueprint",
+    "outputTypeId": 77728,
+    "outputName": "Sophrogon",
+    "outputQuantity": 600,
+    "category": null,
+    "group": "Mineral",
+    "manufacturingTime": 18,
+    "maxProductionLimit": 120,
+    "materials": [
+      {
+        "typeId": 77728,
+        "name": "Sophrogon",
+        "quantity": 10
+      },
+      {
+        "typeId": 92414,
+        "name": "Fine Old Crude Matter",
+        "quantity": 30
+      }
+    ],
+    "products": [
+      {
+        "typeId": 84868,
+        "name": "SOF-40 Fuel",
+        "quantity": 600,
+        "manufacturingTime": 18
+      },
+      {
+        "typeId": 77728,
+        "name": "Sophrogon",
+        "quantity": 3,
+        "manufacturingTime": 20
+      },
+      {
+        "typeId": 92422,
+        "name": "Brine",
+        "quantity": 26,
+        "manufacturingTime": 20
+      }
+    ]
+  },
+  {
+    "blueprintId": 77728,
+    "blueprintName": "Sophrogon Blueprint",
+    "outputTypeId": 77728,
+    "outputName": "Sophrogon",
+    "outputQuantity": 3,
+    "category": null,
+    "group": "Mineral",
+    "manufacturingTime": 20,
+    "maxProductionLimit": 100,
+    "materials": [
+      {
+        "typeId": 77728,
+        "name": "Sophrogon",
+        "quantity": 10
+      },
+      {
+        "typeId": 92414,
+        "name": "Fine Old Crude Matter",
+        "quantity": 30
+      }
+    ],
+    "products": [
+      {
+        "typeId": 84868,
+        "name": "SOF-40 Fuel",
+        "quantity": 600,
+        "manufacturingTime": 18
+      },
+      {
+        "typeId": 77728,
+        "name": "Sophrogon",
+        "quantity": 3,
+        "manufacturingTime": 20
+      },
+      {
+        "typeId": 92422,
+        "name": "Brine",
+        "quantity": 26,
+        "manufacturingTime": 20
+      }
+    ]
+  },
+  {
+    "blueprintId": 82683,
+    "blueprintName": "Stasis Net II Blueprint",
+    "outputTypeId": 82683,
+    "outputName": "Stasis Net II",
+    "outputQuantity": 1,
+    "category": "Modules",
+    "group": "Stasis Web",
+    "manufacturingTime": 178,
+    "maxProductionLimit": 168,
+    "materials": [
+      {
+        "typeId": 84180,
+        "name": "Printed Circuits",
+        "quantity": 2
+      },
+      {
+        "typeId": 84182,
+        "name": "Reinforced Alloys",
+        "quantity": 2
+      },
+      {
+        "typeId": 88561,
+        "name": "Thermal Composites",
+        "quantity": 4
+      }
+    ],
+    "products": [
+      {
+        "typeId": 82683,
+        "name": "Stasis Net II",
+        "quantity": 1,
+        "manufacturingTime": 178
+      }
+    ]
+  },
+  {
+    "blueprintId": 83520,
+    "blueprintName": "Stasis Net III Blueprint",
+    "outputTypeId": 83520,
+    "outputName": "Stasis Net III",
+    "outputQuantity": 1,
+    "category": "Modules",
+    "group": "Stasis Web",
+    "manufacturingTime": 366,
+    "maxProductionLimit": 168,
+    "materials": [
+      {
+        "typeId": 84180,
+        "name": "Printed Circuits",
+        "quantity": 2
+      },
+      {
+        "typeId": 84182,
+        "name": "Reinforced Alloys",
+        "quantity": 3
+      },
+      {
+        "typeId": 88561,
+        "name": "Thermal Composites",
+        "quantity": 4
+      }
+    ],
+    "products": [
+      {
+        "typeId": 83520,
+        "name": "Stasis Net III",
+        "quantity": 1,
+        "manufacturingTime": 366
+      }
+    ]
+  },
+  {
+    "blueprintId": 83521,
+    "blueprintName": "Stasis Net IV Blueprint",
+    "outputTypeId": 83521,
+    "outputName": "Stasis Net IV",
+    "outputQuantity": 1,
+    "category": "Modules",
+    "group": "Stasis Web",
+    "manufacturingTime": 760,
+    "maxProductionLimit": 168,
+    "materials": [
+      {
+        "typeId": 84180,
+        "name": "Printed Circuits",
+        "quantity": 3
+      },
+      {
+        "typeId": 84182,
+        "name": "Reinforced Alloys",
+        "quantity": 3
+      },
+      {
+        "typeId": 88561,
+        "name": "Thermal Composites",
+        "quantity": 5
+      }
+    ],
+    "products": [
+      {
+        "typeId": 83521,
+        "name": "Stasis Net IV",
+        "quantity": 1,
+        "manufacturingTime": 760
+      }
+    ]
+  },
+  {
+    "blueprintId": 83522,
+    "blueprintName": "Stasis Net V Blueprint",
+    "outputTypeId": 83522,
+    "outputName": "Stasis Net V",
+    "outputQuantity": 1,
+    "category": "Modules",
+    "group": "Stasis Web",
+    "manufacturingTime": 1553,
+    "maxProductionLimit": 168,
+    "materials": [
+      {
+        "typeId": 84180,
+        "name": "Printed Circuits",
+        "quantity": 3
+      },
+      {
+        "typeId": 84182,
+        "name": "Reinforced Alloys",
+        "quantity": 4
+      },
+      {
+        "typeId": 88561,
+        "name": "Thermal Composites",
+        "quantity": 5
+      }
+    ],
+    "products": [
+      {
+        "typeId": 83522,
+        "name": "Stasis Net V",
+        "quantity": 1,
+        "manufacturingTime": 1553
+      }
+    ]
+  },
+  {
+    "blueprintId": 83523,
+    "blueprintName": "Stasis Net VI Blueprint",
+    "outputTypeId": 83523,
+    "outputName": "Stasis Net VI",
+    "outputQuantity": 1,
+    "category": "Modules",
+    "group": "Stasis Web",
+    "manufacturingTime": 3192,
+    "maxProductionLimit": 168,
+    "materials": [
+      {
+        "typeId": 84180,
+        "name": "Printed Circuits",
+        "quantity": 4
+      },
+      {
+        "typeId": 84182,
+        "name": "Reinforced Alloys",
+        "quantity": 4
+      },
+      {
+        "typeId": 88561,
+        "name": "Thermal Composites",
+        "quantity": 6
+      }
+    ],
+    "products": [
+      {
+        "typeId": 83523,
+        "name": "Stasis Net VI",
+        "quantity": 1,
+        "manufacturingTime": 3192
+      }
+    ]
+  },
+  {
+    "blueprintId": 92483,
+    "blueprintName": "Still Kernel Blueprint",
+    "outputTypeId": 92483,
+    "outputName": "Still Kernel",
+    "outputQuantity": 1,
+    "category": null,
+    "group": "Manufacturing Component",
+    "manufacturingTime": 11,
+    "maxProductionLimit": 800,
+    "materials": [
+      {
+        "typeId": 92422,
+        "name": "Brine",
+        "quantity": 50
+      },
+      {
+        "typeId": 78449,
+        "name": "Tholin Nodules",
+        "quantity": 5
+      }
+    ],
+    "products": [
+      {
+        "typeId": 92483,
+        "name": "Still Kernel",
+        "quantity": 1,
+        "manufacturingTime": 11
+      }
+    ]
+  },
+  {
+    "blueprintId": 88565,
+    "blueprintName": "Still Knot Blueprint",
+    "outputTypeId": 88565,
+    "outputName": "Still Knot",
+    "outputQuantity": 1,
+    "category": "Materials & Resources",
+    "group": "Manufacturing Component",
+    "manufacturingTime": 11,
+    "maxProductionLimit": 800,
+    "materials": [
+      {
+        "typeId": 83839,
+        "name": "Salt",
+        "quantity": 5
+      },
+      {
+        "typeId": 88564,
+        "name": "Feral Echo",
+        "quantity": 5
+      }
+    ],
+    "products": [
+      {
+        "typeId": 88565,
+        "name": "Still Knot",
+        "quantity": 1,
+        "manufacturingTime": 11
+      }
+    ]
+  },
+  {
+    "blueprintId": 91106,
+    "blueprintName": "Stride Blueprint",
+    "outputTypeId": 91106,
+    "outputName": "Stride",
+    "outputQuantity": 1,
+    "category": null,
+    "group": "Corvette",
+    "manufacturingTime": 10630,
+    "maxProductionLimit": 1,
+    "materials": [
+      {
+        "typeId": 89978,
+        "name": "Stride Stack",
+        "quantity": 1
+      },
+      {
+        "typeId": 78418,
+        "name": "Nomad Program Frame",
+        "quantity": 2
+      },
+      {
+        "typeId": 84210,
+        "name": "Carbon Weave",
+        "quantity": 48
+      },
+      {
+        "typeId": 88561,
+        "name": "Thermal Composites",
+        "quantity": 48
+      },
+      {
+        "typeId": 84182,
+        "name": "Reinforced Alloys",
+        "quantity": 96
+      }
+    ],
+    "products": [
+      {
+        "typeId": 91106,
+        "name": "Stride",
+        "quantity": 1,
+        "manufacturingTime": 10630
+      }
+    ]
+  },
+  {
+    "blueprintId": 89978,
+    "blueprintName": "Stride Stack Blueprint",
+    "outputTypeId": 89978,
+    "outputName": "Stride Stack",
+    "outputQuantity": 1,
+    "category": null,
+    "group": "Miscellaneous",
+    "manufacturingTime": 43200,
+    "maxProductionLimit": 10000,
+    "materials": [
+      {
+        "typeId": 89980,
+        "name": "Stack Slice 5DZ",
+        "quantity": 1
+      },
+      {
+        "typeId": 89982,
+        "name": "Stack Slice 5DK",
+        "quantity": 1
+      },
+      {
+        "typeId": 89984,
+        "name": "Stack Slice 5C0",
+        "quantity": 1
+      },
+      {
+        "typeId": 89986,
+        "name": "Stack Slice 31P",
+        "quantity": 1
+      }
+    ],
+    "products": [
+      {
+        "typeId": 89978,
+        "name": "Stride Stack",
+        "quantity": 1,
+        "manufacturingTime": 43200
+      }
+    ]
+  },
+  {
+    "blueprintId": 83463,
+    "blueprintName": "Synthetic Mining Lens Blueprint",
+    "outputTypeId": 83463,
+    "outputName": "Synthetic Mining Lens",
+    "outputQuantity": 1,
+    "category": "Weapons & Tools",
+    "group": "Asteroid Mining Crystal",
+    "manufacturingTime": 3,
+    "maxProductionLimit": 500,
+    "materials": [
+      {
+        "typeId": 89259,
+        "name": "Silica Grains",
+        "quantity": 3
+      }
+    ],
+    "products": [
+      {
+        "typeId": 83463,
+        "name": "Synthetic Mining Lens",
+        "quantity": 1,
+        "manufacturingTime": 3
+      }
+    ]
+  },
+  {
+    "blueprintId": 82651,
+    "blueprintName": "Systematic Armor Restorer II Blueprint",
+    "outputTypeId": 82651,
+    "outputName": "Systematic Armor Restorer II",
+    "outputQuantity": 1,
+    "category": "Materials & Resources",
+    "group": "Armor Repair Unit",
+    "manufacturingTime": 111,
+    "maxProductionLimit": 56,
+    "materials": [
+      {
+        "typeId": 84180,
+        "name": "Printed Circuits",
+        "quantity": 1
+      },
+      {
+        "typeId": 84182,
+        "name": "Reinforced Alloys",
+        "quantity": 1
+      }
+    ],
+    "products": [
+      {
+        "typeId": 82651,
+        "name": "Systematic Armor Restorer II",
+        "quantity": 1,
+        "manufacturingTime": 111
+      }
+    ]
+  },
+  {
+    "blueprintId": 83437,
+    "blueprintName": "Systematic Armor Restorer III Blueprint",
+    "outputTypeId": 83437,
+    "outputName": "Systematic Armor Restorer III",
+    "outputQuantity": 1,
+    "category": "Materials & Resources",
+    "group": "Armor Repair Unit",
+    "manufacturingTime": 222,
+    "maxProductionLimit": 56,
+    "materials": [
+      {
+        "typeId": 84180,
+        "name": "Printed Circuits",
+        "quantity": 1
+      },
+      {
+        "typeId": 84182,
+        "name": "Reinforced Alloys",
+        "quantity": 1
+      },
+      {
+        "typeId": 92483,
+        "name": "Still Kernel",
+        "quantity": 1
+      }
+    ],
+    "products": [
+      {
+        "typeId": 83437,
+        "name": "Systematic Armor Restorer III",
+        "quantity": 1,
+        "manufacturingTime": 222
+      }
+    ]
+  },
+  {
+    "blueprintId": 83438,
+    "blueprintName": "Systematic Armor Restorer IV Blueprint",
+    "outputTypeId": 83438,
+    "outputName": "Systematic Armor Restorer IV",
+    "outputQuantity": 1,
+    "category": null,
+    "group": "Armor Repair Unit",
+    "manufacturingTime": 962,
+    "maxProductionLimit": 42,
+    "materials": [
+      {
+        "typeId": 84180,
+        "name": "Printed Circuits",
+        "quantity": 22
+      },
+      {
+        "typeId": 84182,
+        "name": "Reinforced Alloys",
+        "quantity": 22
+      },
+      {
+        "typeId": 92483,
+        "name": "Still Kernel",
+        "quantity": 4
+      }
+    ],
+    "products": [
+      {
+        "typeId": 83438,
+        "name": "Systematic Armor Restorer IV",
+        "quantity": 1,
+        "manufacturingTime": 962
+      }
+    ]
+  },
+  {
+    "blueprintId": 81808,
+    "blueprintName": "TADES Blueprint",
+    "outputTypeId": 81808,
+    "outputName": "TADES",
+    "outputQuantity": 1,
+    "category": "Ships",
+    "group": "Destroyer",
+    "manufacturingTime": 151200,
+    "maxProductionLimit": 1,
+    "materials": [
+      {
+        "typeId": 78416,
+        "name": "Apocalypse Protocol Frame",
+        "quantity": 1
+      },
+      {
+        "typeId": 84204,
+        "name": "Batched Reinforced Alloys",
+        "quantity": 124
+      },
+      {
+        "typeId": 88841,
+        "name": "Batched Carbon Weave",
+        "quantity": 72
+      },
+      {
+        "typeId": 88843,
+        "name": "Batched Thermal Composites",
+        "quantity": 72
+      },
+      {
+        "typeId": 92483,
+        "name": "Still Kernel",
+        "quantity": 4
+      }
+    ],
+    "products": [
+      {
+        "typeId": 81808,
+        "name": "TADES",
+        "quantity": 1,
+        "manufacturingTime": 151200
+      }
+    ]
+  },
+  {
+    "blueprintId": 78511,
+    "blueprintName": "Tempo CD41 Blueprint",
+    "outputTypeId": 78511,
+    "outputName": "Tempo CD41",
+    "outputQuantity": 1,
+    "category": "Modules",
+    "group": "Crude Engines",
+    "manufacturingTime": 413,
+    "maxProductionLimit": 84,
+    "materials": [
+      {
+        "typeId": 84180,
+        "name": "Printed Circuits",
+        "quantity": 4
+      },
+      {
+        "typeId": 84182,
+        "name": "Reinforced Alloys",
+        "quantity": 4
+      },
+      {
+        "typeId": 88561,
+        "name": "Thermal Composites",
+        "quantity": 8
+      }
+    ],
+    "products": [
+      {
+        "typeId": 78511,
+        "name": "Tempo CD41",
+        "quantity": 1,
+        "manufacturingTime": 413
+      }
+    ]
+  },
+  {
+    "blueprintId": 78510,
+    "blueprintName": "Tempo CD42 Blueprint",
+    "outputTypeId": 78510,
+    "outputName": "Tempo CD42",
+    "outputQuantity": 1,
+    "category": null,
+    "group": "Crude Engines",
+    "manufacturingTime": 942,
+    "maxProductionLimit": 42,
+    "materials": [
+      {
+        "typeId": 84180,
+        "name": "Printed Circuits",
+        "quantity": 8
+      },
+      {
+        "typeId": 84182,
+        "name": "Reinforced Alloys",
+        "quantity": 8
+      },
+      {
+        "typeId": 88561,
+        "name": "Thermal Composites",
+        "quantity": 16
+      },
+      {
+        "typeId": 92483,
+        "name": "Still Kernel",
+        "quantity": 1
+      }
+    ],
+    "products": [
+      {
+        "typeId": 78510,
+        "name": "Tempo CD42",
+        "quantity": 1,
+        "manufacturingTime": 942
+      }
+    ]
+  },
+  {
+    "blueprintId": 88561,
+    "blueprintName": "Thermal Composites Blueprint",
+    "outputTypeId": 88561,
+    "outputName": "Thermal Composites",
+    "outputQuantity": 14,
+    "category": "Materials & Resources",
+    "group": "Manufacturing Component",
+    "manufacturingTime": 4,
+    "maxProductionLimit": 8,
+    "materials": [
+      {
+        "typeId": 89258,
+        "name": "Hydrocarbon Residue",
+        "quantity": 140
+      },
+      {
+        "typeId": 89259,
+        "name": "Silica Grains",
+        "quantity": 90
+      },
+      {
+        "typeId": 77803,
+        "name": "Silicon Dust",
+        "quantity": 630
+      },
+      {
+        "typeId": 77804,
+        "name": "Tholin Aggregates",
+        "quantity": 1260
+      },
+      {
+        "typeId": 88235,
+        "name": "Feldspar Crystal Shards",
+        "quantity": 210
+      }
+    ],
+    "products": [
+      {
+        "typeId": 88561,
+        "name": "Thermal Composites",
+        "quantity": 14,
+        "manufacturingTime": 4
+      },
+      {
+        "typeId": 88561,
+        "name": "Thermal Composites",
+        "quantity": 14,
+        "manufacturingTime": 4
+      }
+    ]
+  },
+  {
+    "blueprintId": 88561,
+    "blueprintName": "Thermal Composites Blueprint",
+    "outputTypeId": 88561,
+    "outputName": "Thermal Composites",
+    "outputQuantity": 14,
+    "category": "Materials & Resources",
+    "group": "Manufacturing Component",
+    "manufacturingTime": 4,
+    "maxProductionLimit": 8,
+    "materials": [
+      {
+        "typeId": 89258,
+        "name": "Hydrocarbon Residue",
+        "quantity": 140
+      },
+      {
+        "typeId": 89259,
+        "name": "Silica Grains",
+        "quantity": 90
+      },
+      {
+        "typeId": 77803,
+        "name": "Silicon Dust",
+        "quantity": 630
+      },
+      {
+        "typeId": 77804,
+        "name": "Tholin Aggregates",
+        "quantity": 1260
+      },
+      {
+        "typeId": 88235,
+        "name": "Feldspar Crystal Shards",
+        "quantity": 210
+      }
+    ],
+    "products": [
+      {
+        "typeId": 88561,
+        "name": "Thermal Composites",
+        "quantity": 14,
+        "manufacturingTime": 4
+      },
+      {
+        "typeId": 88561,
+        "name": "Thermal Composites",
+        "quantity": 14,
+        "manufacturingTime": 4
+      }
+    ]
+  },
+  {
+    "blueprintId": 83772,
+    "blueprintName": "Thermal Field Array II Blueprint",
+    "outputTypeId": 83772,
+    "outputName": "Thermal Field Array II",
+    "outputQuantity": 1,
+    "category": "Modules",
+    "group": "Shield Hardener",
+    "manufacturingTime": 201,
+    "maxProductionLimit": 3360,
+    "materials": [
+      {
+        "typeId": 88561,
+        "name": "Thermal Composites",
+        "quantity": 12
+      }
+    ],
+    "products": [
+      {
+        "typeId": 83772,
+        "name": "Thermal Field Array II",
+        "quantity": 1,
+        "manufacturingTime": 201
+      }
+    ]
+  },
+  {
+    "blueprintId": 83773,
+    "blueprintName": "Thermal Field Array III Blueprint",
+    "outputTypeId": 83773,
+    "outputName": "Thermal Field Array III",
+    "outputQuantity": 1,
+    "category": "Modules",
+    "group": "Shield Hardener",
+    "manufacturingTime": 426,
+    "maxProductionLimit": 2800,
+    "materials": [
+      {
+        "typeId": 88561,
+        "name": "Thermal Composites",
+        "quantity": 16
+      }
+    ],
+    "products": [
+      {
+        "typeId": 83773,
+        "name": "Thermal Field Array III",
+        "quantity": 1,
+        "manufacturingTime": 426
+      }
+    ]
+  },
+  {
+    "blueprintId": 83774,
+    "blueprintName": "Thermal Field Array IV Blueprint",
+    "outputTypeId": 83774,
+    "outputName": "Thermal Field Array IV",
+    "outputQuantity": 1,
+    "category": "Modules",
+    "group": "Shield Hardener",
+    "manufacturingTime": 881,
+    "maxProductionLimit": 2400,
+    "materials": [
+      {
+        "typeId": 88561,
+        "name": "Thermal Composites",
+        "quantity": 19
+      }
+    ],
+    "products": [
+      {
+        "typeId": 83774,
+        "name": "Thermal Field Array IV",
+        "quantity": 1,
+        "manufacturingTime": 881
+      }
+    ]
+  },
+  {
+    "blueprintId": 83775,
+    "blueprintName": "Thermal Field Array V Blueprint",
+    "outputTypeId": 83775,
+    "outputName": "Thermal Field Array V",
+    "outputQuantity": 1,
+    "category": "Modules",
+    "group": "Shield Hardener",
+    "manufacturingTime": 1811,
+    "maxProductionLimit": 2100,
+    "materials": [
+      {
+        "typeId": 88561,
+        "name": "Thermal Composites",
+        "quantity": 22
+      }
+    ],
+    "products": [
+      {
+        "typeId": 83775,
+        "name": "Thermal Field Array V",
+        "quantity": 1,
+        "manufacturingTime": 1811
+      }
+    ]
+  },
+  {
+    "blueprintId": 82412,
+    "blueprintName": "Thermal Nanite Sequencer Blueprint",
+    "outputTypeId": 82412,
+    "outputName": "Thermal Nanite Sequencer",
+    "outputQuantity": 1,
+    "category": "Modules",
+    "group": "Nanitic Armor Weave Sequencer",
+    "manufacturingTime": 222,
+    "maxProductionLimit": 200,
+    "materials": [
+      {
+        "typeId": 84180,
+        "name": "Printed Circuits",
+        "quantity": 1
+      },
+      {
+        "typeId": 88561,
+        "name": "Thermal Composites",
+        "quantity": 1
+      }
+    ],
+    "products": [
+      {
+        "typeId": 82412,
+        "name": "Thermal Nanite Sequencer",
+        "quantity": 1,
+        "manufacturingTime": 222
+      }
+    ]
+  },
+  {
+    "blueprintId": 83613,
+    "blueprintName": "Thermal-electro Nanitic Brace II Blueprint",
+    "outputTypeId": 83613,
+    "outputName": "Thermal-electro Nanitic Brace II",
+    "outputQuantity": 1,
+    "category": "Modules",
+    "group": "Nanitic Brace",
+    "manufacturingTime": 181,
+    "maxProductionLimit": 120,
+    "materials": [
+      {
+        "typeId": 84180,
+        "name": "Printed Circuits",
+        "quantity": 1
+      },
+      {
+        "typeId": 84210,
+        "name": "Carbon Weave",
+        "quantity": 2
+      },
+      {
+        "typeId": 88561,
+        "name": "Thermal Composites",
+        "quantity": 4
+      }
+    ],
+    "products": [
+      {
+        "typeId": 83613,
+        "name": "Thermal-electro Nanitic Brace II",
+        "quantity": 1,
+        "manufacturingTime": 181
+      }
+    ]
+  },
+  {
+    "blueprintId": 83614,
+    "blueprintName": "Thermal-electro Nanitic Brace III Blueprint",
+    "outputTypeId": 83614,
+    "outputName": "Thermal-electro Nanitic Brace III",
+    "outputQuantity": 1,
+    "category": "Modules",
+    "group": "Nanitic Brace",
+    "manufacturingTime": 405,
+    "maxProductionLimit": 60,
+    "materials": [
+      {
+        "typeId": 84180,
+        "name": "Printed Circuits",
+        "quantity": 1
+      },
+      {
+        "typeId": 84210,
+        "name": "Carbon Weave",
+        "quantity": 2
+      },
+      {
+        "typeId": 88561,
+        "name": "Thermal Composites",
+        "quantity": 9
+      }
+    ],
+    "products": [
+      {
+        "typeId": 83614,
+        "name": "Thermal-electro Nanitic Brace III",
+        "quantity": 1,
+        "manufacturingTime": 405
+      }
+    ]
+  },
+  {
+    "blueprintId": 83615,
+    "blueprintName": "Thermal-electro Nanitic Brace IV Blueprint",
+    "outputTypeId": 83615,
+    "outputName": "Thermal-electro Nanitic Brace IV",
+    "outputQuantity": 1,
+    "category": "Modules",
+    "group": "Nanitic Brace",
+    "manufacturingTime": 916,
+    "maxProductionLimit": 30,
+    "materials": [
+      {
+        "typeId": 84180,
+        "name": "Printed Circuits",
+        "quantity": 1
+      },
+      {
+        "typeId": 84210,
+        "name": "Carbon Weave",
+        "quantity": 2
+      },
+      {
+        "typeId": 88561,
+        "name": "Thermal Composites",
+        "quantity": 20
+      }
+    ],
+    "products": [
+      {
+        "typeId": 83615,
+        "name": "Thermal-electro Nanitic Brace IV",
+        "quantity": 1,
+        "manufacturingTime": 916
+      }
+    ]
+  },
+  {
+    "blueprintId": 83628,
+    "blueprintName": "Thermalnetic Nanitic Brace II Blueprint",
+    "outputTypeId": 83628,
+    "outputName": "Thermalnetic Nanitic Brace II",
+    "outputQuantity": 1,
+    "category": "Modules",
+    "group": "Nanitic Brace",
+    "manufacturingTime": 181,
+    "maxProductionLimit": 120,
+    "materials": [
+      {
+        "typeId": 84180,
+        "name": "Printed Circuits",
+        "quantity": 1
+      },
+      {
+        "typeId": 84210,
+        "name": "Carbon Weave",
+        "quantity": 2
+      },
+      {
+        "typeId": 88561,
+        "name": "Thermal Composites",
+        "quantity": 4
+      }
+    ],
+    "products": [
+      {
+        "typeId": 83628,
+        "name": "Thermalnetic Nanitic Brace II",
+        "quantity": 1,
+        "manufacturingTime": 181
+      }
+    ]
+  },
+  {
+    "blueprintId": 83629,
+    "blueprintName": "Thermalnetic Nanitic Brace III Blueprint",
+    "outputTypeId": 83629,
+    "outputName": "Thermalnetic Nanitic Brace III",
+    "outputQuantity": 1,
+    "category": "Modules",
+    "group": "Nanitic Brace",
+    "manufacturingTime": 405,
+    "maxProductionLimit": 60,
+    "materials": [
+      {
+        "typeId": 84180,
+        "name": "Printed Circuits",
+        "quantity": 1
+      },
+      {
+        "typeId": 88561,
+        "name": "Thermal Composites",
+        "quantity": 12
+      }
+    ],
+    "products": [
+      {
+        "typeId": 83629,
+        "name": "Thermalnetic Nanitic Brace III",
+        "quantity": 1,
+        "manufacturingTime": 405
+      }
+    ]
+  },
+  {
+    "blueprintId": 83630,
+    "blueprintName": "Thermalnetic Nanitic Brace IV Blueprint",
+    "outputTypeId": 83630,
+    "outputName": "Thermalnetic Nanitic Brace IV",
+    "outputQuantity": 1,
+    "category": "Modules",
+    "group": "Nanitic Brace",
+    "manufacturingTime": 923,
+    "maxProductionLimit": 30,
+    "materials": [
+      {
+        "typeId": 84180,
+        "name": "Printed Circuits",
+        "quantity": 1
+      },
+      {
+        "typeId": 88561,
+        "name": "Thermal Composites",
+        "quantity": 24
+      }
+    ],
+    "products": [
+      {
+        "typeId": 83630,
+        "name": "Thermalnetic Nanitic Brace IV",
+        "quantity": 1,
+        "manufacturingTime": 923
+      }
+    ]
+  },
+  {
+    "blueprintId": 78449,
+    "blueprintName": "Tholin Nodules Blueprint",
+    "outputTypeId": 78449,
+    "outputName": "Tholin Nodules",
+    "outputQuantity": 1,
+    "category": null,
+    "group": "Soot Ores",
+    "manufacturingTime": 15,
+    "maxProductionLimit": 222,
+    "materials": [
+      {
+        "typeId": 78449,
+        "name": "Tholin Nodules",
+        "quantity": 100
+      }
+    ],
+    "products": [
+      {
+        "typeId": 88781,
+        "name": "Chitinous Organics",
+        "quantity": 1,
+        "manufacturingTime": 15
+      },
+      {
+        "typeId": 88782,
+        "name": "Aromatic Carbon Weave",
+        "quantity": 8,
+        "manufacturingTime": 15
+      }
+    ]
+  },
+  {
+    "blueprintId": 82084,
+    "blueprintName": "Tier 2 Autocannon (S) Blueprint",
+    "outputTypeId": 82084,
+    "outputName": "Tier 2 Autocannon (S)",
+    "outputQuantity": 1,
+    "category": "Weapons & Tools",
+    "group": "Projectile Weapon",
+    "manufacturingTime": 276,
+    "maxProductionLimit": 420,
+    "materials": [
+      {
+        "typeId": 84180,
+        "name": "Printed Circuits",
+        "quantity": 1
+      },
+      {
+        "typeId": 84182,
+        "name": "Reinforced Alloys",
+        "quantity": 1
+      },
+      {
+        "typeId": 88235,
+        "name": "Feldspar Crystal Shards",
+        "quantity": 125
+      }
+    ],
+    "products": [
+      {
+        "typeId": 82084,
+        "name": "Tier 2 Autocannon (S)",
+        "quantity": 1,
+        "manufacturingTime": 276
+      }
+    ]
+  },
+  {
+    "blueprintId": 82092,
+    "blueprintName": "Tier 2 Coilgun (M) Blueprint",
+    "outputTypeId": 82092,
+    "outputName": "Tier 2 Coilgun (M)",
+    "outputQuantity": 1,
+    "category": null,
+    "group": "Mass Driver Weapon",
+    "manufacturingTime": 2457,
+    "maxProductionLimit": 105,
+    "materials": [
+      {
+        "typeId": 77805,
+        "name": "Platinum-Group Veins",
+        "quantity": 70
+      },
+      {
+        "typeId": 84180,
+        "name": "Printed Circuits",
+        "quantity": 2
+      },
+      {
+        "typeId": 84182,
+        "name": "Reinforced Alloys",
+        "quantity": 1
+      },
+      {
+        "typeId": 99001,
+        "name": "Palladium",
+        "quantity": 70
+      }
+    ],
+    "products": [
+      {
+        "typeId": 82092,
+        "name": "Tier 2 Coilgun (M)",
+        "quantity": 1,
+        "manufacturingTime": 2457
+      }
+    ]
+  },
+  {
+    "blueprintId": 82088,
+    "blueprintName": "Tier 2 Coilgun (S) Blueprint",
+    "outputTypeId": 82088,
+    "outputName": "Tier 2 Coilgun (S)",
+    "outputQuantity": 1,
+    "category": "Weapons & Tools",
+    "group": "Mass Driver Weapon",
+    "manufacturingTime": 249,
+    "maxProductionLimit": 420,
+    "materials": [
+      {
+        "typeId": 77805,
+        "name": "Platinum-Group Veins",
+        "quantity": 140
+      },
+      {
+        "typeId": 84180,
+        "name": "Printed Circuits",
+        "quantity": 2
+      },
+      {
+        "typeId": 84182,
+        "name": "Reinforced Alloys",
+        "quantity": 1
+      }
+    ],
+    "products": [
+      {
+        "typeId": 82088,
+        "name": "Tier 2 Coilgun (S)",
+        "quantity": 1,
+        "manufacturingTime": 249
+      }
+    ]
+  },
+  {
+    "blueprintId": 82098,
+    "blueprintName": "Tier 2 Howitzer (M) Blueprint",
+    "outputTypeId": 82098,
+    "outputName": "Tier 2 Howitzer (M)",
+    "outputQuantity": 1,
+    "category": null,
+    "group": "Projectile Weapon",
+    "manufacturingTime": 2667,
+    "maxProductionLimit": 105,
+    "materials": [
+      {
+        "typeId": 84180,
+        "name": "Printed Circuits",
+        "quantity": 2
+      },
+      {
+        "typeId": 84182,
+        "name": "Reinforced Alloys",
+        "quantity": 2
+      },
+      {
+        "typeId": 88235,
+        "name": "Feldspar Crystal Shards",
+        "quantity": 250
+      }
+    ],
+    "products": [
+      {
+        "typeId": 82098,
+        "name": "Tier 2 Howitzer (M)",
+        "quantity": 1,
+        "manufacturingTime": 2667
+      }
+    ]
+  },
+  {
+    "blueprintId": 82096,
+    "blueprintName": "Tier 2 Rapid Plasma (M) Blueprint",
+    "outputTypeId": 82096,
+    "outputName": "Tier 2 Rapid Plasma (M)",
+    "outputQuantity": 1,
+    "category": null,
+    "group": "Plasma Weapon",
+    "manufacturingTime": 2727,
+    "maxProductionLimit": 105,
+    "materials": [
+      {
+        "typeId": 84180,
+        "name": "Printed Circuits",
+        "quantity": 2
+      },
+      {
+        "typeId": 84182,
+        "name": "Reinforced Alloys",
+        "quantity": 2
+      },
+      {
+        "typeId": 88234,
+        "name": "Troilite Sulfide Grains",
+        "quantity": 300
+      }
+    ],
+    "products": [
+      {
+        "typeId": 82096,
+        "name": "Tier 2 Rapid Plasma (M)",
+        "quantity": 1,
+        "manufacturingTime": 2727
+      }
+    ]
+  },
+  {
+    "blueprintId": 82086,
+    "blueprintName": "Tier 2 Rapid Plasma (S) Blueprint",
+    "outputTypeId": 82086,
+    "outputName": "Tier 2 Rapid Plasma (S)",
+    "outputQuantity": 1,
+    "category": "Weapons & Tools",
+    "group": "Plasma Weapon",
+    "manufacturingTime": 283,
+    "maxProductionLimit": 420,
+    "materials": [
+      {
+        "typeId": 84180,
+        "name": "Printed Circuits",
+        "quantity": 1
+      },
+      {
+        "typeId": 84182,
+        "name": "Reinforced Alloys",
+        "quantity": 1
+      },
+      {
+        "typeId": 88234,
+        "name": "Troilite Sulfide Grains",
+        "quantity": 150
+      }
+    ],
+    "products": [
+      {
+        "typeId": 82086,
+        "name": "Tier 2 Rapid Plasma (S)",
+        "quantity": 1,
+        "manufacturingTime": 283
+      }
+    ]
+  },
+  {
+    "blueprintId": 82085,
+    "blueprintName": "Tier 3 Autocannon (S) Blueprint",
+    "outputTypeId": 82085,
+    "outputName": "Tier 3 Autocannon (S)",
+    "outputQuantity": 1,
+    "category": "Weapons & Tools",
+    "group": "Projectile Weapon",
+    "manufacturingTime": 577,
+    "maxProductionLimit": 420,
+    "materials": [
+      {
+        "typeId": 84180,
+        "name": "Printed Circuits",
+        "quantity": 1
+      },
+      {
+        "typeId": 84182,
+        "name": "Reinforced Alloys",
+        "quantity": 1
+      },
+      {
+        "typeId": 88235,
+        "name": "Feldspar Crystal Shards",
+        "quantity": 170
+      }
+    ],
+    "products": [
+      {
+        "typeId": 82085,
+        "name": "Tier 3 Autocannon (S)",
+        "quantity": 1,
+        "manufacturingTime": 577
+      }
+    ]
+  },
+  {
+    "blueprintId": 82093,
+    "blueprintName": "Tier 3 Coilgun (M) Blueprint",
+    "outputTypeId": 82093,
+    "outputName": "Tier 3 Coilgun (M)",
+    "outputQuantity": 1,
+    "category": null,
+    "group": "Mass Driver Weapon",
+    "manufacturingTime": 9935,
+    "maxProductionLimit": 105,
+    "materials": [
+      {
+        "typeId": 77805,
+        "name": "Platinum-Group Veins",
+        "quantity": 440
+      },
+      {
+        "typeId": 84180,
+        "name": "Printed Circuits",
+        "quantity": 4
+      },
+      {
+        "typeId": 84182,
+        "name": "Reinforced Alloys",
+        "quantity": 2
+      }
+    ],
+    "products": [
+      {
+        "typeId": 82093,
+        "name": "Tier 3 Coilgun (M)",
+        "quantity": 1,
+        "manufacturingTime": 9935
+      }
+    ]
+  },
+  {
+    "blueprintId": 82089,
+    "blueprintName": "Tier 3 Coilgun (S) Blueprint",
+    "outputTypeId": 82089,
+    "outputName": "Tier 3 Coilgun (S)",
+    "outputQuantity": 1,
+    "category": "Weapons & Tools",
+    "group": "Mass Driver Weapon",
+    "manufacturingTime": 505,
+    "maxProductionLimit": 420,
+    "materials": [
+      {
+        "typeId": 77805,
+        "name": "Platinum-Group Veins",
+        "quantity": 110
+      },
+      {
+        "typeId": 84180,
+        "name": "Printed Circuits",
+        "quantity": 2
+      },
+      {
+        "typeId": 84182,
+        "name": "Reinforced Alloys",
+        "quantity": 1
+      },
+      {
+        "typeId": 99001,
+        "name": "Palladium",
+        "quantity": 110
+      }
+    ],
+    "products": [
+      {
+        "typeId": 82089,
+        "name": "Tier 3 Coilgun (S)",
+        "quantity": 1,
+        "manufacturingTime": 505
+      }
+    ]
+  },
+  {
+    "blueprintId": 82099,
+    "blueprintName": "Tier 3 Howitzer (M) Blueprint",
+    "outputTypeId": 82099,
+    "outputName": "Tier 3 Howitzer (M)",
+    "outputQuantity": 1,
+    "category": null,
+    "group": "Projectile Weapon",
+    "manufacturingTime": 11086,
+    "maxProductionLimit": 105,
+    "materials": [
+      {
+        "typeId": 84180,
+        "name": "Printed Circuits",
+        "quantity": 2
+      },
+      {
+        "typeId": 84182,
+        "name": "Reinforced Alloys",
+        "quantity": 2
+      },
+      {
+        "typeId": 88235,
+        "name": "Feldspar Crystal Shards",
+        "quantity": 340
+      }
+    ],
+    "products": [
+      {
+        "typeId": 82099,
+        "name": "Tier 3 Howitzer (M)",
+        "quantity": 1,
+        "manufacturingTime": 11086
+      }
+    ]
+  },
+  {
+    "blueprintId": 82097,
+    "blueprintName": "Tier 3 Rapid Plasma (M) Blueprint",
+    "outputTypeId": 82097,
+    "outputName": "Tier 3 Rapid Plasma (M)",
+    "outputQuantity": 1,
+    "category": null,
+    "group": "Plasma Weapon",
+    "manufacturingTime": 11412,
+    "maxProductionLimit": 105,
+    "materials": [
+      {
+        "typeId": 84180,
+        "name": "Printed Circuits",
+        "quantity": 2
+      },
+      {
+        "typeId": 84182,
+        "name": "Reinforced Alloys",
+        "quantity": 2
+      },
+      {
+        "typeId": 88234,
+        "name": "Troilite Sulfide Grains",
+        "quantity": 420
+      }
+    ],
+    "products": [
+      {
+        "typeId": 82097,
+        "name": "Tier 3 Rapid Plasma (M)",
+        "quantity": 1,
+        "manufacturingTime": 11412
+      }
+    ]
+  },
+  {
+    "blueprintId": 82087,
+    "blueprintName": "Tier 3 Rapid Plasma (S) Blueprint",
+    "outputTypeId": 82087,
+    "outputName": "Tier 3 Rapid Plasma (S)",
+    "outputQuantity": 1,
+    "category": "Weapons & Tools",
+    "group": "Plasma Weapon",
+    "manufacturingTime": 597,
+    "maxProductionLimit": 420,
+    "materials": [
+      {
+        "typeId": 84180,
+        "name": "Printed Circuits",
+        "quantity": 1
+      },
+      {
+        "typeId": 84182,
+        "name": "Reinforced Alloys",
+        "quantity": 1
+      },
+      {
+        "typeId": 88234,
+        "name": "Troilite Sulfide Grains",
+        "quantity": 210
+      }
+    ],
+    "products": [
+      {
+        "typeId": 82087,
+        "name": "Tier 3 Rapid Plasma (S)",
+        "quantity": 1,
+        "manufacturingTime": 597
+      }
+    ]
+  },
+  {
+    "blueprintId": 81656,
+    "blueprintName": "Tuho 7 Blueprint",
+    "outputTypeId": 81656,
+    "outputName": "Tuho 7",
+    "outputQuantity": 1,
+    "category": null,
+    "group": "Energy Lance",
+    "manufacturingTime": 137,
+    "maxProductionLimit": 420,
+    "materials": [
+      {
+        "typeId": 84180,
+        "name": "Printed Circuits",
+        "quantity": 4
+      },
+      {
+        "typeId": 84182,
+        "name": "Reinforced Alloys",
+        "quantity": 1
+      }
+    ],
+    "products": [
+      {
+        "typeId": 81656,
+        "name": "Tuho 7",
+        "quantity": 1,
+        "manufacturingTime": 137
+      }
+    ]
+  },
+  {
+    "blueprintId": 82090,
+    "blueprintName": "Tuho 9 Blueprint",
+    "outputTypeId": 82090,
+    "outputName": "Tuho 9",
+    "outputQuantity": 1,
+    "category": null,
+    "group": "Energy Lance",
+    "manufacturingTime": 301,
+    "maxProductionLimit": 420,
+    "materials": [
+      {
+        "typeId": 84180,
+        "name": "Printed Circuits",
+        "quantity": 4
+      },
+      {
+        "typeId": 84182,
+        "name": "Reinforced Alloys",
+        "quantity": 2
+      }
+    ],
+    "products": [
+      {
+        "typeId": 82090,
+        "name": "Tuho 9",
+        "quantity": 1,
+        "manufacturingTime": 301
+      }
+    ]
+  },
+  {
+    "blueprintId": 82091,
+    "blueprintName": "Tuho S Blueprint",
+    "outputTypeId": 82091,
+    "outputName": "Tuho S",
+    "outputQuantity": 1,
+    "category": null,
+    "group": "Energy Lance",
+    "manufacturingTime": 620,
+    "maxProductionLimit": 420,
+    "materials": [
+      {
+        "typeId": 84180,
+        "name": "Printed Circuits",
+        "quantity": 5
+      },
+      {
+        "typeId": 84182,
+        "name": "Reinforced Alloys",
+        "quantity": 2
+      }
+    ],
+    "products": [
+      {
+        "typeId": 82091,
+        "name": "Tuho S",
+        "quantity": 1,
+        "manufacturingTime": 620
+      }
+    ]
+  },
+  {
+    "blueprintId": 81609,
+    "blueprintName": "USV Blueprint",
+    "outputTypeId": 81609,
+    "outputName": "USV",
+    "outputQuantity": 1,
+    "category": "Ships",
+    "group": "Frigate",
+    "manufacturingTime": 8200,
+    "maxProductionLimit": 2,
+    "materials": [
+      {
+        "typeId": 78420,
+        "name": "Archangel Protocol Frame",
+        "quantity": 1
+      },
+      {
+        "typeId": 84204,
+        "name": "Batched Reinforced Alloys",
+        "quantity": 56
+      },
+      {
+        "typeId": 88841,
+        "name": "Batched Carbon Weave",
+        "quantity": 28
+      },
+      {
+        "typeId": 88843,
+        "name": "Batched Thermal Composites",
+        "quantity": 28
+      }
+    ],
+    "products": [
+      {
+        "typeId": 81609,
+        "name": "USV",
+        "quantity": 1,
+        "manufacturingTime": 8200
+      }
+    ]
+  },
+  {
+    "blueprintId": 78490,
+    "blueprintName": "Velocity CD81 Blueprint",
+    "outputTypeId": 78490,
+    "outputName": "Velocity CD81",
+    "outputQuantity": 1,
+    "category": "Modules",
+    "group": "Crude Engines",
+    "manufacturingTime": 825,
+    "maxProductionLimit": 84,
+    "materials": [
+      {
+        "typeId": 84180,
+        "name": "Printed Circuits",
+        "quantity": 4
+      },
+      {
+        "typeId": 84182,
+        "name": "Reinforced Alloys",
+        "quantity": 4
+      },
+      {
+        "typeId": 88561,
+        "name": "Thermal Composites",
+        "quantity": 8
+      }
+    ],
+    "products": [
+      {
+        "typeId": 78490,
+        "name": "Velocity CD81",
+        "quantity": 1,
+        "manufacturingTime": 825
+      }
+    ]
+  },
+  {
+    "blueprintId": 78502,
+    "blueprintName": "Velocity CD82 Blueprint",
+    "outputTypeId": 78502,
+    "outputName": "Velocity CD82",
+    "outputQuantity": 1,
+    "category": null,
+    "group": "Crude Engines",
+    "manufacturingTime": 1883,
+    "maxProductionLimit": 42,
+    "materials": [
+      {
+        "typeId": 84180,
+        "name": "Printed Circuits",
+        "quantity": 8
+      },
+      {
+        "typeId": 84182,
+        "name": "Reinforced Alloys",
+        "quantity": 8
+      },
+      {
+        "typeId": 88561,
+        "name": "Thermal Composites",
+        "quantity": 16
+      },
+      {
+        "typeId": 92483,
+        "name": "Still Kernel",
+        "quantity": 2
+      }
+    ],
+    "products": [
+      {
+        "typeId": 78502,
+        "name": "Velocity CD82",
+        "quantity": 1,
+        "manufacturingTime": 1883
+      }
+    ]
+  },
+  {
+    "blueprintId": 82682,
+    "blueprintName": "Warp Entangler II Blueprint",
+    "outputTypeId": 82682,
+    "outputName": "Warp Entangler II",
+    "outputQuantity": 1,
+    "category": "Modules",
+    "group": "Warp Scrambler",
+    "manufacturingTime": 181,
+    "maxProductionLimit": 168,
+    "materials": [
+      {
+        "typeId": 84180,
+        "name": "Printed Circuits",
+        "quantity": 2
+      },
+      {
+        "typeId": 84182,
+        "name": "Reinforced Alloys",
+        "quantity": 2
+      },
+      {
+        "typeId": 84210,
+        "name": "Carbon Weave",
+        "quantity": 3
+      }
+    ],
+    "products": [
+      {
+        "typeId": 82682,
+        "name": "Warp Entangler II",
+        "quantity": 1,
+        "manufacturingTime": 181
+      }
+    ]
+  },
+  {
+    "blueprintId": 83516,
+    "blueprintName": "Warp Entangler III Blueprint",
+    "outputTypeId": 83516,
+    "outputName": "Warp Entangler III",
+    "outputQuantity": 1,
+    "category": "Modules",
+    "group": "Warp Scrambler",
+    "manufacturingTime": 371,
+    "maxProductionLimit": 168,
+    "materials": [
+      {
+        "typeId": 84180,
+        "name": "Printed Circuits",
+        "quantity": 2
+      },
+      {
+        "typeId": 84182,
+        "name": "Reinforced Alloys",
+        "quantity": 3
+      },
+      {
+        "typeId": 84210,
+        "name": "Carbon Weave",
+        "quantity": 3
+      }
+    ],
+    "products": [
+      {
+        "typeId": 83516,
+        "name": "Warp Entangler III",
+        "quantity": 1,
+        "manufacturingTime": 371
+      }
+    ]
+  },
+  {
+    "blueprintId": 83517,
+    "blueprintName": "Warp Entangler IV Blueprint",
+    "outputTypeId": 83517,
+    "outputName": "Warp Entangler IV",
+    "outputQuantity": 1,
+    "category": "Modules",
+    "group": "Warp Scrambler",
+    "manufacturingTime": 777,
+    "maxProductionLimit": 168,
+    "materials": [
+      {
+        "typeId": 84180,
+        "name": "Printed Circuits",
+        "quantity": 3
+      },
+      {
+        "typeId": 84182,
+        "name": "Reinforced Alloys",
+        "quantity": 3
+      },
+      {
+        "typeId": 84210,
+        "name": "Carbon Weave",
+        "quantity": 4
+      }
+    ],
+    "products": [
+      {
+        "typeId": 83517,
+        "name": "Warp Entangler IV",
+        "quantity": 1,
+        "manufacturingTime": 777
+      }
+    ]
+  },
+  {
+    "blueprintId": 83518,
+    "blueprintName": "Warp Entangler V Blueprint",
+    "outputTypeId": 83518,
+    "outputName": "Warp Entangler V",
+    "outputQuantity": 1,
+    "category": "Modules",
+    "group": "Warp Scrambler",
+    "manufacturingTime": 1585,
+    "maxProductionLimit": 168,
+    "materials": [
+      {
+        "typeId": 84180,
+        "name": "Printed Circuits",
+        "quantity": 3
+      },
+      {
+        "typeId": 84182,
+        "name": "Reinforced Alloys",
+        "quantity": 4
+      },
+      {
+        "typeId": 84210,
+        "name": "Carbon Weave",
+        "quantity": 4
+      }
+    ],
+    "products": [
+      {
+        "typeId": 83518,
+        "name": "Warp Entangler V",
+        "quantity": 1,
+        "manufacturingTime": 1585
+      }
+    ]
+  },
+  {
+    "blueprintId": 83519,
+    "blueprintName": "Warp Entangler VI Blueprint",
+    "outputTypeId": 83519,
+    "outputName": "Warp Entangler VI",
+    "outputQuantity": 1,
+    "category": "Modules",
+    "group": "Warp Scrambler",
+    "manufacturingTime": 3274,
+    "maxProductionLimit": 168,
+    "materials": [
+      {
+        "typeId": 84180,
+        "name": "Printed Circuits",
+        "quantity": 4
+      },
+      {
+        "typeId": 84182,
+        "name": "Reinforced Alloys",
+        "quantity": 4
+      },
+      {
+        "typeId": 84210,
+        "name": "Carbon Weave",
+        "quantity": 5
+      }
+    ],
+    "products": [
+      {
+        "typeId": 83519,
+        "name": "Warp Entangler VI",
+        "quantity": 1,
+        "manufacturingTime": 3274
+      }
+    ]
+  },
+  {
+    "blueprintId": 78423,
+    "blueprintName": "Water Ice Blueprint",
+    "outputTypeId": 78423,
+    "outputName": "Water Ice",
+    "outputQuantity": 75,
+    "category": null,
+    "group": "Mineral",
+    "manufacturingTime": 3,
+    "maxProductionLimit": 479,
+    "materials": [
+      {
+        "typeId": 78423,
+        "name": "Water Ice",
+        "quantity": 275
+      }
+    ],
+    "products": [
+      {
+        "typeId": 88335,
+        "name": "D1 Fuel",
+        "quantity": 75,
+        "manufacturingTime": 3
+      }
+    ]
+  },
+  {
+    "blueprintId": 87698,
+    "blueprintName": "Wend Blueprint",
+    "outputTypeId": 87698,
+    "outputName": "Wend",
+    "outputQuantity": 1,
+    "category": "Ships",
+    "group": "Shuttle",
+    "manufacturingTime": 60,
+    "maxProductionLimit": 2,
+    "materials": [
+      {
+        "typeId": 78418,
+        "name": "Nomad Program Frame",
+        "quantity": 1
+      },
+      {
+        "typeId": 84182,
+        "name": "Reinforced Alloys",
+        "quantity": 34
+      },
+      {
+        "typeId": 84210,
+        "name": "Carbon Weave",
+        "quantity": 17
+      },
+      {
+        "typeId": 88561,
+        "name": "Thermal Composites",
+        "quantity": 17
+      }
+    ],
+    "products": [
+      {
+        "typeId": 87698,
+        "name": "Wend",
+        "quantity": 1,
+        "manufacturingTime": 60
+      }
+    ]
+  },
+  {
+    "blueprintId": 81657,
+    "blueprintName": "Xoru 7 Blueprint",
+    "outputTypeId": 81657,
+    "outputName": "Xoru 7",
+    "outputQuantity": 1,
+    "category": null,
+    "group": "Energy Lance",
+    "manufacturingTime": 664,
+    "maxProductionLimit": 105,
+    "materials": [
+      {
+        "typeId": 84180,
+        "name": "Printed Circuits",
+        "quantity": 8
+      },
+      {
+        "typeId": 84182,
+        "name": "Reinforced Alloys",
+        "quantity": 2
+      }
+    ],
+    "products": [
+      {
+        "typeId": 81657,
+        "name": "Xoru 7",
+        "quantity": 1,
+        "manufacturingTime": 664
+      }
+    ]
+  },
+  {
+    "blueprintId": 82094,
+    "blueprintName": "Xoru 9 Blueprint",
+    "outputTypeId": 82094,
+    "outputName": "Xoru 9",
+    "outputQuantity": 1,
+    "category": null,
+    "group": "Energy Lance",
+    "manufacturingTime": 2872,
+    "maxProductionLimit": 105,
+    "materials": [
+      {
+        "typeId": 84180,
+        "name": "Printed Circuits",
+        "quantity": 8
+      },
+      {
+        "typeId": 84182,
+        "name": "Reinforced Alloys",
+        "quantity": 4
+      }
+    ],
+    "products": [
+      {
+        "typeId": 82094,
+        "name": "Xoru 9",
+        "quantity": 1,
+        "manufacturingTime": 2872
+      }
+    ]
+  },
+  {
+    "blueprintId": 82095,
+    "blueprintName": "Xoru S Blueprint",
+    "outputTypeId": 82095,
+    "outputName": "Xoru S",
+    "outputQuantity": 1,
+    "category": null,
+    "group": "Energy Lance",
+    "manufacturingTime": 11770,
+    "maxProductionLimit": 105,
+    "materials": [
+      {
+        "typeId": 84180,
+        "name": "Printed Circuits",
+        "quantity": 10
+      },
+      {
+        "typeId": 84182,
+        "name": "Reinforced Alloys",
+        "quantity": 4
+      }
+    ],
+    "products": [
+      {
+        "typeId": 82095,
+        "name": "Xoru S",
+        "quantity": 1,
+        "manufacturingTime": 11770
+      }
+    ]
+  }
+]
