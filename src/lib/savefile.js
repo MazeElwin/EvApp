@@ -14,10 +14,10 @@ function safeNumber(value, fallback = 0) {
 export function buildSavePayload(state) {
     return {
         format: 'eve-frontier-app-save',
-        version: 2,
+        version: 3,
         savedAt: new Date().toISOString(),
         data: {
-            walletHash: safeString(state.walletHash),
+            walletAddress: safeString(state.walletAddress),
             machines: safeArray(state.machines),
             plannerQueue: safeArray(state.plannerQueue),
             selectedBlueprintKey: safeString(state.selectedBlueprintKey),
@@ -25,8 +25,14 @@ export function buildSavePayload(state) {
             systemFilter: safeString(state.systemFilter, 'All systems'),
             selectedCategory: safeString(state.selectedCategory, 'All'),
             searchText: safeString(state.searchText),
-            walletLoadStatus: safeString(state.walletLoadStatus, 'No wallet file loaded yet.'),
-            machineLoadStatus: safeString(state.machineLoadStatus, 'No machine file loaded yet.')
+            walletLoadStatus: safeString(
+                state.walletLoadStatus,
+                'No wallet file loaded yet.'
+            ),
+            machineLoadStatus: safeString(
+                state.machineLoadStatus,
+                'No machine file loaded yet.'
+            )
         }
     };
 }
@@ -51,7 +57,7 @@ export function parseSavePayload(text) {
     const data = parsed.data || {};
 
     return {
-        walletHash: safeString(data.walletHash),
+        walletAddress: safeString(data.walletAddress || data.walletHash),
         machines: safeArray(data.machines),
         plannerQueue: safeArray(data.plannerQueue),
         selectedBlueprintKey: safeString(data.selectedBlueprintKey),
@@ -59,8 +65,14 @@ export function parseSavePayload(text) {
         systemFilter: safeString(data.systemFilter, 'All systems'),
         selectedCategory: safeString(data.selectedCategory, 'All'),
         searchText: safeString(data.searchText),
-        walletLoadStatus: safeString(data.walletLoadStatus, 'Loaded from save file.'),
-        machineLoadStatus: safeString(data.machineLoadStatus, 'Loaded from save file.')
+        walletLoadStatus: safeString(
+            data.walletLoadStatus,
+            'Loaded from save file.'
+        ),
+        machineLoadStatus: safeString(
+            data.machineLoadStatus,
+            'Loaded from save file.'
+        )
     };
 }
 
