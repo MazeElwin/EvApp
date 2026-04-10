@@ -1,115 +1,66 @@
-import { asArray, normalizeName, numberOrZero, resolveItemName } from './blueprints.js';
-
 function safeJsonParse(text) {
     try {
         return JSON.parse(text);
     } catch {
-        throw new Error('File is not valid JSON.');
+        throw new Error('Machine file is not valid JSON.');
     }
 }
 
-function extractMachineArray(payload) {
-    if (Array.isArray(payload)) return payload;
-    if (Array.isArray(payload?.machines)) return payload.machines;
-    if (Array.isArray(payload?.items)) return payload.items;
-    if (payload && typeof payload === 'object') return [payload];
-    throw new Error('JSON must be an object or array.');
+function asArray(value) {
+    return Array.isArray(value) ? value : [];
 }
 
-function extractInventoryArray(rawMachine) {
-    return asArray(
-        rawMachine.inventory ||
-        rawMachine.items ||
-        rawMachine.contents ||
-        rawMachine.hold ||
-        rawMachine.storage ||
-        rawMachine.cargo
-    );
-}
-
-export function parseMachineFile(text, itemsById) {
-    const parsed = safeJsonParse(text);
-    const rows = extractMachineArray(parsed);
-
-    const machines = rows.map((machine, index) => {
-        const id = String(
-            machine.id ||
-            machine.objectId ||
-            machine.machineId ||
-            machine.itemId ||
-            `machine-${index + 1}`
-        ).trim();
-
-        if (!id) {
-            throw new Error(`Machine ${index + 1} is missing an id.`);
-        }
-
-        const displayName = String(
-            machine.displayName ||
-            machine.name ||
-            machine.customName ||
-            machine.label ||
-            machine.type ||
-            `Machine ${index + 1}`
-        ).trim();
-
-        const system = String(
-            machine.system || machine.location || machine.region || 'Unknown system'
-        ).trim();
-
-        const typeLabel = String(
-            machine.typeLabel || machine.machineType || machine.type || ''
-        ).trim();
-
-        const inventory = extractInventoryArray(machine).map((item, itemIndex) => {
-            const typeId = String(
-                item.typeId || item.type_id || item.id || item.itemTypeId || ''
-            ).trim();
-
-            const quantity = numberOrZero(
-                item.quantity || item.qty || item.amount || item.count
-            );
-
-            const name = resolveItemName(
-                typeId,
-                item.name || item.itemName || item.label || '',
-                itemsById
-            );
-
-            if (!typeId && !name) {
-                throw new Error(
-                    `Machine "${displayName}" has an invalid inventory row at ${itemIndex + 1}.`
-                );
-            }
-
-            return {
-                typeId,
-                name,
-                quantity
-            };
-        });
-
-        return {
-            id,
-            displayName,
-            system,
-            typeLabel,
-            inventory
-        };
-    });
+function normalizeMachine(machine, index = 0) {
+    const parsedInventories = asArray(machine.parsedInventories).map((inv) => ({
+        inventoryObjectId: String(inv.inventoryObjectId || ''),
+        fieldName: String(inv.fieldName || ''),
+        maxCapacity: Number(inv.maxCapacity || 0),
+        usedCapacity: Number(inv.usedCapacity || 0),
+        fillPercent: Number(inv.fillPercent || 0),
+        items: asArray(inv.items).map((item) => ({
+            typeId: String(item.typeId || ''),
+            itemId: String(item.itemId || ''),
+            quantity: Number(item.quantity || 0),
+            unitVolume: Number(item.unitVolume || 0),
+            totalVolume: Number(item.totalVolume || 0),
+            tenant: String(item.tenant || ''),
+            inventoryObjectId: String(item.inventoryObjectId || inv.inventoryObjectId || ''),
+            fieldName: String(item.fieldName || inv.fieldName || '')
+        }))
+    }));
 
     return {
-        machines,
-        parseStatus: `Loaded ${machines.length} machine(s) successfully.`
+        id: String(machine.id || `machine-${index + 1}`),
+        walletAddress: String(machine.walletAddress || ''),
+        system: String(machine.system || 'Unknown system'),
+        displayName: String(machine.displayName || machine.customName || `Machine ${index + 1}`),
+        customName: String(machine.customName || ''),
+        broadType: String(machine.broadType || ''),
+        machineSubtype: String(machine.machineSubtype || machine.broadType || ''),
+        machineTypeId: String(machine.machineTypeId || ''),
+        itemId: String(machine.itemId || ''),
+        status: String(machine.status || ''),
+        parsedInventories,
+        updatedAt: String(machine.updatedAt || new Date().toISOString())
     };
 }
 
-export function getSystems(machines) {
-    const systems = new Set();
+export function parseMachineFile(text) {
+    const parsed = safeJsonParse(text);
 
-    for (const machine of asArray(machines)) {
-        if (machine.system) systems.add(machine.system);
+    const machineRows = Array.isArray(parsed)
+        ? parsed
+        : asArray(parsed.machines || parsed.items || parsed.rows);
+
+    if (!machineRows.length) {
+        throw new Error('Machine file does not contain any machines.');
     }
 
-    return ['All systems', ...Array.from(systems).sort((a, b) => a.localeCompare(b))];
+    const machines = machineRows.map((machine, index) => normalizeMachine(machine, index));
+
+    return {
+        machines,
+        walletAddress: String(parsed.walletAddress || parsed.wallet_address || ''),
+        parseStatus: `Loaded ${machines.length} machine(s) successfully.`
+    };
 }

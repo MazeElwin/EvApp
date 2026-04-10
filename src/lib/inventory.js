@@ -1,14 +1,14 @@
 import { asArray, normalizeName, resolveItemName } from './blueprints.js';
 
-export function aggregateInventory(machines, systemFilter, itemsById) {
+export function aggregateInventory(sources, systemFilter, itemsById) {
     const totals = new Map();
 
-    for (const machine of asArray(machines)) {
-        if (systemFilter !== 'All systems' && machine.system !== systemFilter) {
+    for (const source of asArray(sources)) {
+        if (systemFilter !== 'All systems' && source.system !== systemFilter) {
             continue;
         }
 
-        for (const row of asArray(machine.inventory)) {
+        for (const row of asArray(source.inventory)) {
             const typeId = String(row.typeId || '').trim();
             const name = resolveItemName(typeId, row.name, itemsById);
             const normalized = normalizeName(name);
@@ -23,12 +23,16 @@ export function aggregateInventory(machines, systemFilter, itemsById) {
             };
 
             existing.quantity += Number(row.quantity || 0);
-            if (!existing.typeId && typeId) existing.typeId = typeId;
+
+            if (!existing.typeId && typeId) {
+                existing.typeId = typeId;
+            }
+
             if ((!existing.name || existing.name.startsWith('Type ')) && name) {
                 existing.name = name;
             }
 
-            existing.sources.push(machine.displayName || machine.id || 'Machine');
+            existing.sources.push(source.displayName || source.id || 'Source');
             totals.set(key, existing);
         }
     }

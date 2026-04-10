@@ -372,4 +372,18 @@ p {
         height: 18px;
         transform: translateX(-50%);
     }
+
+    .wallet-textarea {
+        width: 100%;
+        min-height: 220px;
+        resize: vertical;
+        padding: 12px;
+        border: 1px solid var(--border);
+        background: var(--panel-2);
+        color: var(--text);
+        border-radius: 12px;
+        font: 13px/1.45 Consolas, "Courier New", monospace;
+    }
+
 }
+
