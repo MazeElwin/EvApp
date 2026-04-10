@@ -6,8 +6,9 @@
     "\\src",
     "\\src\\components",
     "\\src\\components\\tabs",
-    "\\src\\hooks"
+    "\\src\\hooks",
+    "\\src\\lib"
   ],
-  "SelectedNode": "\\package.json",
+  "SelectedNode": "\\src\\App.jsx",
   "PreviewInSolutionExplorer": false
 }

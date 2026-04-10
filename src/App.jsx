@@ -8,14 +8,10 @@ import {
 } from './lib/blueprints.js';
 import { buildStockLookup } from './lib/inventory.js';
 import { collectRawShortages, createPlanTree } from './lib/planner.js';
-import { buildWalletFilePayload, parseWalletFile } from './lib/wallet.js';
-import { parseMachineFile } from './lib/machines.js';
-import {
-    fetchTypeInfo,
-    fetchWalletObjects,
-    inspectObjectId,
-    machineFromInspection
-} from './lib/sui.js';
+import { useSaveController } from './hooks/useSaveController.js';
+import { useWalletController } from './hooks/useWalletController.js';
+import { useMachineController } from './hooks/useMachineController.js';
+import { useTypeCacheController } from './hooks/useTypeCacheController.js';
 import {
     inferRecipeCategory,
     loadStoredJson,
@@ -24,11 +20,8 @@ import {
     makeWalletFilename,
     prettyJson,
     STORAGE_KEYS,
-    TABS,
-    upsertMachine
+    TABS
 } from './lib/appHelpers.js';
-import { downloadSaveFile } from './lib/savefile.js';
-import { useSaveController } from './hooks/useSaveController.js';
 import WalletTab from './components/tabs/WalletTab.jsx';
 import MachinesTab from './components/tabs/MachinesTab.jsx';
 import InventoryTab from './components/tabs/InventoryTab.jsx';
@@ -66,9 +59,7 @@ function App() {
         'No machine inspection yet.'
     );
 
-    const [typeCache, setTypeCache] = useState(() =>
-        loadStoredJson(STORAGE_KEYS.typeCache, {})
-    );
+    const { typeCache, resolveTypeIds } = useTypeCacheController({ machines });
 
     const [systemFilter, setSystemFilter] = useState(
         () => window.localStorage.getItem(STORAGE_KEYS.system) || 'All systems'
@@ -107,69 +98,9 @@ function App() {
         window.localStorage.setItem(STORAGE_KEYS.machines, JSON.stringify(machines));
     }, [machines]);
 
-    useEffect(() => {
-        window.localStorage.setItem(STORAGE_KEYS.typeCache, JSON.stringify(typeCache));
-    }, [typeCache]);
+   
 
-    async function resolveTypeIds(typeIds) {
-        const unique = Array.from(new Set(typeIds.filter(Boolean).map(String)));
-        const pending = unique.filter((id) => !typeCache[id]);
 
-        if (!pending.length) {
-            return;
-        }
-
-        const updates = {};
-
-        for (const id of pending) {
-            try {
-                const info = await fetchTypeInfo(id);
-                updates[id] = {
-                    info: {
-                        id: String(info?.id || id),
-                        name: String(info?.name || ''),
-                        categoryName: String(info?.categoryName || info?.category_name || ''),
-                        groupName: String(info?.groupName || info?.group_name || '')
-                    },
-                    updatedAt: new Date().toISOString()
-                };
-            } catch {
-                updates[id] = {
-                    info: {
-                        id: String(id),
-                        name: '',
-                        categoryName: '',
-                        groupName: ''
-                    },
-                    updatedAt: new Date().toISOString()
-                };
-            }
-        }
-
-        setTypeCache((current) => ({ ...current, ...updates }));
-    }
-
-    useEffect(() => {
-        const ids = new Set();
-
-        for (const machine of machines) {
-            if (machine.machineTypeId) {
-                ids.add(String(machine.machineTypeId));
-            }
-
-            for (const inv of machine.parsedInventories || []) {
-                for (const row of inv.items || []) {
-                    if (row.typeId) {
-                        ids.add(String(row.typeId));
-                    }
-                }
-            }
-        }
-
-        if (ids.size) {
-            void resolveTypeIds(Array.from(ids));
-        }
-    }, [machines]);
 
     const inventoryRows = useMemo(() => {
         const rows = [];
@@ -295,198 +226,11 @@ function App() {
         window.localStorage.setItem(STORAGE_KEYS.debugVisible, next ? '1' : '0');
     }
 
-    async function handleFetchWallet() {
-        try {
-            setLoading(true);
-            setError('');
 
-            const rows = await fetchWalletObjects(network, walletAddress.trim());
-            setWalletObjects(rows);
-            setWalletSelectedJson(prettyJson(rows));
-            setWalletLoadStatus(`Fetched ${rows.length} wallet-owned objects.`);
-        } catch (err) {
-            setError(err?.message || 'Failed to fetch wallet objects.');
-            setWalletLoadStatus('Wallet fetch failed.');
-        } finally {
-            setLoading(false);
-        }
-    }
 
-    async function handleInspectMachine(saveAfter = false) {
-        try {
-            setLoading(true);
-            setError('');
+    
 
-            const result = await inspectObjectId(network, machineIdInput.trim());
-            setInspection(result);
-            setWalletSelectedJson(prettyJson(result.object));
-
-            const machine = await machineFromInspection(
-                result,
-                walletAddress.trim(),
-                systemInput || MACHINE_SYSTEM_DEFAULT,
-                typeCache
-            );
-
-            if (!machine) {
-                setMachineLoadStatus('This object does not look like a saveable machine.');
-            } else {
-                setMachineLoadStatus(
-                    `Inspected ${machine.displayName}. Parsed ${machine.parsedInventories.length} inventory object(s).`
-                );
-
-                if (saveAfter) {
-                    setMachines((current) => upsertMachine(current, machine));
-                }
-            }
-        } catch (err) {
-            setError(err?.message || 'Failed to inspect object.');
-            setMachineLoadStatus('Machine inspection failed.');
-        } finally {
-            setLoading(false);
-        }
-    }
-
-    async function handleSaveCurrentInspection() {
-        if (!inspection) {
-            return;
-        }
-
-        try {
-            setLoading(true);
-            setError('');
-
-            const machine = await machineFromInspection(
-                inspection,
-                walletAddress.trim(),
-                systemInput || MACHINE_SYSTEM_DEFAULT,
-                typeCache
-            );
-
-            if (!machine) {
-                setMachineLoadStatus('This object does not look like a saveable machine.');
-                return;
-            }
-
-            setMachines((current) => upsertMachine(current, machine));
-            setMachineLoadStatus(`Saved ${machine.displayName}.`);
-        } catch (err) {
-            setError(err?.message || 'Failed to save machine.');
-            setMachineLoadStatus('Save failed.');
-        } finally {
-            setLoading(false);
-        }
-    }
-
-    function removeMachine(machineId) {
-        setMachines((current) =>
-            current.filter((machine) => machine.id !== machineId)
-        );
-    }
-
-    function clearMachines() {
-        setMachines([]);
-        setInspection(null);
-        setMachineLoadStatus('Cleared all machines.');
-    }
-
-    function saveWalletFile() {
-        const payload = buildWalletFilePayload(walletAddress, machines);
-        downloadSaveFile(makeWalletFilename(), payload);
-        setWalletLoadStatus('Exported wallet + machines file.');
-    }
-
-    function handleWalletFile(event) {
-        const file = event.target.files?.[0];
-        if (!file) {
-            return;
-        }
-
-        const reader = new FileReader();
-
-        reader.onload = () => {
-            try {
-                const rawText = String(reader.result || '');
-                const walletResult = parseWalletFile(rawText);
-                const machineResult = parseMachineFile(rawText);
-
-                setWalletAddress(walletResult.walletAddress);
-
-                if (machineResult.walletAddress && !walletResult.walletAddress) {
-                    setWalletAddress(machineResult.walletAddress);
-                }
-
-                if (Array.isArray(machineResult.machines) && machineResult.machines.length) {
-                    setMachines(machineResult.machines);
-                    setMachineLoadStatus(machineResult.parseStatus);
-
-                    void resolveTypeIds(
-                        machineResult.machines.flatMap((machine) => [
-                            machine.machineTypeId,
-                            ...(machine.parsedInventories || []).flatMap((inv) =>
-                                (inv.items || []).map((item) => item.typeId)
-                            )
-                        ])
-                    );
-                }
-
-                setWalletLoadStatus('Loaded wallet file successfully.');
-            } catch (err) {
-                setWalletLoadStatus(err?.message || 'Failed to load wallet file.');
-            }
-        };
-
-        reader.readAsText(file);
-        event.target.value = '';
-    }
-
-    function handleMachineFile(event) {
-        const file = event.target.files?.[0];
-        if (!file) {
-            return;
-        }
-
-        const reader = new FileReader();
-
-        reader.onload = () => {
-            try {
-                const rawText = String(reader.result || '');
-                const result = parseMachineFile(rawText);
-
-                setMachines(result.machines);
-
-                if (result.walletAddress) {
-                    setWalletAddress(result.walletAddress);
-                }
-
-                setMachineLoadStatus(result.parseStatus);
-
-                void resolveTypeIds(
-                    result.machines.flatMap((machine) => [
-                        machine.machineTypeId,
-                        ...(machine.parsedInventories || []).flatMap((inv) =>
-                            (inv.items || []).map((item) => item.typeId)
-                        )
-                    ])
-                );
-            } catch (err) {
-                setMachineLoadStatus(err?.message || 'Failed to load machine file.');
-            }
-        };
-
-        reader.readAsText(file);
-        event.target.value = '';
-    }
-
-    function handleCopyMachineId(id) {
-        navigator.clipboard.writeText(id).catch(() => { });
-    }
-
-    function handleOpenMachine(machine) {
-        setMachineIdInput(machine.id);
-        setSystemInput(machine.system || MACHINE_SYSTEM_DEFAULT);
-        setActiveTab('Machines');
-    }
+   
 
     function addPlannerTarget() {
         if (!selectedBlueprint) {
@@ -552,6 +296,56 @@ function App() {
         setWalletLoadStatus,
         setMachineLoadStatus,
         setError
+    });
+
+    const {
+        handleFetchWallet,
+        saveWalletFile,
+        handleWalletFile
+    } = useWalletController({
+        network,
+        walletAddress,
+        machines,
+        prettyJson,
+        makeWalletFilename,
+        resolveTypeIds,
+        setLoading,
+        setError,
+        setWalletObjects,
+        setWalletSelectedJson,
+        setWalletLoadStatus,
+        setWalletAddress,
+        setMachines,
+        setMachineLoadStatus
+    });
+
+    const {
+        handleInspectMachine,
+        handleSaveCurrentInspection,
+        removeMachine,
+        clearMachines,
+        handleMachineFile,
+        handleCopyMachineId,
+        handleOpenMachine
+    } = useMachineController({
+        network,
+        machineIdInput,
+        systemInput,
+        walletAddress,
+        typeCache,
+        prettyJson,
+        resolveTypeIds,
+        machineSystemDefault: MACHINE_SYSTEM_DEFAULT,
+        setLoading,
+        setError,
+        setInspection,
+        setWalletSelectedJson,
+        setMachineLoadStatus,
+        setMachines,
+        setWalletAddress,
+        setMachineIdInput,
+        setSystemInput,
+        setActiveTab
     });
 
     function handlePanStart(event) {
@@ -661,7 +455,7 @@ function App() {
                     machineSystemDefault={MACHINE_SYSTEM_DEFAULT}
                     loading={loading}
                     handleInspectMachine={handleInspectMachine}
-                    handleSaveCurrentInspection={handleSaveCurrentInspection}
+                    handleSaveCurrentInspection={() => handleSaveCurrentInspection(inspection)}
                     inspection={inspection}
                     prettyJson={prettyJson}
                     machines={machines}

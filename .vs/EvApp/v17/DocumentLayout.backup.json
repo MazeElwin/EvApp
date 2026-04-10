@@ -1,12 +1,122 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\scott\\Documents\\GitHub\\EvApp\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\scott\\Documents\\GitHub\\EvApp\\src\\App.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\App.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\scott\\Documents\\GitHub\\EvApp\\src\\hooks\\useTypeCacheController.js||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\hooks\\useTypeCacheController.js||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\scott\\Documents\\GitHub\\EvApp\\src\\components\\tabs\\MachinesTab.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\tabs\\MachinesTab.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\scott\\Documents\\GitHub\\EvApp\\src\\lib\\appHelpers.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\lib\\appHelpers.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\scott\\Documents\\GitHub\\EvApp\\src\\hooks\\useMachineController.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\hooks\\useMachineController.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\scott\\Documents\\GitHub\\EvApp\\src\\hooks\\useWalletController.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\hooks\\useWalletController.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "useTypeCacheController.js",
+              "DocumentMoniker": "C:\\Users\\scott\\Documents\\GitHub\\EvApp\\src\\hooks\\useTypeCacheController.js",
+              "RelativeDocumentMoniker": "src\\hooks\\useTypeCacheController.js",
+              "ToolTip": "C:\\Users\\scott\\Documents\\GitHub\\EvApp\\src\\hooks\\useTypeCacheController.js",
+              "RelativeToolTip": "src\\hooks\\useTypeCacheController.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-04-10T07:23:35.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MachinesTab.jsx",
+              "DocumentMoniker": "C:\\Users\\scott\\Documents\\GitHub\\EvApp\\src\\components\\tabs\\MachinesTab.jsx",
+              "RelativeDocumentMoniker": "src\\components\\tabs\\MachinesTab.jsx",
+              "ToolTip": "C:\\Users\\scott\\Documents\\GitHub\\EvApp\\src\\components\\tabs\\MachinesTab.jsx",
+              "RelativeToolTip": "src\\components\\tabs\\MachinesTab.jsx",
+              "ViewState": "AgIAAIcAAAAAAAAAAAAUwLoAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-04-10T07:18:58.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appHelpers.js",
+              "DocumentMoniker": "C:\\Users\\scott\\Documents\\GitHub\\EvApp\\src\\lib\\appHelpers.js",
+              "RelativeDocumentMoniker": "src\\lib\\appHelpers.js",
+              "ToolTip": "C:\\Users\\scott\\Documents\\GitHub\\EvApp\\src\\lib\\appHelpers.js",
+              "RelativeToolTip": "src\\lib\\appHelpers.js",
+              "ViewState": "AgIAACYAAAAAAAAAAAAYwDoAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-04-10T07:14:15.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "App.jsx",
+              "DocumentMoniker": "C:\\Users\\scott\\Documents\\GitHub\\EvApp\\src\\App.jsx",
+              "RelativeDocumentMoniker": "src\\App.jsx",
+              "ToolTip": "C:\\Users\\scott\\Documents\\GitHub\\EvApp\\src\\App.jsx",
+              "RelativeToolTip": "src\\App.jsx",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAmwDoAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-04-10T07:00:46.826Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "useMachineController.js",
+              "DocumentMoniker": "C:\\Users\\scott\\Documents\\GitHub\\EvApp\\src\\hooks\\useMachineController.js",
+              "RelativeDocumentMoniker": "src\\hooks\\useMachineController.js",
+              "ToolTip": "C:\\Users\\scott\\Documents\\GitHub\\EvApp\\src\\hooks\\useMachineController.js",
+              "RelativeToolTip": "src\\hooks\\useMachineController.js",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAUwIMAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-04-10T07:00:32.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "useWalletController.js",
+              "DocumentMoniker": "C:\\Users\\scott\\Documents\\GitHub\\EvApp\\src\\hooks\\useWalletController.js",
+              "RelativeDocumentMoniker": "src\\hooks\\useWalletController.js",
+              "ToolTip": "C:\\Users\\scott\\Documents\\GitHub\\EvApp\\src\\hooks\\useWalletController.js",
+              "RelativeToolTip": "src\\hooks\\useWalletController.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-04-10T07:00:03.067Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
