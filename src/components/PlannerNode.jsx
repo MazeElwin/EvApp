@@ -1,48 +1,99 @@
 import React from 'react';
 
 function PlannerNode({ node, onRemove, depth = 0 }) {
-    const alternativeCount = node.alternativeBlueprints?.length || 0;
+    const children = Array.isArray(node?.children) ? node.children : [];
+    const alternativeCount = node?.alternativeBlueprints?.length || 0;
+    const isRecipe = node?.mode === 'recipe';
+    const isRoot = depth === 0;
 
     return (
-        <div className={`planner-row depth-${depth}`}>
-            <div className="planner-row-children">
-                {(node.children || []).map((child) => (
-                    <PlannerNode key={child.id} node={child} depth={depth + 1} />
-                ))}
-            </div>
+        <div
+            className={[
+                'planner-tree-node',
+                children.length ? 'has-children' : 'is-leaf',
+                isRecipe ? 'is-recipe' : 'is-planner',
+                isRoot ? 'is-root' : ''
+            ].join(' ')}
+        >
+            {children.length > 0 ? (
+                <div
+                    className={[
+                        'planner-tree-children',
+                        children.length === 1 ? 'single-child' : ''
+                    ].join(' ')}
+                >
+                    {children.map((child) => (
+                        <div key={child.id} className="planner-tree-child">
+                            <PlannerNode node={child} onRemove={onRemove} depth={depth + 1} />
+                        </div>
+                    ))}
+                </div>
+            ) : null}
 
-            <div className="planner-node">
-                <div className="planner-node-title">{node.name}</div>
+            <div className="planner-node-card">
+                {children.length > 0 ? (
+                    <span className="planner-port planner-port-in" />
+                ) : null}
 
-                {node.typeId ? (
+                {!isRoot ? (
+                    <span className="planner-port planner-port-out" />
+                ) : null}
+
+                <div className="planner-node-header">
+                    <div className="planner-node-title">{node?.name || 'Unknown'}</div>
+
+                    {isRoot && onRemove ? (
+                        <button
+                            className="small-button danger planner-node-remove"
+                            onClick={() => onRemove(node.id)}
+                        >
+                            Remove
+                        </button>
+                    ) : null}
+                </div>
+
+                {node?.typeId ? (
                     <div className="planner-node-subtitle">ID: {node.typeId}</div>
                 ) : null}
 
-                <div className="planner-node-machine">{node.machineLabel}</div>
+                <div className="planner-node-machine">{node?.machineLabel || 'Assembly'}</div>
 
-                {node.mode === 'recipe' ? (
-                    <div className="hint">Recipe preview</div>
-                ) : null}
-
-                {alternativeCount > 0 ? (
-                    <div className="hint">
-                        Alt paths: {alternativeCount}
+                <div className="planner-node-stat-grid">
+                    <div>
+                        <span>Need</span>
+                        <strong>{node?.quantityNeeded ?? 0}</strong>
                     </div>
-                ) : null}
-
-                <div className="planner-node-stats">
-                    <div>Need: {node.quantityNeeded}</div>
-                    <div>Own: {node.owned}</div>
-                    <div>Use: {node.useOwned}</div>
-                    <div>{node.children?.length ? 'Craft' : 'Missing'}: {node.quantityToCraft}</div>
-                    {node.runs ? <div>Runs: {node.runs}</div> : null}
+                    <div>
+                        <span>Own</span>
+                        <strong>{node?.owned ?? 0}</strong>
+                    </div>
+                    <div>
+                        <span>Use</span>
+                        <strong>{node?.useOwned ?? 0}</strong>
+                    </div>
+                    <div>
+                        <span>{children.length ? 'Craft' : 'Missing'}</span>
+                        <strong>{node?.quantityToCraft ?? 0}</strong>
+                    </div>
+                    {node?.runs ? (
+                        <div>
+                            <span>Runs</span>
+                            <strong>{node.runs}</strong>
+                        </div>
+                    ) : null}
                 </div>
 
-                {depth === 0 && onRemove ? (
-                    <button className="small-button danger" onClick={() => onRemove(node.id)}>
-                        Remove
-                    </button>
-                ) : null}
+                <div className="planner-node-badges">
+                    {isRecipe ? (
+                        <div className="planner-node-badge">Recipe preview</div>
+                    ) : null}
+
+                    {alternativeCount > 0 ? (
+                        <div className="planner-node-badge secondary">
+                            Alt paths: {alternativeCount}
+                        </div>
+                    ) : null}
+                </div>
             </div>
         </div>
     );

@@ -1,7 +1,6 @@
 {
   "ExpandedNodes": [
     "",
-    "\\data",
     "\\saves",
     "\\scripts",
     "\\src",
@@ -10,6 +9,6 @@
     "\\src\\hooks",
     "\\src\\lib"
   ],
-  "SelectedNode": "\\src\\lib\\planner.js",
+  "SelectedNode": "\\src\\styles.css",
   "PreviewInSolutionExplorer": false
 }

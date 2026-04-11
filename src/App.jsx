@@ -98,10 +98,6 @@ function App() {
         window.localStorage.setItem(STORAGE_KEYS.machines, JSON.stringify(machines));
     }, [machines]);
 
-   
-
-
-
     const inventoryRows = useMemo(() => {
         const rows = [];
 
@@ -371,7 +367,7 @@ function App() {
         }
 
         if (
-            event.target.closest('.planner-node') ||
+            event.target.closest('.planner-node-card') ||
             event.target.closest('button') ||
             event.target.closest('select') ||
             event.target.closest('input') ||

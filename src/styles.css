@@ -238,13 +238,13 @@ p {
     }
 
 .planner-viewport {
-    position: relative;
     overflow: auto;
+    padding: 24px;
+    border-radius: 18px;
+    border: 1px solid #243957;
+    background: #09111c;
     min-height: 460px;
-    border: 1px solid var(--border);
-    border-radius: 14px;
-    background: radial-gradient(circle at 1px 1px, rgba(255,255,255,0.08) 1px, transparent 0);
-    background-size: 22px 22px;
+    cursor: grab;
 }
 
     .planner-viewport.is-panning {
@@ -252,68 +252,226 @@ p {
     }
 
 .planner-canvas {
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
+    position: relative;
     min-width: max-content;
     min-height: 100%;
-    padding: 24px;
+    padding: 28px 32px;
+    background-color: #0b1422;
+    background-image: radial-gradient(rgba(120, 165, 255, 0.18) 1px, transparent 1px), linear-gradient(rgba(255, 255, 255, 0.025), rgba(255, 255, 255, 0.025));
+    background-size: 22px 22px, 22px 22px;
+    border-radius: 16px;
 }
 
-.planner-row {
+.planner-tree-node {
+    position: relative;
     display: flex;
     align-items: center;
-    gap: 28px;
+    gap: 34px;
+    width: max-content;
+    min-width: max-content;
 }
 
-.planner-row-children {
-    display: flex;
-    flex-direction: column;
-    gap: 18px;
-    padding-right: 18px;
-    border-right: 2px solid rgba(95, 163, 255, 0.35);
-}
-
-.planner-node {
-    position: relative;
-    min-width: 240px;
-    max-width: 300px;
-    border: 1px solid var(--border);
-    background: linear-gradient(180deg, #1a2230 0%, #121821 100%);
-    border-radius: 16px;
-    padding: 14px;
-    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.24);
-}
-
-    .planner-node::before {
-        content: "";
-        position: absolute;
-        left: -28px;
-        top: 50%;
-        width: 28px;
-        height: 2px;
-        background: rgba(95, 163, 255, 0.35);
-        transform: translateY(-50%);
+    .planner-tree-node + .planner-tree-node {
+        margin-top: 28px;
     }
 
+.planner-tree-children {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 26px;
+    width: max-content;
+    min-width: max-content;
+}
+
+.planner-tree-child {
+    position: relative;
+    width: max-content;
+    min-width: max-content;
+    padding-right: 34px;
+}
+
+    .planner-tree-child::before {
+        content: '';
+        position: absolute;
+        right: 0;
+        top: -13px;
+        bottom: -13px;
+        width: 2px;
+        background: linear-gradient(180deg, #6ea6ff, #9fc4ff);
+        box-shadow: 0 0 14px rgba(110, 166, 255, 0.18);
+    }
+
+.planner-tree-children.single-child .planner-tree-child::before {
+    display: none;
+}
+
+.planner-tree-children .planner-tree-child:first-child::before {
+    top: 49.5%;
+}
+
+.planner-tree-children .planner-tree-child:last-child::before {
+    bottom: 49.5%;
+}
+
+.planner-node-card {
+    position: relative;
+    width: 250px;
+    min-height: 132px;
+    padding: 16px 16px 14px;
+    border-radius: 16px;
+    border: 1px solid #2b4267;
+    background: linear-gradient(180deg, rgba(20, 31, 50, 0.98), rgba(11, 19, 33, 0.98));
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35), inset 0 1px 0 rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(4px);
+}
+
+.planner-tree-node:not(.is-root) > .planner-node-card::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: -33.5px;
+    width: 34px;
+    height: 2px;
+    transform: translateY(-50%);
+    background: linear-gradient(90deg, #6ea6ff, #9fc4ff);
+    box-shadow: 0 0 10px rgba(110, 166, 255, 0.22);
+}
+
+.planner-tree-node.has-children > .planner-node-card::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: -37px;
+    width: 34px;
+    height: 2px;
+    transform: translateY(-50%);
+    background: linear-gradient(90deg, #6ea6ff, #9fc4ff);
+    box-shadow: 0 0 10px rgba(110, 166, 255, 0.22);
+}
+
+.planner-port {
+    position: absolute;
+    top: 50%;
+    width: 10px;
+    height: 10px;
+    border-radius: 999px;
+    transform: translateY(-50%);
+    background: #92bdff;
+    box-shadow: 0 0 0 3px rgba(31, 56, 95, 0.95), 0 0 10px rgba(146, 189, 255, 0.45);
+    z-index: 2;
+}
+
+.planner-port-in {
+    left: -6px;
+}
+
+.planner-port-out {
+    right: -6px;
+}
+
+.planner-tree-node.is-root .planner-port-out {
+    display: none;
+}
+
+.planner-tree-node.is-leaf .planner-port-in {
+    display: none;
+}
+
+.planner-node-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 6px;
+}
+
 .planner-node-title {
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 700;
+    line-height: 1.15;
+    color: #f3f7ff;
 }
 
-.planner-node-subtitle,
+.planner-node-subtitle {
+    font-size: 12px;
+    color: #8ea4c6;
+    margin-bottom: 6px;
+}
+
 .planner-node-machine {
-    color: var(--muted);
-    font-size: 13px;
-    margin-top: 4px;
+    display: inline-flex;
+    align-items: center;
+    min-height: 24px;
+    padding: 4px 9px;
+    margin-bottom: 12px;
+    border-radius: 999px;
+    border: 1px solid rgba(86, 129, 192, 0.42);
+    background: rgba(70, 106, 163, 0.16);
+    color: #b9d0f1;
+    font-size: 12px;
+    font-weight: 600;
 }
 
-.planner-node-stats {
+.planner-node-stat-grid {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 6px 10px;
-    margin-top: 12px;
-    font-size: 13px;
+    gap: 8px 12px;
+    margin-bottom: 10px;
+}
+
+    .planner-node-stat-grid div {
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+    }
+
+    .planner-node-stat-grid span {
+        font-size: 11px;
+        text-transform: uppercase;
+        letter-spacing: 0.04em;
+        color: #8195b2;
+    }
+
+    .planner-node-stat-grid strong {
+        font-size: 15px;
+        color: #f2f6ff;
+    }
+
+.planner-node-badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.planner-node-badge {
+    display: inline-flex;
+    align-items: center;
+    min-height: 22px;
+    padding: 3px 8px;
+    border-radius: 999px;
+    background: rgba(80, 131, 210, 0.16);
+    border: 1px solid rgba(96, 154, 240, 0.38);
+    color: #b8d3ff;
+    font-size: 11px;
+    font-weight: 600;
+}
+
+    .planner-node-badge.secondary {
+        background: rgba(144, 100, 210, 0.16);
+        border-color: rgba(170, 124, 245, 0.34);
+        color: #d9c7ff;
+    }
+
+.planner-node-remove {
+    flex-shrink: 0;
+}
+
+.planner-canvas > .empty-state.large {
+    min-height: 360px;
+    display: grid;
+    place-items: center;
 }
 
 .shortage-box {
@@ -353,26 +511,6 @@ p {
         grid-template-columns: 1fr;
     }
 
-    .planner-row {
-        flex-direction: column;
-        align-items: stretch;
-    }
-
-    .planner-row-children {
-        border-right: 0;
-        border-bottom: 2px solid rgba(95, 163, 255, 0.35);
-        padding-right: 0;
-        padding-bottom: 14px;
-    }
-
-    .planner-node::before {
-        left: 50%;
-        top: -18px;
-        width: 2px;
-        height: 18px;
-        transform: translateX(-50%);
-    }
-
     .wallet-textarea {
         width: 100%;
         min-height: 220px;
@@ -385,5 +523,60 @@ p {
         font: 13px/1.45 Consolas, "Courier New", monospace;
     }
 
-}
+    .planner-tree-node {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 22px;
+    }
 
+    .planner-tree-children {
+        align-items: center;
+        padding-bottom: 0;
+    }
+
+    .planner-tree-child {
+        padding-right: 0;
+        padding-bottom: 34px;
+    }
+
+        .planner-tree-child::before {
+            right: 50%;
+            top: -11px;
+            bottom: -11px;
+            width: 2px;
+            transform: translateX(50%);
+        }
+
+    .planner-tree-children.single-child .planner-tree-child::before {
+        display: none;
+    }
+
+    .planner-tree-children .planner-tree-child:first-child::before {
+        top: 50%;
+    }
+
+    .planner-tree-children .planner-tree-child:last-child::before {
+        bottom: 50%;
+    }
+
+    .planner-tree-node:not(.is-root) > .planner-node-card::after {
+        right: 50%;
+        top: auto;
+        bottom: -34px;
+        width: 2px;
+        height: 34px;
+        transform: translateX(50%);
+    }
+
+    .planner-tree-node.has-children > .planner-node-card::before {
+        left: 50%;
+        top: -34px;
+        width: 2px;
+        height: 34px;
+        transform: translateX(-50%);
+    }
+
+    .planner-node-card {
+        width: min(100%, 320px);
+    }
+}

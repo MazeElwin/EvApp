@@ -1,6 +1,15 @@
 import React from 'react';
 import PlannerNode from '../PlannerNode.jsx';
 
+
+function normalizeName(value) {
+    return String(value || '')
+        .toLowerCase()
+        .replace(/[^\w\s]/g, ' ')
+        .replace(/\s+/g, ' ')
+        .trim();
+}
+
 function AssemblyTab({
     categories,
     selectedCategory,
@@ -24,6 +33,31 @@ function AssemblyTab({
     removePlannerNode,
     totalRawShortages
 }) {
+    const uniqueSuggestions = [];
+    const seenNames = new Set();
+
+    for (const bp of filteredBlueprints) {
+        const key = normalizeName(bp.name);
+        if (!key || seenNames.has(key)) {
+            continue;
+        }
+        seenNames.add(key);
+        uniqueSuggestions.push(bp.name);
+    }
+
+    function handleSearchChange(event) {
+        const next = event.target.value;
+        setSearchText(next);
+
+        const exactMatch = filteredBlueprints.find(
+            (bp) => normalizeName(bp.name) === normalizeName(next)
+        );
+
+        if (exactMatch) {
+            persistSelectedBlueprintKey(exactMatch.blueprintKey);
+        }
+    }
+
     return (
         <section className="panel assembly-panel">
             <div className="assembly-controls">
@@ -45,9 +79,15 @@ function AssemblyTab({
                     <label>Search</label>
                     <input
                         value={searchText}
-                        onChange={(event) => setSearchText(event.target.value)}
+                        onChange={handleSearchChange}
                         placeholder="Search blueprint..."
+                        list="blueprint-search-suggestions"
                     />
+                    <datalist id="blueprint-search-suggestions">
+                        {uniqueSuggestions.map((name) => (
+                            <option key={name} value={name} />
+                        ))}
+                    </datalist>
                 </div>
 
                 <div className="field">
@@ -58,7 +98,7 @@ function AssemblyTab({
                     >
                         {filteredBlueprints.map((bp) => (
                             <option key={bp.blueprintKey} value={bp.blueprintKey}>
-                                {bp.name} - {bp.machineLabel} - {bp.category}
+                                {bp.name}
                             </option>
                         ))}
                     </select>
