@@ -14,6 +14,7 @@ function AssemblyTab({
     persistPlannerQuantity,
     numberOrZero,
     addPlannerTarget,
+    addRecipePreview,
     clearPlannerQueue,
     plannerViewportRef,
     handlePanStart,
@@ -85,6 +86,15 @@ function AssemblyTab({
                     >
                         Add to planner
                     </button>
+
+                    <button
+                        className="small-button secondary"
+                        onClick={addRecipePreview}
+                        disabled={!selectedBlueprint}
+                    >
+                        Preview recipe
+                    </button>
+
                     <button className="small-button danger" onClick={clearPlannerQueue}>
                         Clear planner
                     </button>
@@ -120,8 +130,7 @@ function AssemblyTab({
                     <ul>
                         {totalRawShortages.map((row, index) => (
                             <li key={`${row.typeId || row.name}-${index}`}>
-                                {row.name} {row.typeId ? `(ID: ${row.typeId})` : ''} -{' '}
-                                {row.quantity}
+                                {row.name} {row.typeId ? `(ID: ${row.typeId})` : ''} - {row.quantity}
                             </li>
                         ))}
                     </ul>

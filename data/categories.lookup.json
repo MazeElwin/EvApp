@@ -1,712 +1,818 @@
 [
   {
-    "category": "Ammo",
-    "items": [
-      {
-        "typeId": 82128,
-        "name": "AC Gyrojet Ammo 1 (S)",
-        "blueprintId": 82128
-      },
-      {
-        "typeId": 82126,
-        "name": "AC Gyrojet Ammo 2 (S)",
-        "blueprintId": 82126
-      },
-      {
-        "typeId": 82127,
-        "name": "AC Gyrojet Ammo 3 (S)",
-        "blueprintId": 82127
-      },
-      {
-        "typeId": 82133,
-        "name": "Coilgun Ammo 1 (S)",
-        "blueprintId": 82133
-      },
-      {
-        "typeId": 81658,
-        "name": "EM Disintegrator Charge (S)",
-        "blueprintId": 81658
-      },
-      {
-        "typeId": 82130,
-        "name": "Rapid Plasma Ammo 1 (S)",
-        "blueprintId": 82130
-      },
-      {
-        "typeId": 82131,
-        "name": "Rapid Plasma Ammo 2 (S)",
-        "blueprintId": 82131
-      }
-    ]
+    "typeId": 72960,
+    "name": "Ships"
   },
   {
-    "category": "Frames",
-    "items": [
-      {
-        "typeId": 78416,
-        "name": "Apocalypse Protocol Frame",
-        "blueprintId": 78416
-      },
-      {
-        "typeId": 78420,
-        "name": "Archangel Protocol Frame",
-        "blueprintId": 78420
-      },
-      {
-        "typeId": 78417,
-        "name": "Bastion Program Frame",
-        "blueprintId": 78417
-      },
-      {
-        "typeId": 78422,
-        "name": "Equilibrium Program Frame",
-        "blueprintId": 78422
-      },
-      {
-        "typeId": 78421,
-        "name": "Exterminata Protocol Frame",
-        "blueprintId": 78421
-      },
-      {
-        "typeId": 78418,
-        "name": "Nomad Program Frame",
-        "blueprintId": 78418
-      }
-    ]
+    "typeId": 77484,
+    "name": "Weapons & Tools"
   },
   {
-    "category": "Materials & Resources",
-    "items": [
-      {
-        "typeId": 88841,
-        "name": "Batched Carbon Weave",
-        "blueprintId": 88841
-      },
-      {
-        "typeId": 88839,
-        "name": "Batched Printed Circuits",
-        "blueprintId": 88839
-      },
-      {
-        "typeId": 88843,
-        "name": "Batched Thermal Composites",
-        "blueprintId": 88843
-      },
-      {
-        "typeId": 89089,
-        "name": "Building Foam",
-        "blueprintId": 89089
-      },
-      {
-        "typeId": 84210,
-        "name": "Carbon Weave",
-        "blueprintId": 84210
-      },
-      {
-        "typeId": 84210,
-        "name": "Carbon Weave",
-        "blueprintId": 84210
-      },
-      {
-        "typeId": 88887,
-        "name": "Compressed Coolant",
-        "blueprintId": 88887
-      },
-      {
-        "typeId": 88319,
-        "name": "D2 Fuel",
-        "blueprintId": 88319
-      },
-      {
-        "typeId": 88319,
-        "name": "D2 Fuel",
-        "blueprintId": 88319
-      },
-      {
-        "typeId": 78437,
-        "name": "EU-90 Fuel",
-        "blueprintId": 78437
-      },
-      {
-        "typeId": 88842,
-        "name": "Packaged Carbon Weave",
-        "blueprintId": 88842
-      },
-      {
-        "typeId": 88840,
-        "name": "Packaged Printed Circuits",
-        "blueprintId": 88840
-      },
-      {
-        "typeId": 84206,
-        "name": "Packaged Reinforced Alloys",
-        "blueprintId": 84206
-      },
-      {
-        "typeId": 88844,
-        "name": "Packaged Thermal Composites",
-        "blueprintId": 88844
-      },
-      {
-        "typeId": 84180,
-        "name": "Printed Circuits",
-        "blueprintId": 84180
-      },
-      {
-        "typeId": 84180,
-        "name": "Printed Circuits",
-        "blueprintId": 84180
-      },
-      {
-        "typeId": 87847,
-        "name": "Reflex",
-        "blueprintId": 87847
-      },
-      {
-        "typeId": 84182,
-        "name": "Reinforced Alloys",
-        "blueprintId": 84182
-      },
-      {
-        "typeId": 84182,
-        "name": "Reinforced Alloys",
-        "blueprintId": 84182
-      },
-      {
-        "typeId": 78515,
-        "name": "SOF-80 Fuel",
-        "blueprintId": 78515
-      },
-      {
-        "typeId": 82667,
-        "name": "Shield Restorer II",
-        "blueprintId": 82667
-      },
-      {
-        "typeId": 83458,
-        "name": "Shield Restorer III",
-        "blueprintId": 83458
-      },
-      {
-        "typeId": 88565,
-        "name": "Still Knot",
-        "blueprintId": 88565
-      },
-      {
-        "typeId": 82651,
-        "name": "Systematic Armor Restorer II",
-        "blueprintId": 82651
-      },
-      {
-        "typeId": 83437,
-        "name": "Systematic Armor Restorer III",
-        "blueprintId": 83437
-      },
-      {
-        "typeId": 88561,
-        "name": "Thermal Composites",
-        "blueprintId": 88561
-      },
-      {
-        "typeId": 88561,
-        "name": "Thermal Composites",
-        "blueprintId": 88561
-      }
-    ]
+    "typeId": 77728,
+    "name": "Other"
   },
   {
-    "category": "Modules",
-    "items": [
-      {
-        "typeId": 83441,
-        "name": "Adaptive Nanitic Armor Weave II",
-        "blueprintId": 83441
-      },
-      {
-        "typeId": 83442,
-        "name": "Adaptive Nanitic Armor Weave III",
-        "blueprintId": 83442
-      },
-      {
-        "typeId": 82681,
-        "name": "Afterburner II",
-        "blueprintId": 82681
-      },
-      {
-        "typeId": 83536,
-        "name": "Afterburner III",
-        "blueprintId": 83536
-      },
-      {
-        "typeId": 82653,
-        "name": "Attuned Shield Generator II",
-        "blueprintId": 82653
-      },
-      {
-        "typeId": 83450,
-        "name": "Attuned Shield Generator III",
-        "blueprintId": 83450
-      },
-      {
-        "typeId": 82647,
-        "name": "Bulky Armor Plates II",
-        "blueprintId": 82647
-      },
-      {
-        "typeId": 83421,
-        "name": "Bulky Armor Plates III",
-        "blueprintId": 83421
-      },
-      {
-        "typeId": 82652,
-        "name": "Bulwark Shield Generator II",
-        "blueprintId": 82652
-      },
-      {
-        "typeId": 83448,
-        "name": "Bulwark Shield Generator III",
-        "blueprintId": 83448
-      },
-      {
-        "typeId": 83497,
-        "name": "Cargo Grid II",
-        "blueprintId": 83497
-      },
-      {
-        "typeId": 83498,
-        "name": "Cargo Grid III",
-        "blueprintId": 83498
-      },
-      {
-        "typeId": 83499,
-        "name": "Cargo Grid IV",
-        "blueprintId": 83499
-      },
-      {
-        "typeId": 83500,
-        "name": "Cargo Grid V",
-        "blueprintId": 83500
-      },
-      {
-        "typeId": 83501,
-        "name": "Cargo Grid VI",
-        "blueprintId": 83501
-      },
-      {
-        "typeId": 78506,
-        "name": "Celerity CD01",
-        "blueprintId": 78506
-      },
-      {
-        "typeId": 78508,
-        "name": "Celerity CD03",
-        "blueprintId": 78508
-      },
-      {
-        "typeId": 82648,
-        "name": "Coated Armor Plates II",
-        "blueprintId": 82648
-      },
-      {
-        "typeId": 83425,
-        "name": "Coated Armor Plates III",
-        "blueprintId": 83425
-      },
-      {
-        "typeId": 87599,
-        "name": "Cryogenic Ejector S",
-        "blueprintId": 87599
-      },
-      {
-        "typeId": 83768,
-        "name": "EM Field Array II",
-        "blueprintId": 83768
-      },
-      {
-        "typeId": 83769,
-        "name": "EM Field Array III",
-        "blueprintId": 83769
-      },
-      {
-        "typeId": 83770,
-        "name": "EM Field Array IV",
-        "blueprintId": 83770
-      },
-      {
-        "typeId": 82411,
-        "name": "EM Nanite Sequencer",
-        "blueprintId": 82411
-      },
-      {
-        "typeId": 83623,
-        "name": "Explo-electro Nanitic Brace II",
-        "blueprintId": 83623
-      },
-      {
-        "typeId": 83624,
-        "name": "Explo-electro Nanitic Brace III",
-        "blueprintId": 83624
-      },
-      {
-        "typeId": 83625,
-        "name": "Explo-electro Nanitic Brace IV",
-        "blueprintId": 83625
-      },
-      {
-        "typeId": 83618,
-        "name": "Explonetic-electro Nanitic Brace II",
-        "blueprintId": 83618
-      },
-      {
-        "typeId": 83619,
-        "name": "Explonetic-electro Nanitic Brace III",
-        "blueprintId": 83619
-      },
-      {
-        "typeId": 83620,
-        "name": "Explonetic-electro Nanitic Brace IV",
-        "blueprintId": 83620
-      },
-      {
-        "typeId": 83777,
-        "name": "Explosive Field Array II",
-        "blueprintId": 83777
-      },
-      {
-        "typeId": 83778,
-        "name": "Explosive Field Array III",
-        "blueprintId": 83778
-      },
-      {
-        "typeId": 83779,
-        "name": "Explosive Field Array IV",
-        "blueprintId": 83779
-      },
-      {
-        "typeId": 82410,
-        "name": "Explosive Nanite Sequencer",
-        "blueprintId": 82410
-      },
-      {
-        "typeId": 88889,
-        "name": "Heat Exchanger S",
-        "blueprintId": 88889
-      },
-      {
-        "typeId": 88886,
-        "name": "Heat Exchanger XS",
-        "blueprintId": 88886
-      },
-      {
-        "typeId": 83782,
-        "name": "Kinetic Field Array II",
-        "blueprintId": 83782
-      },
-      {
-        "typeId": 83783,
-        "name": "Kinetic Field Array III",
-        "blueprintId": 83783
-      },
-      {
-        "typeId": 83784,
-        "name": "Kinetic Field Array IV",
-        "blueprintId": 83784
-      },
-      {
-        "typeId": 82413,
-        "name": "Kinetic Nanite Sequencer",
-        "blueprintId": 82413
-      },
-      {
-        "typeId": 82650,
-        "name": "Nimble Armor Plates II",
-        "blueprintId": 82650
-      },
-      {
-        "typeId": 83433,
-        "name": "Nimble Armor Plates III",
-        "blueprintId": 83433
-      },
-      {
-        "typeId": 82649,
-        "name": "Reactive Armor Plates II",
-        "blueprintId": 82649
-      },
-      {
-        "typeId": 83429,
-        "name": "Reactive Armor Plates III",
-        "blueprintId": 83429
-      },
-      {
-        "typeId": 82654,
-        "name": "Reinforced Shield Generator II",
-        "blueprintId": 82654
-      },
-      {
-        "typeId": 83456,
-        "name": "Reinforced Shield Generator III",
-        "blueprintId": 83456
-      },
-      {
-        "typeId": 82683,
-        "name": "Stasis Net II",
-        "blueprintId": 82683
-      },
-      {
-        "typeId": 83520,
-        "name": "Stasis Net III",
-        "blueprintId": 83520
-      },
-      {
-        "typeId": 83521,
-        "name": "Stasis Net IV",
-        "blueprintId": 83521
-      },
-      {
-        "typeId": 83522,
-        "name": "Stasis Net V",
-        "blueprintId": 83522
-      },
-      {
-        "typeId": 83523,
-        "name": "Stasis Net VI",
-        "blueprintId": 83523
-      },
-      {
-        "typeId": 78511,
-        "name": "Tempo CD41",
-        "blueprintId": 78511
-      },
-      {
-        "typeId": 83772,
-        "name": "Thermal Field Array II",
-        "blueprintId": 83772
-      },
-      {
-        "typeId": 83773,
-        "name": "Thermal Field Array III",
-        "blueprintId": 83773
-      },
-      {
-        "typeId": 83774,
-        "name": "Thermal Field Array IV",
-        "blueprintId": 83774
-      },
-      {
-        "typeId": 83775,
-        "name": "Thermal Field Array V",
-        "blueprintId": 83775
-      },
-      {
-        "typeId": 82412,
-        "name": "Thermal Nanite Sequencer",
-        "blueprintId": 82412
-      },
-      {
-        "typeId": 83613,
-        "name": "Thermal-electro Nanitic Brace II",
-        "blueprintId": 83613
-      },
-      {
-        "typeId": 83614,
-        "name": "Thermal-electro Nanitic Brace III",
-        "blueprintId": 83614
-      },
-      {
-        "typeId": 83615,
-        "name": "Thermal-electro Nanitic Brace IV",
-        "blueprintId": 83615
-      },
-      {
-        "typeId": 83628,
-        "name": "Thermalnetic Nanitic Brace II",
-        "blueprintId": 83628
-      },
-      {
-        "typeId": 83629,
-        "name": "Thermalnetic Nanitic Brace III",
-        "blueprintId": 83629
-      },
-      {
-        "typeId": 83630,
-        "name": "Thermalnetic Nanitic Brace IV",
-        "blueprintId": 83630
-      },
-      {
-        "typeId": 78490,
-        "name": "Velocity CD81",
-        "blueprintId": 78490
-      },
-      {
-        "typeId": 82682,
-        "name": "Warp Entangler II",
-        "blueprintId": 82682
-      },
-      {
-        "typeId": 83516,
-        "name": "Warp Entangler III",
-        "blueprintId": 83516
-      },
-      {
-        "typeId": 83517,
-        "name": "Warp Entangler IV",
-        "blueprintId": 83517
-      },
-      {
-        "typeId": 83518,
-        "name": "Warp Entangler V",
-        "blueprintId": 83518
-      },
-      {
-        "typeId": 83519,
-        "name": "Warp Entangler VI",
-        "blueprintId": 83519
-      }
-    ]
+    "typeId": 77753,
+    "name": "Ships"
   },
   {
-    "category": "Ships",
-    "items": [
-      {
-        "typeId": 81611,
-        "name": "Chumaq",
-        "blueprintId": 81611
-      },
-      {
-        "typeId": 77753,
-        "name": "Embark",
-        "blueprintId": 77753
-      },
-      {
-        "typeId": 82424,
-        "name": "HAF",
-        "blueprintId": 82424
-      },
-      {
-        "typeId": 82426,
-        "name": "LORHA",
-        "blueprintId": 82426
-      },
-      {
-        "typeId": 81904,
-        "name": "MCF",
-        "blueprintId": 81904
-      },
-      {
-        "typeId": 87846,
-        "name": "Recurve",
-        "blueprintId": 87846
-      },
-      {
-        "typeId": 87848,
-        "name": "Reiver",
-        "blueprintId": 87848
-      },
-      {
-        "typeId": 81846,
-        "name": "Sojourn",
-        "blueprintId": 81846
-      },
-      {
-        "typeId": 81808,
-        "name": "TADES",
-        "blueprintId": 81808
-      },
-      {
-        "typeId": 81609,
-        "name": "USV",
-        "blueprintId": 81609
-      },
-      {
-        "typeId": 87698,
-        "name": "Wend",
-        "blueprintId": 87698
-      }
-    ]
+    "typeId": 77801,
+    "name": "Materials & Resources"
   },
   {
-    "category": "Uncategorized",
-    "items": [
-      {
-        "typeId": 88780,
-        "name": "Echo Chamber",
-        "blueprintId": 88780
-      }
-    ]
+    "typeId": 77803,
+    "name": "Materials & Resources"
   },
   {
-    "category": "Weapons & Tools",
-    "items": [
-      {
-        "typeId": 81974,
-        "name": "Base Autocannon (S)",
-        "blueprintId": 81974
-      },
-      {
-        "typeId": 81972,
-        "name": "Base Coilgun (S)",
-        "blueprintId": 81972
-      },
-      {
-        "typeId": 82032,
-        "name": "Base Rapid Plasma (S)",
-        "blueprintId": 82032
-      },
-      {
-        "typeId": 77484,
-        "name": "Crude Extractor",
-        "blueprintId": 77484
-      },
-      {
-        "typeId": 83524,
-        "name": "Large Cutting Laser",
-        "blueprintId": 83524
-      },
-      {
-        "typeId": 83528,
-        "name": "Medium Cutting Laser",
-        "blueprintId": 83528
-      },
-      {
-        "typeId": 77852,
-        "name": "Small Cutting Laser",
-        "blueprintId": 77852
-      },
-      {
-        "typeId": 83463,
-        "name": "Synthetic Mining Lens",
-        "blueprintId": 83463
-      },
-      {
-        "typeId": 82084,
-        "name": "Tier 2 Autocannon (S)",
-        "blueprintId": 82084
-      },
-      {
-        "typeId": 82088,
-        "name": "Tier 2 Coilgun (S)",
-        "blueprintId": 82088
-      },
-      {
-        "typeId": 82086,
-        "name": "Tier 2 Rapid Plasma (S)",
-        "blueprintId": 82086
-      },
-      {
-        "typeId": 82085,
-        "name": "Tier 3 Autocannon (S)",
-        "blueprintId": 82085
-      },
-      {
-        "typeId": 82089,
-        "name": "Tier 3 Coilgun (S)",
-        "blueprintId": 82089
-      },
-      {
-        "typeId": 82087,
-        "name": "Tier 3 Rapid Plasma (S)",
-        "blueprintId": 82087
-      }
-    ]
+    "typeId": 77804,
+    "name": "Materials & Resources"
+  },
+  {
+    "typeId": 77805,
+    "name": "Materials & Resources"
+  },
+  {
+    "typeId": 77852,
+    "name": "Weapons & Tools"
+  },
+  {
+    "typeId": 78416,
+    "name": "Frames"
+  },
+  {
+    "typeId": 78417,
+    "name": "Frames"
+  },
+  {
+    "typeId": 78418,
+    "name": "Frames"
+  },
+  {
+    "typeId": 78420,
+    "name": "Frames"
+  },
+  {
+    "typeId": 78421,
+    "name": "Frames"
+  },
+  {
+    "typeId": 78422,
+    "name": "Frames"
+  },
+  {
+    "typeId": 78423,
+    "name": "Materials & Resources"
+  },
+  {
+    "typeId": 78435,
+    "name": "Other"
+  },
+  {
+    "typeId": 78437,
+    "name": "Materials & Resources"
+  },
+  {
+    "typeId": 78490,
+    "name": "Other"
+  },
+  {
+    "typeId": 78502,
+    "name": "Other"
+  },
+  {
+    "typeId": 78506,
+    "name": "Other"
+  },
+  {
+    "typeId": 78507,
+    "name": "Other"
+  },
+  {
+    "typeId": 78508,
+    "name": "Other"
+  },
+  {
+    "typeId": 78510,
+    "name": "Other"
+  },
+  {
+    "typeId": 78511,
+    "name": "Other"
+  },
+  {
+    "typeId": 78515,
+    "name": "Materials & Resources"
+  },
+  {
+    "typeId": 78516,
+    "name": "Materials & Resources"
+  },
+  {
+    "typeId": 81609,
+    "name": "Ships"
+  },
+  {
+    "typeId": 81611,
+    "name": "Ships"
+  },
+  {
+    "typeId": 81656,
+    "name": "Other"
+  },
+  {
+    "typeId": 81657,
+    "name": "Other"
+  },
+  {
+    "typeId": 81658,
+    "name": "Ammo"
+  },
+  {
+    "typeId": 81808,
+    "name": "Ships"
+  },
+  {
+    "typeId": 81846,
+    "name": "Ships"
+  },
+  {
+    "typeId": 81904,
+    "name": "Ships"
+  },
+  {
+    "typeId": 81972,
+    "name": "Weapons & Tools"
+  },
+  {
+    "typeId": 81974,
+    "name": "Weapons & Tools"
+  },
+  {
+    "typeId": 82028,
+    "name": "Weapons & Tools"
+  },
+  {
+    "typeId": 82030,
+    "name": "Weapons & Tools"
+  },
+  {
+    "typeId": 82032,
+    "name": "Weapons & Tools"
+  },
+  {
+    "typeId": 82033,
+    "name": "Weapons & Tools"
+  },
+  {
+    "typeId": 82084,
+    "name": "Weapons & Tools"
+  },
+  {
+    "typeId": 82085,
+    "name": "Weapons & Tools"
+  },
+  {
+    "typeId": 82086,
+    "name": "Weapons & Tools"
+  },
+  {
+    "typeId": 82087,
+    "name": "Weapons & Tools"
+  },
+  {
+    "typeId": 82088,
+    "name": "Weapons & Tools"
+  },
+  {
+    "typeId": 82089,
+    "name": "Weapons & Tools"
+  },
+  {
+    "typeId": 82090,
+    "name": "Other"
+  },
+  {
+    "typeId": 82091,
+    "name": "Other"
+  },
+  {
+    "typeId": 82092,
+    "name": "Weapons & Tools"
+  },
+  {
+    "typeId": 82093,
+    "name": "Weapons & Tools"
+  },
+  {
+    "typeId": 82094,
+    "name": "Other"
+  },
+  {
+    "typeId": 82095,
+    "name": "Other"
+  },
+  {
+    "typeId": 82096,
+    "name": "Weapons & Tools"
+  },
+  {
+    "typeId": 82097,
+    "name": "Weapons & Tools"
+  },
+  {
+    "typeId": 82098,
+    "name": "Weapons & Tools"
+  },
+  {
+    "typeId": 82099,
+    "name": "Weapons & Tools"
+  },
+  {
+    "typeId": 82126,
+    "name": "Ammo"
+  },
+  {
+    "typeId": 82127,
+    "name": "Ammo"
+  },
+  {
+    "typeId": 82128,
+    "name": "Ammo"
+  },
+  {
+    "typeId": 82130,
+    "name": "Ammo"
+  },
+  {
+    "typeId": 82131,
+    "name": "Ammo"
+  },
+  {
+    "typeId": 82132,
+    "name": "Ammo"
+  },
+  {
+    "typeId": 82133,
+    "name": "Ammo"
+  },
+  {
+    "typeId": 82134,
+    "name": "Ammo"
+  },
+  {
+    "typeId": 82137,
+    "name": "Ammo"
+  },
+  {
+    "typeId": 82140,
+    "name": "Ammo"
+  },
+  {
+    "typeId": 82410,
+    "name": "Modules"
+  },
+  {
+    "typeId": 82411,
+    "name": "Modules"
+  },
+  {
+    "typeId": 82412,
+    "name": "Modules"
+  },
+  {
+    "typeId": 82413,
+    "name": "Modules"
+  },
+  {
+    "typeId": 82424,
+    "name": "Ships"
+  },
+  {
+    "typeId": 82425,
+    "name": "Ships"
+  },
+  {
+    "typeId": 82426,
+    "name": "Ships"
+  },
+  {
+    "typeId": 82430,
+    "name": "Ships"
+  },
+  {
+    "typeId": 82647,
+    "name": "Modules"
+  },
+  {
+    "typeId": 82648,
+    "name": "Modules"
+  },
+  {
+    "typeId": 82649,
+    "name": "Modules"
+  },
+  {
+    "typeId": 82650,
+    "name": "Modules"
+  },
+  {
+    "typeId": 82651,
+    "name": "Modules"
+  },
+  {
+    "typeId": 82652,
+    "name": "Modules"
+  },
+  {
+    "typeId": 82653,
+    "name": "Modules"
+  },
+  {
+    "typeId": 82654,
+    "name": "Modules"
+  },
+  {
+    "typeId": 82667,
+    "name": "Ammo"
+  },
+  {
+    "typeId": 82681,
+    "name": "Modules"
+  },
+  {
+    "typeId": 82682,
+    "name": "Modules"
+  },
+  {
+    "typeId": 82683,
+    "name": "Modules"
+  },
+  {
+    "typeId": 82915,
+    "name": "Modules"
+  },
+  {
+    "typeId": 83421,
+    "name": "Modules"
+  },
+  {
+    "typeId": 83423,
+    "name": "Modules"
+  },
+  {
+    "typeId": 83425,
+    "name": "Modules"
+  },
+  {
+    "typeId": 83426,
+    "name": "Modules"
+  },
+  {
+    "typeId": 83429,
+    "name": "Modules"
+  },
+  {
+    "typeId": 83430,
+    "name": "Modules"
+  },
+  {
+    "typeId": 83433,
+    "name": "Modules"
+  },
+  {
+    "typeId": 83434,
+    "name": "Modules"
+  },
+  {
+    "typeId": 83437,
+    "name": "Modules"
+  },
+  {
+    "typeId": 83438,
+    "name": "Modules"
+  },
+  {
+    "typeId": 83441,
+    "name": "Modules"
+  },
+  {
+    "typeId": 83442,
+    "name": "Modules"
+  },
+  {
+    "typeId": 83443,
+    "name": "Modules"
+  },
+  {
+    "typeId": 83448,
+    "name": "Modules"
+  },
+  {
+    "typeId": 83449,
+    "name": "Modules"
+  },
+  {
+    "typeId": 83450,
+    "name": "Modules"
+  },
+  {
+    "typeId": 83451,
+    "name": "Modules"
+  },
+  {
+    "typeId": 83456,
+    "name": "Modules"
+  },
+  {
+    "typeId": 83457,
+    "name": "Modules"
+  },
+  {
+    "typeId": 83458,
+    "name": "Ammo"
+  },
+  {
+    "typeId": 83459,
+    "name": "Ammo"
+  },
+  {
+    "typeId": 83463,
+    "name": "Weapons & Tools"
+  },
+  {
+    "typeId": 83497,
+    "name": "Modules"
+  },
+  {
+    "typeId": 83498,
+    "name": "Modules"
+  },
+  {
+    "typeId": 83499,
+    "name": "Modules"
+  },
+  {
+    "typeId": 83500,
+    "name": "Modules"
+  },
+  {
+    "typeId": 83501,
+    "name": "Modules"
+  },
+  {
+    "typeId": 83516,
+    "name": "Modules"
+  },
+  {
+    "typeId": 83517,
+    "name": "Modules"
+  },
+  {
+    "typeId": 83518,
+    "name": "Modules"
+  },
+  {
+    "typeId": 83519,
+    "name": "Modules"
+  },
+  {
+    "typeId": 83520,
+    "name": "Modules"
+  },
+  {
+    "typeId": 83521,
+    "name": "Modules"
+  },
+  {
+    "typeId": 83522,
+    "name": "Modules"
+  },
+  {
+    "typeId": 83523,
+    "name": "Modules"
+  },
+  {
+    "typeId": 83524,
+    "name": "Weapons & Tools"
+  },
+  {
+    "typeId": 83528,
+    "name": "Weapons & Tools"
+  },
+  {
+    "typeId": 83536,
+    "name": "Modules"
+  },
+  {
+    "typeId": 83613,
+    "name": "Modules"
+  },
+  {
+    "typeId": 83614,
+    "name": "Modules"
+  },
+  {
+    "typeId": 83615,
+    "name": "Modules"
+  },
+  {
+    "typeId": 83618,
+    "name": "Modules"
+  },
+  {
+    "typeId": 83619,
+    "name": "Modules"
+  },
+  {
+    "typeId": 83620,
+    "name": "Modules"
+  },
+  {
+    "typeId": 83623,
+    "name": "Modules"
+  },
+  {
+    "typeId": 83624,
+    "name": "Modules"
+  },
+  {
+    "typeId": 83625,
+    "name": "Modules"
+  },
+  {
+    "typeId": 83628,
+    "name": "Modules"
+  },
+  {
+    "typeId": 83629,
+    "name": "Modules"
+  },
+  {
+    "typeId": 83630,
+    "name": "Modules"
+  },
+  {
+    "typeId": 83768,
+    "name": "Modules"
+  },
+  {
+    "typeId": 83769,
+    "name": "Modules"
+  },
+  {
+    "typeId": 83770,
+    "name": "Modules"
+  },
+  {
+    "typeId": 83772,
+    "name": "Modules"
+  },
+  {
+    "typeId": 83773,
+    "name": "Modules"
+  },
+  {
+    "typeId": 83774,
+    "name": "Modules"
+  },
+  {
+    "typeId": 83775,
+    "name": "Modules"
+  },
+  {
+    "typeId": 83777,
+    "name": "Modules"
+  },
+  {
+    "typeId": 83778,
+    "name": "Modules"
+  },
+  {
+    "typeId": 83779,
+    "name": "Modules"
+  },
+  {
+    "typeId": 83782,
+    "name": "Modules"
+  },
+  {
+    "typeId": 83783,
+    "name": "Modules"
+  },
+  {
+    "typeId": 83784,
+    "name": "Modules"
+  },
+  {
+    "typeId": 83839,
+    "name": "Other"
+  },
+  {
+    "typeId": 83895,
+    "name": "Weapons & Tools"
+  },
+  {
+    "typeId": 83896,
+    "name": "Weapons & Tools"
+  },
+  {
+    "typeId": 83897,
+    "name": "Weapons & Tools"
+  },
+  {
+    "typeId": 83898,
+    "name": "Weapons & Tools"
+  },
+  {
+    "typeId": 84180,
+    "name": "Materials & Resources"
+  },
+  {
+    "typeId": 84182,
+    "name": "Materials & Resources"
+  },
+  {
+    "typeId": 84204,
+    "name": "Materials & Resources"
+  },
+  {
+    "typeId": 84206,
+    "name": "Materials & Resources"
+  },
+  {
+    "typeId": 84210,
+    "name": "Materials & Resources"
+  },
+  {
+    "typeId": 84868,
+    "name": "Materials & Resources"
+  },
+  {
+    "typeId": 87599,
+    "name": "Other"
+  },
+  {
+    "typeId": 87698,
+    "name": "Ships"
+  },
+  {
+    "typeId": 87846,
+    "name": "Ships"
+  },
+  {
+    "typeId": 87847,
+    "name": "Other"
+  },
+  {
+    "typeId": 87848,
+    "name": "Ships"
+  },
+  {
+    "typeId": 88234,
+    "name": "Materials & Resources"
+  },
+  {
+    "typeId": 88235,
+    "name": "Materials & Resources"
+  },
+  {
+    "typeId": 88319,
+    "name": "Materials & Resources"
+  },
+  {
+    "typeId": 88335,
+    "name": "Materials & Resources"
+  },
+  {
+    "typeId": 88561,
+    "name": "Materials & Resources"
+  },
+  {
+    "typeId": 88565,
+    "name": "Materials & Resources"
+  },
+  {
+    "typeId": 88780,
+    "name": "Other"
+  },
+  {
+    "typeId": 88781,
+    "name": "Materials & Resources"
+  },
+  {
+    "typeId": 88782,
+    "name": "Materials & Resources"
+  },
+  {
+    "typeId": 88783,
+    "name": "Materials & Resources"
+  },
+  {
+    "typeId": 88839,
+    "name": "Materials & Resources"
+  },
+  {
+    "typeId": 88840,
+    "name": "Materials & Resources"
+  },
+  {
+    "typeId": 88841,
+    "name": "Materials & Resources"
+  },
+  {
+    "typeId": 88842,
+    "name": "Materials & Resources"
+  },
+  {
+    "typeId": 88843,
+    "name": "Materials & Resources"
+  },
+  {
+    "typeId": 88844,
+    "name": "Materials & Resources"
+  },
+  {
+    "typeId": 88886,
+    "name": "Modules"
+  },
+  {
+    "typeId": 88887,
+    "name": "Ammo"
+  },
+  {
+    "typeId": 88889,
+    "name": "Modules"
+  },
+  {
+    "typeId": 89089,
+    "name": "Materials & Resources"
+  },
+  {
+    "typeId": 89258,
+    "name": "Materials & Resources"
+  },
+  {
+    "typeId": 89259,
+    "name": "Materials & Resources"
+  },
+  {
+    "typeId": 89260,
+    "name": "Materials & Resources"
+  },
+  {
+    "typeId": 89978,
+    "name": "Other"
+  },
+  {
+    "typeId": 89979,
+    "name": "Other"
+  },
+  {
+    "typeId": 90887,
+    "name": "Other"
+  },
+  {
+    "typeId": 91106,
+    "name": "Other"
+  },
+  {
+    "typeId": 91107,
+    "name": "Other"
+  },
+  {
+    "typeId": 91749,
+    "name": "Materials & Resources"
+  },
+  {
+    "typeId": 91967,
+    "name": "Materials & Resources"
+  },
+  {
+    "typeId": 91968,
+    "name": "Materials & Resources"
+  },
+  {
+    "typeId": 92389,
+    "name": "Other"
+  },
+  {
+    "typeId": 92390,
+    "name": "Other"
+  },
+  {
+    "typeId": 92421,
+    "name": "Other"
+  },
+  {
+    "typeId": 92422,
+    "name": "Other"
+  },
+  {
+    "typeId": 92483,
+    "name": "Materials & Resources"
+  },
+  {
+    "typeId": 99001,
+    "name": "Materials & Resources"
   }
 ]

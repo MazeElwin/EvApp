@@ -1,659 +1,5 @@
 [
   {
-    "typeId": 83443,
-    "name": "Adaptive Nanitic Armor Weave IV",
-    "group": "Flex Armor Hardener",
-    "category": null,
-    "blueprintIds": [
-      83443
-    ]
-  },
-  {
-    "typeId": 82915,
-    "name": "Afterburner IV",
-    "group": "Propulsion Module",
-    "category": null,
-    "blueprintIds": [
-      82915
-    ]
-  },
-  {
-    "typeId": 91967,
-    "name": "Aggressive Shell",
-    "group": "Synthetic",
-    "category": null,
-    "blueprintIds": [
-      91967
-    ]
-  },
-  {
-    "typeId": 78448,
-    "name": "Aromatic Carbon Veins",
-    "group": "Glint Ores",
-    "category": null,
-    "blueprintIds": [
-      78448
-    ]
-  },
-  {
-    "typeId": 83451,
-    "name": "Attuned Shield Generator IV",
-    "group": "Defensive System",
-    "category": null,
-    "blueprintIds": [
-      83451
-    ]
-  },
-  {
-    "typeId": 82028,
-    "name": "Base Coilgun (M)",
-    "group": "Mass Driver Weapon",
-    "category": null,
-    "blueprintIds": [
-      82028
-    ]
-  },
-  {
-    "typeId": 82030,
-    "name": "Base Howitzer (M)",
-    "group": "Projectile Weapon",
-    "category": null,
-    "blueprintIds": [
-      82030
-    ]
-  },
-  {
-    "typeId": 84204,
-    "name": "Batched Reinforced Alloys",
-    "group": "Manufacturing Component",
-    "category": null,
-    "blueprintIds": [
-      84204
-    ]
-  },
-  {
-    "typeId": 83423,
-    "name": "Bulky Armor Plates V",
-    "group": "Defensive System",
-    "category": null,
-    "blueprintIds": [
-      83423
-    ]
-  },
-  {
-    "typeId": 83449,
-    "name": "Bulwark Shield Generator IV",
-    "group": "Defensive System",
-    "category": null,
-    "blueprintIds": [
-      83449
-    ]
-  },
-  {
-    "typeId": 91107,
-    "name": "Carom",
-    "group": "Corvette",
-    "category": null,
-    "blueprintIds": [
-      91107
-    ]
-  },
-  {
-    "typeId": 89979,
-    "name": "Carom Stack",
-    "group": "Miscellaneous",
-    "category": null,
-    "blueprintIds": [
-      89979
-    ]
-  },
-  {
-    "typeId": 78507,
-    "name": "Celerity CD02",
-    "group": "Crude Engines",
-    "category": null,
-    "blueprintIds": [
-      78507
-    ]
-  },
-  {
-    "typeId": 83426,
-    "name": "Coated Armor Plates IV",
-    "group": "Defensive System",
-    "category": null,
-    "blueprintIds": [
-      83426
-    ]
-  },
-  {
-    "typeId": 82134,
-    "name": "Coilgun Ammo 1 (M)",
-    "group": "Coilgun Charge",
-    "category": null,
-    "blueprintIds": [
-      82134
-    ]
-  },
-  {
-    "typeId": 82137,
-    "name": "EM Disintegrator Charge (M)",
-    "group": "EM Disintegrator Charge ",
-    "category": null,
-    "blueprintIds": [
-      82137,
-      82137
-    ]
-  },
-  {
-    "typeId": 83898,
-    "name": "Eclipsite Mining Lens",
-    "group": "Asteroid Mining Crystal",
-    "category": null,
-    "blueprintIds": [
-      83898
-    ]
-  },
-  {
-    "typeId": 78435,
-    "name": "Eupraxite",
-    "group": "Mineral",
-    "category": null,
-    "blueprintIds": [
-      78435,
-      78435
-    ]
-  },
-  {
-    "typeId": 77800,
-    "name": "Feldspar Crystals",
-    "group": "Char Ores",
-    "category": null,
-    "blueprintIds": [
-      77800,
-      77800,
-      77800
-    ]
-  },
-  {
-    "typeId": 83896,
-    "name": "Gravionite Mining Lens",
-    "group": "Asteroid Mining Crystal",
-    "category": null,
-    "blueprintIds": [
-      83896
-    ]
-  },
-  {
-    "typeId": 90887,
-    "name": "Hop",
-    "group": "Warp Accelerator",
-    "category": null,
-    "blueprintIds": [
-      90887
-    ]
-  },
-  {
-    "typeId": 82140,
-    "name": "Howitzer Ammo 1 (M)",
-    "group": "Projectile Ammo",
-    "category": null,
-    "blueprintIds": [
-      82140
-    ]
-  },
-  {
-    "typeId": 72960,
-    "name": "Hull Repairer",
-    "group": "Hull Repair Unit",
-    "category": null,
-    "blueprintIds": [
-      72960
-    ]
-  },
-  {
-    "typeId": 77811,
-    "name": "Hydrated Sulfide Matrix",
-    "group": "Comet Ores",
-    "category": null,
-    "blueprintIds": [
-      77811,
-      77811,
-      77811
-    ]
-  },
-  {
-    "typeId": 89258,
-    "name": "Hydrocarbon Residue",
-    "group": "Mineral",
-    "category": null,
-    "blueprintIds": [
-      89258,
-      89258
-    ]
-  },
-  {
-    "typeId": 78426,
-    "name": "Iridosmine Nodules",
-    "group": "Ingot Ores",
-    "category": null,
-    "blueprintIds": [
-      78426,
-      78426
-    ]
-  },
-  {
-    "typeId": 89260,
-    "name": "Iron-Rich Nodules",
-    "group": "Mineral",
-    "category": null,
-    "blueprintIds": [
-      89260,
-      89260
-    ]
-  },
-  {
-    "typeId": 82425,
-    "name": "LAI",
-    "group": "Frigate",
-    "category": null,
-    "blueprintIds": [
-      82425
-    ]
-  },
-  {
-    "typeId": 92421,
-    "name": "Leap",
-    "group": "Warp Accelerator",
-    "category": null,
-    "blueprintIds": [
-      92421
-    ]
-  },
-  {
-    "typeId": 83897,
-    "name": "Luminalis Mining Lens",
-    "group": "Asteroid Mining Crystal",
-    "category": null,
-    "blueprintIds": [
-      83897
-    ]
-  },
-  {
-    "typeId": 92390,
-    "name": "Lunge",
-    "group": "Warp Accelerator",
-    "category": null,
-    "blueprintIds": [
-      92390
-    ]
-  },
-  {
-    "typeId": 82430,
-    "name": "MAUL",
-    "group": "Cruiser",
-    "category": null,
-    "blueprintIds": [
-      82430
-    ]
-  },
-  {
-    "typeId": 78446,
-    "name": "Methane Ice Shards",
-    "group": "Dewdrop Ores",
-    "category": null,
-    "blueprintIds": [
-      78446
-    ]
-  },
-  {
-    "typeId": 88765,
-    "name": "Mummified Clone",
-    "group": "Salvage",
-    "category": null,
-    "blueprintIds": [
-      88765,
-      88765
-    ]
-  },
-  {
-    "typeId": 83434,
-    "name": "Nimble Armor Plates IV",
-    "group": "Defensive System",
-    "category": null,
-    "blueprintIds": [
-      83434
-    ]
-  },
-  {
-    "typeId": 77810,
-    "name": "Platinum-Palladium Matrix",
-    "group": "Slag Ores",
-    "category": null,
-    "blueprintIds": [
-      77810,
-      77810,
-      77810
-    ]
-  },
-  {
-    "typeId": 78447,
-    "name": "Primitive Kerogen Matrix",
-    "group": "Ember Ores",
-    "category": null,
-    "blueprintIds": [
-      78447
-    ]
-  },
-  {
-    "typeId": 83895,
-    "name": "Radiantium Mining Lens",
-    "group": "Asteroid Mining Crystal",
-    "category": null,
-    "blueprintIds": [
-      83895
-    ]
-  },
-  {
-    "typeId": 82033,
-    "name": "Rapid Plasma (M)",
-    "group": "Plasma Weapon",
-    "category": null,
-    "blueprintIds": [
-      82033
-    ]
-  },
-  {
-    "typeId": 82132,
-    "name": "Rapid Plasma Ammo 1 (M)",
-    "group": "Plasma Charge",
-    "category": null,
-    "blueprintIds": [
-      82132
-    ]
-  },
-  {
-    "typeId": 83430,
-    "name": "Reactive Armor Plates IV",
-    "group": "Defensive System",
-    "category": null,
-    "blueprintIds": [
-      83430
-    ]
-  },
-  {
-    "typeId": 91749,
-    "name": "Reaping Shell",
-    "group": "Synthetic",
-    "category": null,
-    "blueprintIds": [
-      91749
-    ]
-  },
-  {
-    "typeId": 83457,
-    "name": "Reinforced Shield Generator IV",
-    "group": "Defensive System",
-    "category": null,
-    "blueprintIds": [
-      83457
-    ]
-  },
-  {
-    "typeId": 77729,
-    "name": "Rough Old Crude Matter",
-    "group": "Rift",
-    "category": null,
-    "blueprintIds": [
-      77729
-    ]
-  },
-  {
-    "typeId": 78434,
-    "name": "Rough Young Crude Matter",
-    "group": "Rift",
-    "category": null,
-    "blueprintIds": [
-      78434
-    ]
-  },
-  {
-    "typeId": 91968,
-    "name": "Rugged Shell",
-    "group": "Synthetic",
-    "category": null,
-    "blueprintIds": [
-      91968
-    ]
-  },
-  {
-    "typeId": 88764,
-    "name": "Salvaged Materials",
-    "group": "Salvage",
-    "category": null,
-    "blueprintIds": [
-      88764,
-      88764
-    ]
-  },
-  {
-    "typeId": 83459,
-    "name": "Shield Restorer IV",
-    "group": "Shield Recharger",
-    "category": null,
-    "blueprintIds": [
-      83459
-    ]
-  },
-  {
-    "typeId": 89259,
-    "name": "Silica Grains",
-    "group": "Mineral",
-    "category": null,
-    "blueprintIds": [
-      89259,
-      89259
-    ]
-  },
-  {
-    "typeId": 92389,
-    "name": "Skip",
-    "group": "Warp Accelerator",
-    "category": null,
-    "blueprintIds": [
-      92389
-    ]
-  },
-  {
-    "typeId": 77728,
-    "name": "Sophrogon",
-    "group": "Mineral",
-    "category": null,
-    "blueprintIds": [
-      77728,
-      77728
-    ]
-  },
-  {
-    "typeId": 92483,
-    "name": "Still Kernel",
-    "group": "Manufacturing Component",
-    "category": null,
-    "blueprintIds": [
-      92483
-    ]
-  },
-  {
-    "typeId": 91106,
-    "name": "Stride",
-    "group": "Corvette",
-    "category": null,
-    "blueprintIds": [
-      91106
-    ]
-  },
-  {
-    "typeId": 89978,
-    "name": "Stride Stack",
-    "group": "Miscellaneous",
-    "category": null,
-    "blueprintIds": [
-      89978
-    ]
-  },
-  {
-    "typeId": 83438,
-    "name": "Systematic Armor Restorer IV",
-    "group": "Armor Repair Unit",
-    "category": null,
-    "blueprintIds": [
-      83438
-    ]
-  },
-  {
-    "typeId": 78510,
-    "name": "Tempo CD42",
-    "group": "Crude Engines",
-    "category": null,
-    "blueprintIds": [
-      78510
-    ]
-  },
-  {
-    "typeId": 78449,
-    "name": "Tholin Nodules",
-    "group": "Soot Ores",
-    "category": null,
-    "blueprintIds": [
-      78449
-    ]
-  },
-  {
-    "typeId": 82092,
-    "name": "Tier 2 Coilgun (M)",
-    "group": "Mass Driver Weapon",
-    "category": null,
-    "blueprintIds": [
-      82092
-    ]
-  },
-  {
-    "typeId": 82098,
-    "name": "Tier 2 Howitzer (M)",
-    "group": "Projectile Weapon",
-    "category": null,
-    "blueprintIds": [
-      82098
-    ]
-  },
-  {
-    "typeId": 82096,
-    "name": "Tier 2 Rapid Plasma (M)",
-    "group": "Plasma Weapon",
-    "category": null,
-    "blueprintIds": [
-      82096
-    ]
-  },
-  {
-    "typeId": 82093,
-    "name": "Tier 3 Coilgun (M)",
-    "group": "Mass Driver Weapon",
-    "category": null,
-    "blueprintIds": [
-      82093
-    ]
-  },
-  {
-    "typeId": 82099,
-    "name": "Tier 3 Howitzer (M)",
-    "group": "Projectile Weapon",
-    "category": null,
-    "blueprintIds": [
-      82099
-    ]
-  },
-  {
-    "typeId": 82097,
-    "name": "Tier 3 Rapid Plasma (M)",
-    "group": "Plasma Weapon",
-    "category": null,
-    "blueprintIds": [
-      82097
-    ]
-  },
-  {
-    "typeId": 81656,
-    "name": "Tuho 7",
-    "group": "Energy Lance",
-    "category": null,
-    "blueprintIds": [
-      81656
-    ]
-  },
-  {
-    "typeId": 82090,
-    "name": "Tuho 9",
-    "group": "Energy Lance",
-    "category": null,
-    "blueprintIds": [
-      82090
-    ]
-  },
-  {
-    "typeId": 82091,
-    "name": "Tuho S",
-    "group": "Energy Lance",
-    "category": null,
-    "blueprintIds": [
-      82091
-    ]
-  },
-  {
-    "typeId": 78502,
-    "name": "Velocity CD82",
-    "group": "Crude Engines",
-    "category": null,
-    "blueprintIds": [
-      78502
-    ]
-  },
-  {
-    "typeId": 78423,
-    "name": "Water Ice",
-    "group": "Mineral",
-    "category": null,
-    "blueprintIds": [
-      78423
-    ]
-  },
-  {
-    "typeId": 81657,
-    "name": "Xoru 7",
-    "group": "Energy Lance",
-    "category": null,
-    "blueprintIds": [
-      81657
-    ]
-  },
-  {
-    "typeId": 82094,
-    "name": "Xoru 9",
-    "group": "Energy Lance",
-    "category": null,
-    "blueprintIds": [
-      82094
-    ]
-  },
-  {
-    "typeId": 82095,
-    "name": "Xoru S",
-    "group": "Energy Lance",
-    "category": null,
-    "blueprintIds": [
-      82095
-    ]
-  },
-  {
     "typeId": 82128,
     "name": "AC Gyrojet Ammo 1 (S)",
     "group": "Gyrojet Ammunition",
@@ -681,299 +27,6 @@
     ]
   },
   {
-    "typeId": 82133,
-    "name": "Coilgun Ammo 1 (S)",
-    "group": "Coilgun Charge",
-    "category": "Ammo",
-    "blueprintIds": [
-      82133
-    ]
-  },
-  {
-    "typeId": 81658,
-    "name": "EM Disintegrator Charge (S)",
-    "group": "EM Disintegrator Charge ",
-    "category": "Ammo",
-    "blueprintIds": [
-      81658
-    ]
-  },
-  {
-    "typeId": 82130,
-    "name": "Rapid Plasma Ammo 1 (S)",
-    "group": "Plasma Charge",
-    "category": "Ammo",
-    "blueprintIds": [
-      82130
-    ]
-  },
-  {
-    "typeId": 82131,
-    "name": "Rapid Plasma Ammo 2 (S)",
-    "group": "Plasma Charge",
-    "category": "Ammo",
-    "blueprintIds": [
-      82131
-    ]
-  },
-  {
-    "typeId": 78416,
-    "name": "Apocalypse Protocol Frame",
-    "group": "Exotronic Frames",
-    "category": "Frames",
-    "blueprintIds": [
-      78416
-    ]
-  },
-  {
-    "typeId": 78420,
-    "name": "Archangel Protocol Frame",
-    "group": "Exotronic Frames",
-    "category": "Frames",
-    "blueprintIds": [
-      78420
-    ]
-  },
-  {
-    "typeId": 78417,
-    "name": "Bastion Program Frame",
-    "group": "Exotronic Frames",
-    "category": "Frames",
-    "blueprintIds": [
-      78417
-    ]
-  },
-  {
-    "typeId": 78422,
-    "name": "Equilibrium Program Frame",
-    "group": "Exotronic Frames",
-    "category": "Frames",
-    "blueprintIds": [
-      78422
-    ]
-  },
-  {
-    "typeId": 78421,
-    "name": "Exterminata Protocol Frame",
-    "group": "Exotronic Frames",
-    "category": "Frames",
-    "blueprintIds": [
-      78421
-    ]
-  },
-  {
-    "typeId": 78418,
-    "name": "Nomad Program Frame",
-    "group": "Exotronic Frames",
-    "category": "Frames",
-    "blueprintIds": [
-      78418
-    ]
-  },
-  {
-    "typeId": 88841,
-    "name": "Batched Carbon Weave",
-    "group": "Manufacturing Component",
-    "category": "Materials & Resources",
-    "blueprintIds": [
-      88841
-    ]
-  },
-  {
-    "typeId": 88839,
-    "name": "Batched Printed Circuits",
-    "group": "Manufacturing Component",
-    "category": "Materials & Resources",
-    "blueprintIds": [
-      88839
-    ]
-  },
-  {
-    "typeId": 88843,
-    "name": "Batched Thermal Composites",
-    "group": "Manufacturing Component",
-    "category": "Materials & Resources",
-    "blueprintIds": [
-      88843
-    ]
-  },
-  {
-    "typeId": 89089,
-    "name": "Building Foam",
-    "group": "Manufacturing Component",
-    "category": "Materials & Resources",
-    "blueprintIds": [
-      89089
-    ]
-  },
-  {
-    "typeId": 84210,
-    "name": "Carbon Weave",
-    "group": "Manufacturing Component",
-    "category": "Materials & Resources",
-    "blueprintIds": [
-      84210,
-      84210
-    ]
-  },
-  {
-    "typeId": 88887,
-    "name": "Compressed Coolant",
-    "group": "Heat Sink Charge",
-    "category": "Materials & Resources",
-    "blueprintIds": [
-      88887
-    ]
-  },
-  {
-    "typeId": 88319,
-    "name": "D2 Fuel",
-    "group": "Hydrogen Fuel",
-    "category": "Materials & Resources",
-    "blueprintIds": [
-      88319,
-      88319
-    ]
-  },
-  {
-    "typeId": 78437,
-    "name": "EU-90 Fuel",
-    "group": "Crude Fuel",
-    "category": "Materials & Resources",
-    "blueprintIds": [
-      78437
-    ]
-  },
-  {
-    "typeId": 88842,
-    "name": "Packaged Carbon Weave",
-    "group": "Manufacturing Component",
-    "category": "Materials & Resources",
-    "blueprintIds": [
-      88842
-    ]
-  },
-  {
-    "typeId": 88840,
-    "name": "Packaged Printed Circuits",
-    "group": "Manufacturing Component",
-    "category": "Materials & Resources",
-    "blueprintIds": [
-      88840
-    ]
-  },
-  {
-    "typeId": 84206,
-    "name": "Packaged Reinforced Alloys",
-    "group": "Manufacturing Component",
-    "category": "Materials & Resources",
-    "blueprintIds": [
-      84206
-    ]
-  },
-  {
-    "typeId": 88844,
-    "name": "Packaged Thermal Composites",
-    "group": "Manufacturing Component",
-    "category": "Materials & Resources",
-    "blueprintIds": [
-      88844
-    ]
-  },
-  {
-    "typeId": 84180,
-    "name": "Printed Circuits",
-    "group": "Manufacturing Component",
-    "category": "Materials & Resources",
-    "blueprintIds": [
-      84180,
-      84180
-    ]
-  },
-  {
-    "typeId": 87847,
-    "name": "Reflex",
-    "group": "Corvette",
-    "category": "Materials & Resources",
-    "blueprintIds": [
-      87847
-    ]
-  },
-  {
-    "typeId": 84182,
-    "name": "Reinforced Alloys",
-    "group": "Manufacturing Component",
-    "category": "Materials & Resources",
-    "blueprintIds": [
-      84182,
-      84182
-    ]
-  },
-  {
-    "typeId": 78515,
-    "name": "SOF-80 Fuel",
-    "group": "Crude Fuel",
-    "category": "Materials & Resources",
-    "blueprintIds": [
-      78515
-    ]
-  },
-  {
-    "typeId": 82667,
-    "name": "Shield Restorer II",
-    "group": "Shield Recharger",
-    "category": "Materials & Resources",
-    "blueprintIds": [
-      82667
-    ]
-  },
-  {
-    "typeId": 83458,
-    "name": "Shield Restorer III",
-    "group": "Shield Recharger",
-    "category": "Materials & Resources",
-    "blueprintIds": [
-      83458
-    ]
-  },
-  {
-    "typeId": 88565,
-    "name": "Still Knot",
-    "group": "Manufacturing Component",
-    "category": "Materials & Resources",
-    "blueprintIds": [
-      88565
-    ]
-  },
-  {
-    "typeId": 82651,
-    "name": "Systematic Armor Restorer II",
-    "group": "Armor Repair Unit",
-    "category": "Materials & Resources",
-    "blueprintIds": [
-      82651
-    ]
-  },
-  {
-    "typeId": 83437,
-    "name": "Systematic Armor Restorer III",
-    "group": "Armor Repair Unit",
-    "category": "Materials & Resources",
-    "blueprintIds": [
-      83437
-    ]
-  },
-  {
-    "typeId": 88561,
-    "name": "Thermal Composites",
-    "group": "Manufacturing Component",
-    "category": "Materials & Resources",
-    "blueprintIds": [
-      88561,
-      88561
-    ]
-  },
-  {
     "typeId": 83441,
     "name": "Adaptive Nanitic Armor Weave II",
     "group": "Flex Armor Hardener",
@@ -989,6 +42,15 @@
     "category": "Modules",
     "blueprintIds": [
       83442
+    ]
+  },
+  {
+    "typeId": 83443,
+    "name": "Adaptive Nanitic Armor Weave IV",
+    "group": "Flex Armor Hardener",
+    "category": "Modules",
+    "blueprintIds": [
+      83443
     ]
   },
   {
@@ -1010,6 +72,60 @@
     ]
   },
   {
+    "typeId": 82915,
+    "name": "Afterburner IV",
+    "group": "Propulsion Module",
+    "category": "Modules",
+    "blueprintIds": [
+      82915
+    ]
+  },
+  {
+    "typeId": 91967,
+    "name": "Aggressive Shell",
+    "group": "Synthetic",
+    "category": "Materials & Resources",
+    "blueprintIds": [
+      91967
+    ]
+  },
+  {
+    "typeId": 78416,
+    "name": "Apocalypse Protocol Frame",
+    "group": "Exotronic Frames",
+    "category": "Frames",
+    "blueprintIds": [
+      78416
+    ]
+  },
+  {
+    "typeId": 78420,
+    "name": "Archangel Protocol Frame",
+    "group": "Exotronic Frames",
+    "category": "Frames",
+    "blueprintIds": [
+      78420
+    ]
+  },
+  {
+    "typeId": 78448,
+    "name": "Aromatic Carbon Veins",
+    "group": null,
+    "category": null,
+    "blueprintIds": []
+  },
+  {
+    "typeId": 88782,
+    "name": "Aromatic Carbon Weave",
+    "group": "Glint Ores",
+    "category": "Materials & Resources",
+    "blueprintIds": [
+      78448,
+      78449,
+      88765
+    ]
+  },
+  {
     "typeId": 82653,
     "name": "Attuned Shield Generator II",
     "group": "Defensive System",
@@ -1025,6 +141,124 @@
     "category": "Modules",
     "blueprintIds": [
       83450
+    ]
+  },
+  {
+    "typeId": 83451,
+    "name": "Attuned Shield Generator IV",
+    "group": "Defensive System",
+    "category": "Modules",
+    "blueprintIds": [
+      83451
+    ]
+  },
+  {
+    "typeId": 81974,
+    "name": "Base Autocannon (S)",
+    "group": "Projectile Weapon",
+    "category": "Weapons & Tools",
+    "blueprintIds": [
+      81974
+    ]
+  },
+  {
+    "typeId": 82028,
+    "name": "Base Coilgun (M)",
+    "group": "Mass Driver Weapon",
+    "category": "Weapons & Tools",
+    "blueprintIds": [
+      82028
+    ]
+  },
+  {
+    "typeId": 81972,
+    "name": "Base Coilgun (S)",
+    "group": "Mass Driver Weapon",
+    "category": "Weapons & Tools",
+    "blueprintIds": [
+      81972
+    ]
+  },
+  {
+    "typeId": 82030,
+    "name": "Base Howitzer (M)",
+    "group": "Projectile Weapon",
+    "category": "Weapons & Tools",
+    "blueprintIds": [
+      82030
+    ]
+  },
+  {
+    "typeId": 82032,
+    "name": "Base Rapid Plasma (S)",
+    "group": "Plasma Weapon",
+    "category": "Weapons & Tools",
+    "blueprintIds": [
+      82032
+    ]
+  },
+  {
+    "typeId": 78417,
+    "name": "Bastion Program Frame",
+    "group": "Exotronic Frames",
+    "category": "Frames",
+    "blueprintIds": [
+      78417
+    ]
+  },
+  {
+    "typeId": 88841,
+    "name": "Batched Carbon Weave",
+    "group": "Manufacturing Component",
+    "category": "Materials & Resources",
+    "blueprintIds": [
+      88841
+    ]
+  },
+  {
+    "typeId": 88839,
+    "name": "Batched Printed Circuits",
+    "group": "Manufacturing Component",
+    "category": "Materials & Resources",
+    "blueprintIds": [
+      88839
+    ]
+  },
+  {
+    "typeId": 84204,
+    "name": "Batched Reinforced Alloys",
+    "group": "Manufacturing Component",
+    "category": "Materials & Resources",
+    "blueprintIds": [
+      84204
+    ]
+  },
+  {
+    "typeId": 88843,
+    "name": "Batched Thermal Composites",
+    "group": "Manufacturing Component",
+    "category": "Materials & Resources",
+    "blueprintIds": [
+      88843
+    ]
+  },
+  {
+    "typeId": 92422,
+    "name": "Brine",
+    "group": "Mineral",
+    "category": "Other",
+    "blueprintIds": [
+      77728,
+      78435
+    ]
+  },
+  {
+    "typeId": 89089,
+    "name": "Building Foam",
+    "group": "Manufacturing Component",
+    "category": "Materials & Resources",
+    "blueprintIds": [
+      89089
     ]
   },
   {
@@ -1046,6 +280,15 @@
     ]
   },
   {
+    "typeId": 83423,
+    "name": "Bulky Armor Plates V",
+    "group": "Defensive System",
+    "category": "Modules",
+    "blueprintIds": [
+      83423
+    ]
+  },
+  {
     "typeId": 82652,
     "name": "Bulwark Shield Generator II",
     "group": "Defensive System",
@@ -1061,6 +304,25 @@
     "category": "Modules",
     "blueprintIds": [
       83448
+    ]
+  },
+  {
+    "typeId": 83449,
+    "name": "Bulwark Shield Generator IV",
+    "group": "Defensive System",
+    "category": "Modules",
+    "blueprintIds": [
+      83449
+    ]
+  },
+  {
+    "typeId": 84210,
+    "name": "Carbon Weave",
+    "group": "Manufacturing Component",
+    "category": "Materials & Resources",
+    "blueprintIds": [
+      84210,
+      88764
     ]
   },
   {
@@ -1109,21 +371,76 @@
     ]
   },
   {
+    "typeId": 91107,
+    "name": "Carom",
+    "group": "Corvette",
+    "category": "Other",
+    "blueprintIds": [
+      91107
+    ]
+  },
+  {
+    "typeId": 89979,
+    "name": "Carom Stack",
+    "group": "Miscellaneous",
+    "category": "Other",
+    "blueprintIds": [
+      89979
+    ]
+  },
+  {
+    "typeId": 83899,
+    "name": "Catalytic Dust",
+    "group": null,
+    "category": null,
+    "blueprintIds": []
+  },
+  {
     "typeId": 78506,
     "name": "Celerity CD01",
     "group": "Crude Engines",
-    "category": "Modules",
+    "category": "Other",
     "blueprintIds": [
       78506
+    ]
+  },
+  {
+    "typeId": 78507,
+    "name": "Celerity CD02",
+    "group": "Crude Engines",
+    "category": "Other",
+    "blueprintIds": [
+      78507
     ]
   },
   {
     "typeId": 78508,
     "name": "Celerity CD03",
     "group": "Crude Engines",
-    "category": "Modules",
+    "category": "Other",
     "blueprintIds": [
       78508
+    ]
+  },
+  {
+    "typeId": 88781,
+    "name": "Chitinous Organics",
+    "group": "Glint Ores",
+    "category": "Materials & Resources",
+    "blueprintIds": [
+      78446,
+      78447,
+      78448,
+      78449
+    ]
+  },
+  {
+    "typeId": 81611,
+    "name": "Chumaq",
+    "group": "Combat Battlecruiser",
+    "category": "Ships",
+    "blueprintIds": [
+      81611
     ]
   },
   {
@@ -1145,12 +462,118 @@
     ]
   },
   {
+    "typeId": 83426,
+    "name": "Coated Armor Plates IV",
+    "group": "Defensive System",
+    "category": "Modules",
+    "blueprintIds": [
+      83426
+    ]
+  },
+  {
+    "typeId": 82134,
+    "name": "Coilgun Ammo 1 (M)",
+    "group": "Coilgun Charge",
+    "category": "Ammo",
+    "blueprintIds": [
+      82134
+    ]
+  },
+  {
+    "typeId": 82133,
+    "name": "Coilgun Ammo 1 (S)",
+    "group": "Coilgun Charge",
+    "category": "Ammo",
+    "blueprintIds": [
+      82133
+    ]
+  },
+  {
+    "typeId": 88887,
+    "name": "Compressed Coolant",
+    "group": "Heat Sink Charge",
+    "category": "Ammo",
+    "blueprintIds": [
+      88887
+    ]
+  },
+  {
+    "typeId": 77484,
+    "name": "Crude Extractor",
+    "group": "Crude Extractor",
+    "category": "Weapons & Tools",
+    "blueprintIds": [
+      77484
+    ]
+  },
+  {
     "typeId": 87599,
     "name": "Cryogenic Ejector S",
     "group": "Heat Ejector",
-    "category": "Modules",
+    "category": "Other",
     "blueprintIds": [
       87599
+    ]
+  },
+  {
+    "typeId": 88335,
+    "name": "D1 Fuel",
+    "group": "Mineral",
+    "category": "Materials & Resources",
+    "blueprintIds": [
+      78423
+    ]
+  },
+  {
+    "typeId": 88319,
+    "name": "D2 Fuel",
+    "group": "Hydrogen Fuel",
+    "category": "Materials & Resources",
+    "blueprintIds": [
+      88319
+    ]
+  },
+  {
+    "typeId": 88780,
+    "name": "Echo Chamber",
+    "group": "Manufacturing Component",
+    "category": "Other",
+    "blueprintIds": [
+      88780
+    ]
+  },
+  {
+    "typeId": 83893,
+    "name": "Eclipsite",
+    "group": null,
+    "category": null,
+    "blueprintIds": []
+  },
+  {
+    "typeId": 83898,
+    "name": "Eclipsite Mining Lens",
+    "group": "Asteroid Mining Crystal",
+    "category": "Weapons & Tools",
+    "blueprintIds": [
+      83898
+    ]
+  },
+  {
+    "typeId": 82137,
+    "name": "EM Disintegrator Charge (M)",
+    "group": "EM Disintegrator Charge",
+    "category": "Ammo",
+    "blueprintIds": [
+      82137
+    ]
+  },
+  {
+    "typeId": 81658,
+    "name": "EM Disintegrator Charge (S)",
+    "group": "EM Disintegrator Charge",
+    "category": "Ammo",
+    "blueprintIds": [
+      81658
     ]
   },
   {
@@ -1187,6 +610,52 @@
     "category": "Modules",
     "blueprintIds": [
       82411
+    ]
+  },
+  {
+    "typeId": 77753,
+    "name": "Embark",
+    "group": "Hydrogen Engines",
+    "category": "Ships",
+    "blueprintIds": [
+      77753
+    ]
+  },
+  {
+    "typeId": 78422,
+    "name": "Equilibrium Program Frame",
+    "group": "Exotronic Frames",
+    "category": "Frames",
+    "blueprintIds": [
+      78422
+    ]
+  },
+  {
+    "typeId": 78516,
+    "name": "EU-40 Fuel",
+    "group": "Mineral",
+    "category": "Materials & Resources",
+    "blueprintIds": [
+      78435
+    ]
+  },
+  {
+    "typeId": 78437,
+    "name": "EU-90 Fuel",
+    "group": "Crude Fuel",
+    "category": "Materials & Resources",
+    "blueprintIds": [
+      78437
+    ]
+  },
+  {
+    "typeId": 78435,
+    "name": "Eupraxite",
+    "group": "Mineral",
+    "category": "Other",
+    "blueprintIds": [
+      78434,
+      78435
     ]
   },
   {
@@ -1280,6 +749,84 @@
     ]
   },
   {
+    "typeId": 78421,
+    "name": "Exterminata Protocol Frame",
+    "group": "Exotronic Frames",
+    "category": "Frames",
+    "blueprintIds": [
+      78421
+    ]
+  },
+  {
+    "typeId": 88235,
+    "name": "Feldspar Crystal Shards",
+    "group": "Mineral",
+    "category": "Materials & Resources",
+    "blueprintIds": [
+      89259
+    ]
+  },
+  {
+    "typeId": 77800,
+    "name": "Feldspar Crystals",
+    "group": null,
+    "category": null,
+    "blueprintIds": []
+  },
+  {
+    "typeId": 88564,
+    "name": "Feral Echo",
+    "group": null,
+    "category": null,
+    "blueprintIds": []
+  },
+  {
+    "typeId": 92414,
+    "name": "Fine Old Crude Matter",
+    "group": null,
+    "category": null,
+    "blueprintIds": []
+  },
+  {
+    "typeId": 92394,
+    "name": "Fine Young Crude Matter",
+    "group": null,
+    "category": null,
+    "blueprintIds": []
+  },
+  {
+    "typeId": 83818,
+    "name": "Fossilized Exotronics",
+    "group": null,
+    "category": null,
+    "blueprintIds": []
+  },
+  {
+    "typeId": 83891,
+    "name": "Gravionite",
+    "group": null,
+    "category": null,
+    "blueprintIds": []
+  },
+  {
+    "typeId": 83896,
+    "name": "Gravionite Mining Lens",
+    "group": "Asteroid Mining Crystal",
+    "category": "Weapons & Tools",
+    "blueprintIds": [
+      83896
+    ]
+  },
+  {
+    "typeId": 82424,
+    "name": "HAF",
+    "group": "Frigate",
+    "category": "Ships",
+    "blueprintIds": [
+      82424
+    ]
+  },
+  {
     "typeId": 88889,
     "name": "Heat Exchanger S",
     "group": "Heat Ejector",
@@ -1295,6 +842,78 @@
     "category": "Modules",
     "blueprintIds": [
       88886
+    ]
+  },
+  {
+    "typeId": 90887,
+    "name": "Hop",
+    "group": "Warp Accelerator",
+    "category": "Other",
+    "blueprintIds": [
+      90887
+    ]
+  },
+  {
+    "typeId": 82140,
+    "name": "Howitzer Ammo 1 (M)",
+    "group": "Projectile Ammo",
+    "category": "Ammo",
+    "blueprintIds": [
+      82140
+    ]
+  },
+  {
+    "typeId": 72960,
+    "name": "Hull Repairer",
+    "group": "Hull Repair Unit",
+    "category": "Ships",
+    "blueprintIds": [
+      72960
+    ]
+  },
+  {
+    "typeId": 77811,
+    "name": "Hydrated Sulfide Matrix",
+    "group": null,
+    "category": null,
+    "blueprintIds": []
+  },
+  {
+    "typeId": 89258,
+    "name": "Hydrocarbon Residue",
+    "group": "Char Ores",
+    "category": "Materials & Resources",
+    "blueprintIds": [
+      77800,
+      77811
+    ]
+  },
+  {
+    "typeId": 78426,
+    "name": "Iridosmine Nodules",
+    "group": null,
+    "category": null,
+    "blueprintIds": []
+  },
+  {
+    "typeId": 89260,
+    "name": "Iron-Rich Nodules",
+    "group": "Ingot Ores",
+    "category": "Materials & Resources",
+    "blueprintIds": [
+      77810,
+      78426
+    ]
+  },
+  {
+    "typeId": 88783,
+    "name": "Kerogen Tar",
+    "group": "Glint Ores",
+    "category": "Materials & Resources",
+    "blueprintIds": [
+      78447,
+      78448,
+      88765
     ]
   },
   {
@@ -1334,6 +953,117 @@
     ]
   },
   {
+    "typeId": 82425,
+    "name": "LAI",
+    "group": "Frigate",
+    "category": "Ships",
+    "blueprintIds": [
+      82425
+    ]
+  },
+  {
+    "typeId": 83524,
+    "name": "Large Cutting Laser",
+    "group": "Asteroid Mining Laser",
+    "category": "Weapons & Tools",
+    "blueprintIds": [
+      83524
+    ]
+  },
+  {
+    "typeId": 92421,
+    "name": "Leap",
+    "group": "Warp Accelerator",
+    "category": "Other",
+    "blueprintIds": [
+      92421
+    ]
+  },
+  {
+    "typeId": 82426,
+    "name": "LORHA",
+    "group": "Frigate",
+    "category": "Ships",
+    "blueprintIds": [
+      82426
+    ]
+  },
+  {
+    "typeId": 83892,
+    "name": "Luminalis",
+    "group": null,
+    "category": null,
+    "blueprintIds": []
+  },
+  {
+    "typeId": 83897,
+    "name": "Luminalis Mining Lens",
+    "group": "Asteroid Mining Crystal",
+    "category": "Weapons & Tools",
+    "blueprintIds": [
+      83897
+    ]
+  },
+  {
+    "typeId": 92390,
+    "name": "Lunge",
+    "group": "Warp Accelerator",
+    "category": "Other",
+    "blueprintIds": [
+      92390
+    ]
+  },
+  {
+    "typeId": 82430,
+    "name": "MAUL",
+    "group": "Cruiser",
+    "category": "Ships",
+    "blueprintIds": [
+      82430
+    ]
+  },
+  {
+    "typeId": 81904,
+    "name": "MCF",
+    "group": "Frigate",
+    "category": "Ships",
+    "blueprintIds": [
+      81904
+    ]
+  },
+  {
+    "typeId": 83528,
+    "name": "Medium Cutting Laser",
+    "group": "Asteroid Mining Laser",
+    "category": "Weapons & Tools",
+    "blueprintIds": [
+      83528
+    ]
+  },
+  {
+    "typeId": 78446,
+    "name": "Methane Ice Shards",
+    "group": null,
+    "category": null,
+    "blueprintIds": []
+  },
+  {
+    "typeId": 88765,
+    "name": "Mummified Clone",
+    "group": null,
+    "category": null,
+    "blueprintIds": []
+  },
+  {
+    "typeId": 77801,
+    "name": "Nickel-Iron Veins",
+    "group": "Mineral",
+    "category": "Materials & Resources",
+    "blueprintIds": [
+      89260
+    ]
+  },
+  {
     "typeId": 82650,
     "name": "Nimble Armor Plates II",
     "group": "Defensive System",
@@ -1349,6 +1079,153 @@
     "category": "Modules",
     "blueprintIds": [
       83433
+    ]
+  },
+  {
+    "typeId": 83434,
+    "name": "Nimble Armor Plates IV",
+    "group": "Defensive System",
+    "category": "Modules",
+    "blueprintIds": [
+      83434
+    ]
+  },
+  {
+    "typeId": 78418,
+    "name": "Nomad Program Frame",
+    "group": "Exotronic Frames",
+    "category": "Frames",
+    "blueprintIds": [
+      78418
+    ]
+  },
+  {
+    "typeId": 88842,
+    "name": "Packaged Carbon Weave",
+    "group": "Manufacturing Component",
+    "category": "Materials & Resources",
+    "blueprintIds": [
+      88842
+    ]
+  },
+  {
+    "typeId": 88840,
+    "name": "Packaged Printed Circuits",
+    "group": "Manufacturing Component",
+    "category": "Materials & Resources",
+    "blueprintIds": [
+      88840
+    ]
+  },
+  {
+    "typeId": 84206,
+    "name": "Packaged Reinforced Alloys",
+    "group": "Manufacturing Component",
+    "category": "Materials & Resources",
+    "blueprintIds": [
+      84206
+    ]
+  },
+  {
+    "typeId": 88844,
+    "name": "Packaged Thermal Composites",
+    "group": "Manufacturing Component",
+    "category": "Materials & Resources",
+    "blueprintIds": [
+      88844
+    ]
+  },
+  {
+    "typeId": 99001,
+    "name": "Palladium",
+    "group": "Slag Ores",
+    "category": "Materials & Resources",
+    "blueprintIds": [
+      77810
+    ]
+  },
+  {
+    "typeId": 77805,
+    "name": "Platinum-Group Veins",
+    "group": "Mineral",
+    "category": "Materials & Resources",
+    "blueprintIds": [
+      89260
+    ]
+  },
+  {
+    "typeId": 77810,
+    "name": "Platinum-Palladium Matrix",
+    "group": null,
+    "category": null,
+    "blueprintIds": []
+  },
+  {
+    "typeId": 78447,
+    "name": "Primitive Kerogen Matrix",
+    "group": null,
+    "category": null,
+    "blueprintIds": []
+  },
+  {
+    "typeId": 84180,
+    "name": "Printed Circuits",
+    "group": "Manufacturing Component",
+    "category": "Materials & Resources",
+    "blueprintIds": [
+      84180
+    ]
+  },
+  {
+    "typeId": 83894,
+    "name": "Radiantium",
+    "group": null,
+    "category": null,
+    "blueprintIds": []
+  },
+  {
+    "typeId": 83895,
+    "name": "Radiantium Mining Lens",
+    "group": "Asteroid Mining Crystal",
+    "category": "Weapons & Tools",
+    "blueprintIds": [
+      83895
+    ]
+  },
+  {
+    "typeId": 82033,
+    "name": "Rapid Plasma (M)",
+    "group": "Plasma Weapon",
+    "category": "Weapons & Tools",
+    "blueprintIds": [
+      82033
+    ]
+  },
+  {
+    "typeId": 82132,
+    "name": "Rapid Plasma Ammo 1 (M)",
+    "group": "Plasma Charge",
+    "category": "Ammo",
+    "blueprintIds": [
+      82132
+    ]
+  },
+  {
+    "typeId": 82130,
+    "name": "Rapid Plasma Ammo 1 (S)",
+    "group": "Plasma Charge",
+    "category": "Ammo",
+    "blueprintIds": [
+      82130
+    ]
+  },
+  {
+    "typeId": 82131,
+    "name": "Rapid Plasma Ammo 2 (S)",
+    "group": "Plasma Charge",
+    "category": "Ammo",
+    "blueprintIds": [
+      82131
     ]
   },
   {
@@ -1370,6 +1247,52 @@
     ]
   },
   {
+    "typeId": 83430,
+    "name": "Reactive Armor Plates IV",
+    "group": "Defensive System",
+    "category": "Modules",
+    "blueprintIds": [
+      83430
+    ]
+  },
+  {
+    "typeId": 91749,
+    "name": "Reaping Shell",
+    "group": "Synthetic",
+    "category": "Materials & Resources",
+    "blueprintIds": [
+      91749
+    ]
+  },
+  {
+    "typeId": 87846,
+    "name": "Recurve",
+    "group": "Corvette",
+    "category": "Ships",
+    "blueprintIds": [
+      87846
+    ]
+  },
+  {
+    "typeId": 87847,
+    "name": "Reflex",
+    "group": "Corvette",
+    "category": "Other",
+    "blueprintIds": [
+      87847
+    ]
+  },
+  {
+    "typeId": 84182,
+    "name": "Reinforced Alloys",
+    "group": "Salvage",
+    "category": "Materials & Resources",
+    "blueprintIds": [
+      84182,
+      88764
+    ]
+  },
+  {
     "typeId": 82654,
     "name": "Reinforced Shield Generator II",
     "group": "Defensive System",
@@ -1386,6 +1309,236 @@
     "blueprintIds": [
       83456
     ]
+  },
+  {
+    "typeId": 83457,
+    "name": "Reinforced Shield Generator IV",
+    "group": "Defensive System",
+    "category": "Modules",
+    "blueprintIds": [
+      83457
+    ]
+  },
+  {
+    "typeId": 87848,
+    "name": "Reiver",
+    "group": "Corvette",
+    "category": "Ships",
+    "blueprintIds": [
+      87848
+    ]
+  },
+  {
+    "typeId": 77729,
+    "name": "Rough Old Crude Matter",
+    "group": null,
+    "category": null,
+    "blueprintIds": []
+  },
+  {
+    "typeId": 78434,
+    "name": "Rough Young Crude Matter",
+    "group": null,
+    "category": null,
+    "blueprintIds": []
+  },
+  {
+    "typeId": 91968,
+    "name": "Rugged Shell",
+    "group": "Synthetic",
+    "category": "Materials & Resources",
+    "blueprintIds": [
+      91968
+    ]
+  },
+  {
+    "typeId": 83839,
+    "name": "Salt",
+    "group": "Rift",
+    "category": "Other",
+    "blueprintIds": [
+      77729,
+      78434,
+      88319
+    ]
+  },
+  {
+    "typeId": 88764,
+    "name": "Salvaged Materials",
+    "group": null,
+    "category": null,
+    "blueprintIds": []
+  },
+  {
+    "typeId": 82667,
+    "name": "Shield Restorer II",
+    "group": "Shield Recharger",
+    "category": "Ammo",
+    "blueprintIds": [
+      82667
+    ]
+  },
+  {
+    "typeId": 83458,
+    "name": "Shield Restorer III",
+    "group": "Shield Recharger",
+    "category": "Ammo",
+    "blueprintIds": [
+      83458
+    ]
+  },
+  {
+    "typeId": 83459,
+    "name": "Shield Restorer IV",
+    "group": "Shield Recharger",
+    "category": "Ammo",
+    "blueprintIds": [
+      83459
+    ]
+  },
+  {
+    "typeId": 89259,
+    "name": "Silica Grains",
+    "group": "Char Ores",
+    "category": "Materials & Resources",
+    "blueprintIds": [
+      77800,
+      77810
+    ]
+  },
+  {
+    "typeId": 77803,
+    "name": "Silicon Dust",
+    "group": "Mineral",
+    "category": "Materials & Resources",
+    "blueprintIds": [
+      89259
+    ]
+  },
+  {
+    "typeId": 92389,
+    "name": "Skip",
+    "group": "Warp Accelerator",
+    "category": "Other",
+    "blueprintIds": [
+      92389
+    ]
+  },
+  {
+    "typeId": 77852,
+    "name": "Small Cutting Laser",
+    "group": "Asteroid Mining Laser",
+    "category": "Weapons & Tools",
+    "blueprintIds": [
+      77852
+    ]
+  },
+  {
+    "typeId": 84868,
+    "name": "SOF-40 Fuel",
+    "group": "Mineral",
+    "category": "Materials & Resources",
+    "blueprintIds": [
+      77728
+    ]
+  },
+  {
+    "typeId": 78515,
+    "name": "SOF-80 Fuel",
+    "group": "Crude Fuel",
+    "category": "Materials & Resources",
+    "blueprintIds": [
+      78515
+    ]
+  },
+  {
+    "typeId": 81846,
+    "name": "Sojourn",
+    "group": "Hydrogen Engines",
+    "category": "Ships",
+    "blueprintIds": [
+      81846
+    ]
+  },
+  {
+    "typeId": 77728,
+    "name": "Sophrogon",
+    "group": "Mineral",
+    "category": "Other",
+    "blueprintIds": [
+      77728,
+      77729
+    ]
+  },
+  {
+    "typeId": 89989,
+    "name": "Stack Slice 31F",
+    "group": null,
+    "category": null,
+    "blueprintIds": []
+  },
+  {
+    "typeId": 89986,
+    "name": "Stack Slice 31P",
+    "group": null,
+    "category": null,
+    "blueprintIds": []
+  },
+  {
+    "typeId": 89988,
+    "name": "Stack Slice 31Q",
+    "group": null,
+    "category": null,
+    "blueprintIds": []
+  },
+  {
+    "typeId": 89987,
+    "name": "Stack Slice 31V",
+    "group": null,
+    "category": null,
+    "blueprintIds": []
+  },
+  {
+    "typeId": 89984,
+    "name": "Stack Slice 5C0",
+    "group": null,
+    "category": null,
+    "blueprintIds": []
+  },
+  {
+    "typeId": 89985,
+    "name": "Stack Slice 5C1",
+    "group": null,
+    "category": null,
+    "blueprintIds": []
+  },
+  {
+    "typeId": 89983,
+    "name": "Stack Slice 5DE",
+    "group": null,
+    "category": null,
+    "blueprintIds": []
+  },
+  {
+    "typeId": 89982,
+    "name": "Stack Slice 5DK",
+    "group": null,
+    "category": null,
+    "blueprintIds": []
+  },
+  {
+    "typeId": 89981,
+    "name": "Stack Slice 5DW",
+    "group": null,
+    "category": null,
+    "blueprintIds": []
+  },
+  {
+    "typeId": 89980,
+    "name": "Stack Slice 5DZ",
+    "group": null,
+    "category": null,
+    "blueprintIds": []
   },
   {
     "typeId": 82683,
@@ -1433,12 +1586,112 @@
     ]
   },
   {
+    "typeId": 92483,
+    "name": "Still Kernel",
+    "group": "Manufacturing Component",
+    "category": "Materials & Resources",
+    "blueprintIds": [
+      92483
+    ]
+  },
+  {
+    "typeId": 88565,
+    "name": "Still Knot",
+    "group": "Manufacturing Component",
+    "category": "Materials & Resources",
+    "blueprintIds": [
+      88565
+    ]
+  },
+  {
+    "typeId": 91106,
+    "name": "Stride",
+    "group": "Corvette",
+    "category": "Other",
+    "blueprintIds": [
+      91106
+    ]
+  },
+  {
+    "typeId": 89978,
+    "name": "Stride Stack",
+    "group": "Miscellaneous",
+    "category": "Other",
+    "blueprintIds": [
+      89978
+    ]
+  },
+  {
+    "typeId": 83463,
+    "name": "Synthetic Mining Lens",
+    "group": "Asteroid Mining Crystal",
+    "category": "Weapons & Tools",
+    "blueprintIds": [
+      83463
+    ]
+  },
+  {
+    "typeId": 82651,
+    "name": "Systematic Armor Restorer II",
+    "group": "Armor Repair Unit",
+    "category": "Modules",
+    "blueprintIds": [
+      82651
+    ]
+  },
+  {
+    "typeId": 83437,
+    "name": "Systematic Armor Restorer III",
+    "group": "Armor Repair Unit",
+    "category": "Modules",
+    "blueprintIds": [
+      83437
+    ]
+  },
+  {
+    "typeId": 83438,
+    "name": "Systematic Armor Restorer IV",
+    "group": "Armor Repair Unit",
+    "category": "Modules",
+    "blueprintIds": [
+      83438
+    ]
+  },
+  {
+    "typeId": 81808,
+    "name": "TADES",
+    "group": "Destroyer",
+    "category": "Ships",
+    "blueprintIds": [
+      81808
+    ]
+  },
+  {
     "typeId": 78511,
     "name": "Tempo CD41",
     "group": "Crude Engines",
-    "category": "Modules",
+    "category": "Other",
     "blueprintIds": [
       78511
+    ]
+  },
+  {
+    "typeId": 78510,
+    "name": "Tempo CD42",
+    "group": "Crude Engines",
+    "category": "Other",
+    "blueprintIds": [
+      78510
+    ]
+  },
+  {
+    "typeId": 88561,
+    "name": "Thermal Composites",
+    "group": "Salvage",
+    "category": "Materials & Resources",
+    "blueprintIds": [
+      88561,
+      88764
     ]
   },
   {
@@ -1541,12 +1794,191 @@
     ]
   },
   {
+    "typeId": 77804,
+    "name": "Tholin Aggregates",
+    "group": "Dewdrop Ores",
+    "category": "Materials & Resources",
+    "blueprintIds": [
+      78446,
+      89258
+    ]
+  },
+  {
+    "typeId": 78449,
+    "name": "Tholin Nodules",
+    "group": null,
+    "category": null,
+    "blueprintIds": []
+  },
+  {
+    "typeId": 82084,
+    "name": "Tier 2 Autocannon (S)",
+    "group": "Projectile Weapon",
+    "category": "Weapons & Tools",
+    "blueprintIds": [
+      82084
+    ]
+  },
+  {
+    "typeId": 82092,
+    "name": "Tier 2 Coilgun (M)",
+    "group": "Mass Driver Weapon",
+    "category": "Weapons & Tools",
+    "blueprintIds": [
+      82092
+    ]
+  },
+  {
+    "typeId": 82088,
+    "name": "Tier 2 Coilgun (S)",
+    "group": "Mass Driver Weapon",
+    "category": "Weapons & Tools",
+    "blueprintIds": [
+      82088
+    ]
+  },
+  {
+    "typeId": 82098,
+    "name": "Tier 2 Howitzer (M)",
+    "group": "Projectile Weapon",
+    "category": "Weapons & Tools",
+    "blueprintIds": [
+      82098
+    ]
+  },
+  {
+    "typeId": 82096,
+    "name": "Tier 2 Rapid Plasma (M)",
+    "group": "Plasma Weapon",
+    "category": "Weapons & Tools",
+    "blueprintIds": [
+      82096
+    ]
+  },
+  {
+    "typeId": 82086,
+    "name": "Tier 2 Rapid Plasma (S)",
+    "group": "Plasma Weapon",
+    "category": "Weapons & Tools",
+    "blueprintIds": [
+      82086
+    ]
+  },
+  {
+    "typeId": 82085,
+    "name": "Tier 3 Autocannon (S)",
+    "group": "Projectile Weapon",
+    "category": "Weapons & Tools",
+    "blueprintIds": [
+      82085
+    ]
+  },
+  {
+    "typeId": 82093,
+    "name": "Tier 3 Coilgun (M)",
+    "group": "Mass Driver Weapon",
+    "category": "Weapons & Tools",
+    "blueprintIds": [
+      82093
+    ]
+  },
+  {
+    "typeId": 82089,
+    "name": "Tier 3 Coilgun (S)",
+    "group": "Mass Driver Weapon",
+    "category": "Weapons & Tools",
+    "blueprintIds": [
+      82089
+    ]
+  },
+  {
+    "typeId": 82099,
+    "name": "Tier 3 Howitzer (M)",
+    "group": "Projectile Weapon",
+    "category": "Weapons & Tools",
+    "blueprintIds": [
+      82099
+    ]
+  },
+  {
+    "typeId": 82097,
+    "name": "Tier 3 Rapid Plasma (M)",
+    "group": "Plasma Weapon",
+    "category": "Weapons & Tools",
+    "blueprintIds": [
+      82097
+    ]
+  },
+  {
+    "typeId": 82087,
+    "name": "Tier 3 Rapid Plasma (S)",
+    "group": "Plasma Weapon",
+    "category": "Weapons & Tools",
+    "blueprintIds": [
+      82087
+    ]
+  },
+  {
+    "typeId": 88234,
+    "name": "Troilite Sulfide Grains",
+    "group": "Mineral",
+    "category": "Materials & Resources",
+    "blueprintIds": [
+      89258
+    ]
+  },
+  {
+    "typeId": 81656,
+    "name": "Tuho 7",
+    "group": "Energy Lance",
+    "category": "Other",
+    "blueprintIds": [
+      81656
+    ]
+  },
+  {
+    "typeId": 82090,
+    "name": "Tuho 9",
+    "group": "Energy Lance",
+    "category": "Other",
+    "blueprintIds": [
+      82090
+    ]
+  },
+  {
+    "typeId": 82091,
+    "name": "Tuho S",
+    "group": "Energy Lance",
+    "category": "Other",
+    "blueprintIds": [
+      82091
+    ]
+  },
+  {
+    "typeId": 81609,
+    "name": "USV",
+    "group": "Frigate",
+    "category": "Ships",
+    "blueprintIds": [
+      81609
+    ]
+  },
+  {
     "typeId": 78490,
     "name": "Velocity CD81",
     "group": "Crude Engines",
-    "category": "Modules",
+    "category": "Other",
     "blueprintIds": [
       78490
+    ]
+  },
+  {
+    "typeId": 78502,
+    "name": "Velocity CD82",
+    "group": "Crude Engines",
+    "category": "Other",
+    "blueprintIds": [
+      78502
     ]
   },
   {
@@ -1595,93 +2027,14 @@
     ]
   },
   {
-    "typeId": 81611,
-    "name": "Chumaq",
-    "group": "Combat Battlecruiser",
-    "category": "Ships",
+    "typeId": 78423,
+    "name": "Water Ice",
+    "group": "Salvage",
+    "category": "Materials & Resources",
     "blueprintIds": [
-      81611
-    ]
-  },
-  {
-    "typeId": 77753,
-    "name": "Embark",
-    "group": "Hydrogen Engines",
-    "category": "Ships",
-    "blueprintIds": [
-      77753
-    ]
-  },
-  {
-    "typeId": 82424,
-    "name": "HAF",
-    "group": "Frigate",
-    "category": "Ships",
-    "blueprintIds": [
-      82424
-    ]
-  },
-  {
-    "typeId": 82426,
-    "name": "LORHA",
-    "group": "Frigate",
-    "category": "Ships",
-    "blueprintIds": [
-      82426
-    ]
-  },
-  {
-    "typeId": 81904,
-    "name": "MCF",
-    "group": "Frigate",
-    "category": "Ships",
-    "blueprintIds": [
-      81904
-    ]
-  },
-  {
-    "typeId": 87846,
-    "name": "Recurve",
-    "group": "Corvette",
-    "category": "Ships",
-    "blueprintIds": [
-      87846
-    ]
-  },
-  {
-    "typeId": 87848,
-    "name": "Reiver",
-    "group": "Corvette",
-    "category": "Ships",
-    "blueprintIds": [
-      87848
-    ]
-  },
-  {
-    "typeId": 81846,
-    "name": "Sojourn",
-    "group": "Hydrogen Engines",
-    "category": "Ships",
-    "blueprintIds": [
-      81846
-    ]
-  },
-  {
-    "typeId": 81808,
-    "name": "TADES",
-    "group": "Destroyer",
-    "category": "Ships",
-    "blueprintIds": [
-      81808
-    ]
-  },
-  {
-    "typeId": 81609,
-    "name": "USV",
-    "group": "Frigate",
-    "category": "Ships",
-    "blueprintIds": [
-      81609
+      77811,
+      78446,
+      88765
     ]
   },
   {
@@ -1694,138 +2047,30 @@
     ]
   },
   {
-    "typeId": 88780,
-    "name": "Echo Chamber",
-    "group": "Manufacturing Component",
-    "category": "Uncategorized",
+    "typeId": 81657,
+    "name": "Xoru 7",
+    "group": "Energy Lance",
+    "category": "Other",
     "blueprintIds": [
-      88780
+      81657
     ]
   },
   {
-    "typeId": 81974,
-    "name": "Base Autocannon (S)",
-    "group": "Projectile Weapon",
-    "category": "Weapons & Tools",
+    "typeId": 82094,
+    "name": "Xoru 9",
+    "group": "Energy Lance",
+    "category": "Other",
     "blueprintIds": [
-      81974
+      82094
     ]
   },
   {
-    "typeId": 81972,
-    "name": "Base Coilgun (S)",
-    "group": "Mass Driver Weapon",
-    "category": "Weapons & Tools",
+    "typeId": 82095,
+    "name": "Xoru S",
+    "group": "Energy Lance",
+    "category": "Other",
     "blueprintIds": [
-      81972
-    ]
-  },
-  {
-    "typeId": 82032,
-    "name": "Base Rapid Plasma (S)",
-    "group": "Plasma Weapon",
-    "category": "Weapons & Tools",
-    "blueprintIds": [
-      82032
-    ]
-  },
-  {
-    "typeId": 77484,
-    "name": "Crude Extractor",
-    "group": "Crude Extractor",
-    "category": "Weapons & Tools",
-    "blueprintIds": [
-      77484
-    ]
-  },
-  {
-    "typeId": 83524,
-    "name": "Large Cutting Laser",
-    "group": "Asteroid Mining Laser",
-    "category": "Weapons & Tools",
-    "blueprintIds": [
-      83524
-    ]
-  },
-  {
-    "typeId": 83528,
-    "name": "Medium Cutting Laser",
-    "group": "Asteroid Mining Laser",
-    "category": "Weapons & Tools",
-    "blueprintIds": [
-      83528
-    ]
-  },
-  {
-    "typeId": 77852,
-    "name": "Small Cutting Laser",
-    "group": "Asteroid Mining Laser",
-    "category": "Weapons & Tools",
-    "blueprintIds": [
-      77852
-    ]
-  },
-  {
-    "typeId": 83463,
-    "name": "Synthetic Mining Lens",
-    "group": "Asteroid Mining Crystal",
-    "category": "Weapons & Tools",
-    "blueprintIds": [
-      83463
-    ]
-  },
-  {
-    "typeId": 82084,
-    "name": "Tier 2 Autocannon (S)",
-    "group": "Projectile Weapon",
-    "category": "Weapons & Tools",
-    "blueprintIds": [
-      82084
-    ]
-  },
-  {
-    "typeId": 82088,
-    "name": "Tier 2 Coilgun (S)",
-    "group": "Mass Driver Weapon",
-    "category": "Weapons & Tools",
-    "blueprintIds": [
-      82088
-    ]
-  },
-  {
-    "typeId": 82086,
-    "name": "Tier 2 Rapid Plasma (S)",
-    "group": "Plasma Weapon",
-    "category": "Weapons & Tools",
-    "blueprintIds": [
-      82086
-    ]
-  },
-  {
-    "typeId": 82085,
-    "name": "Tier 3 Autocannon (S)",
-    "group": "Projectile Weapon",
-    "category": "Weapons & Tools",
-    "blueprintIds": [
-      82085
-    ]
-  },
-  {
-    "typeId": 82089,
-    "name": "Tier 3 Coilgun (S)",
-    "group": "Mass Driver Weapon",
-    "category": "Weapons & Tools",
-    "blueprintIds": [
-      82089
-    ]
-  },
-  {
-    "typeId": 82087,
-    "name": "Tier 3 Rapid Plasma (S)",
-    "group": "Plasma Weapon",
-    "category": "Weapons & Tools",
-    "blueprintIds": [
-      82087
+      82095
     ]
   }
 ]

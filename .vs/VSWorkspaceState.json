@@ -3,12 +3,13 @@
     "",
     "\\data",
     "\\saves",
+    "\\scripts",
     "\\src",
     "\\src\\components",
     "\\src\\components\\tabs",
     "\\src\\hooks",
     "\\src\\lib"
   ],
-  "SelectedNode": "\\src\\App.jsx",
+  "SelectedNode": "\\src\\lib\\planner.js",
   "PreviewInSolutionExplorer": false
 }

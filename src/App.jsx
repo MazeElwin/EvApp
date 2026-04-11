@@ -226,12 +226,6 @@ function App() {
         window.localStorage.setItem(STORAGE_KEYS.debugVisible, next ? '1' : '0');
     }
 
-
-
-    
-
-   
-
     function addPlannerTarget() {
         if (!selectedBlueprint) {
             return;
@@ -249,6 +243,29 @@ function App() {
                 stockLookup
             },
             new Map()
+        );
+
+        persistPlannerQueue([...plannerQueue, plan]);
+    }
+
+    function addRecipePreview() {
+        if (!selectedBlueprint) {
+            return;
+        }
+
+        const quantity = Math.max(1, numberOrZero(plannerQuantity) || 1);
+
+        const plan = createPlanTree(
+            selectedBlueprint,
+            quantity,
+            {
+                blueprintsByOutputTypeId,
+                blueprintsByOutputName,
+                itemsById,
+                stockLookup
+            },
+            new Map(),
+            { mode: 'recipe' }
         );
 
         persistPlannerQueue([...plannerQueue, plan]);
@@ -459,6 +476,7 @@ function App() {
                     inspection={inspection}
                     prettyJson={prettyJson}
                     machines={machines}
+                    typeCache={typeCache}
                     handleOpenMachine={handleOpenMachine}
                     handleCopyMachineId={handleCopyMachineId}
                     removeMachine={removeMachine}
@@ -488,6 +506,7 @@ function App() {
                     persistPlannerQuantity={persistPlannerQuantity}
                     numberOrZero={numberOrZero}
                     addPlannerTarget={addPlannerTarget}
+                    addRecipePreview={addRecipePreview}
                     clearPlannerQueue={clearPlannerQueue}
                     plannerViewportRef={plannerViewportRef}
                     handlePanStart={handlePanStart}

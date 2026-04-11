@@ -3,16 +3,64 @@
   "WorkspaceRootPath": "C:\\Users\\scott\\Documents\\GitHub\\EvApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\scott\\Documents\\GitHub\\EvApp\\src\\lib\\planner.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\lib\\planner.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\scott\\Documents\\GitHub\\EvApp\\src\\lib\\sui.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\lib\\sui.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\scott\\Documents\\GitHub\\EvApp\\src\\App.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\App.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\scott\\Documents\\GitHub\\EvApp\\src\\hooks\\useTypeCacheController.js||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\hooks\\useTypeCacheController.js||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\scott\\Documents\\GitHub\\EvApp\\src\\components\\tabs\\AssemblyTab.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\tabs\\AssemblyTab.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\scott\\Documents\\GitHub\\EvApp\\src\\components\\PlannerNode.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\PlannerNode.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\scott\\Documents\\GitHub\\EvApp\\src\\lib\\blueprints.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\lib\\blueprints.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\scott\\Documents\\GitHub\\EvApp\\data\\items.lookup.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:data\\items.lookup.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\scott\\Documents\\GitHub\\EvApp\\data\\categories.lookup.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:data\\categories.lookup.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\scott\\Documents\\GitHub\\EvApp\\data\\recipes.app.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:data\\recipes.app.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\scott\\Documents\\GitHub\\EvApp\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\scott\\Documents\\GitHub\\EvApp\\scripts\\rebuildBlueprintData.mjs||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:scripts\\rebuildBlueprintData.mjs||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\scott\\Documents\\GitHub\\EvApp\\data\\blueprints.recipes.combined.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:data\\blueprints.recipes.combined.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\scott\\Documents\\GitHub\\EvApp\\src\\components\\tabs\\MachinesTab.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\tabs\\MachinesTab.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\scott\\Documents\\GitHub\\EvApp\\src\\lib\\machines.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\lib\\machines.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\scott\\Documents\\GitHub\\EvApp\\src\\hooks\\useTypeCacheController.js||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\hooks\\useTypeCacheController.js||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\scott\\Documents\\GitHub\\EvApp\\src\\lib\\appHelpers.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
@@ -34,11 +82,180 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AssemblyTab.jsx",
+              "DocumentMoniker": "C:\\Users\\scott\\Documents\\GitHub\\EvApp\\src\\components\\tabs\\AssemblyTab.jsx",
+              "RelativeDocumentMoniker": "src\\components\\tabs\\AssemblyTab.jsx",
+              "ToolTip": "C:\\Users\\scott\\Documents\\GitHub\\EvApp\\src\\components\\tabs\\AssemblyTab.jsx",
+              "RelativeToolTip": "src\\components\\tabs\\AssemblyTab.jsx",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAUwI4AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-04-11T06:59:56.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PlannerNode.jsx",
+              "DocumentMoniker": "C:\\Users\\scott\\Documents\\GitHub\\EvApp\\src\\components\\PlannerNode.jsx",
+              "RelativeDocumentMoniker": "src\\components\\PlannerNode.jsx",
+              "ToolTip": "C:\\Users\\scott\\Documents\\GitHub\\EvApp\\src\\components\\PlannerNode.jsx",
+              "RelativeToolTip": "src\\components\\PlannerNode.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-04-11T06:58:33.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "planner.js",
+              "DocumentMoniker": "C:\\Users\\scott\\Documents\\GitHub\\EvApp\\src\\lib\\planner.js",
+              "RelativeDocumentMoniker": "src\\lib\\planner.js",
+              "ToolTip": "C:\\Users\\scott\\Documents\\GitHub\\EvApp\\src\\lib\\planner.js",
+              "RelativeToolTip": "src\\lib\\planner.js",
+              "ViewState": "AgIAAPYAAAAAAAAAAAAUwA0BAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-04-11T06:58:02.008Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "blueprints.js",
+              "DocumentMoniker": "C:\\Users\\scott\\Documents\\GitHub\\EvApp\\src\\lib\\blueprints.js",
+              "RelativeDocumentMoniker": "src\\lib\\blueprints.js",
+              "ToolTip": "C:\\Users\\scott\\Documents\\GitHub\\EvApp\\src\\lib\\blueprints.js",
+              "RelativeToolTip": "src\\lib\\blueprints.js",
+              "ViewState": "AgIAAC4BAAAAAAAAAAAUwEEBAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-04-11T06:57:40.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "package.json",
+              "DocumentMoniker": "C:\\Users\\scott\\Documents\\GitHub\\EvApp\\package.json",
+              "RelativeDocumentMoniker": "package.json",
+              "ToolTip": "C:\\Users\\scott\\Documents\\GitHub\\EvApp\\package.json",
+              "RelativeToolTip": "package.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-11T06:12:03.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "rebuildBlueprintData.mjs",
+              "DocumentMoniker": "C:\\Users\\scott\\Documents\\GitHub\\EvApp\\scripts\\rebuildBlueprintData.mjs",
+              "RelativeDocumentMoniker": "scripts\\rebuildBlueprintData.mjs",
+              "ToolTip": "C:\\Users\\scott\\Documents\\GitHub\\EvApp\\scripts\\rebuildBlueprintData.mjs",
+              "RelativeToolTip": "scripts\\rebuildBlueprintData.mjs",
+              "ViewState": "AgIAAAgBAAAAAAAAAAAqwBQBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-04-11T06:11:35.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "items.lookup.json",
+              "DocumentMoniker": "C:\\Users\\scott\\Documents\\GitHub\\EvApp\\data\\items.lookup.json",
+              "RelativeDocumentMoniker": "data\\items.lookup.json",
+              "ToolTip": "C:\\Users\\scott\\Documents\\GitHub\\EvApp\\data\\items.lookup.json",
+              "RelativeToolTip": "data\\items.lookup.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-11T06:02:05.932Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "categories.lookup.json",
+              "DocumentMoniker": "C:\\Users\\scott\\Documents\\GitHub\\EvApp\\data\\categories.lookup.json",
+              "RelativeDocumentMoniker": "data\\categories.lookup.json",
+              "ToolTip": "C:\\Users\\scott\\Documents\\GitHub\\EvApp\\data\\categories.lookup.json",
+              "RelativeToolTip": "data\\categories.lookup.json",
+              "ViewState": "AgIAAKEBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-11T05:41:12.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "recipes.app.json",
+              "DocumentMoniker": "C:\\Users\\scott\\Documents\\GitHub\\EvApp\\data\\recipes.app.json",
+              "RelativeDocumentMoniker": "data\\recipes.app.json",
+              "ToolTip": "C:\\Users\\scott\\Documents\\GitHub\\EvApp\\data\\recipes.app.json",
+              "RelativeToolTip": "data\\recipes.app.json",
+              "ViewState": "AgIAADADAAAAAAAAAAAnwE0DAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-11T05:41:02.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "App.jsx",
+              "DocumentMoniker": "C:\\Users\\scott\\Documents\\GitHub\\EvApp\\src\\App.jsx",
+              "RelativeDocumentMoniker": "src\\App.jsx",
+              "ToolTip": "C:\\Users\\scott\\Documents\\GitHub\\EvApp\\src\\App.jsx",
+              "RelativeToolTip": "src\\App.jsx",
+              "ViewState": "AgIAAOkBAAAAAAAAAAAmwAUCAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-04-10T07:00:46.826Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "sui.js",
+              "DocumentMoniker": "C:\\Users\\scott\\Documents\\GitHub\\EvApp\\src\\lib\\sui.js",
+              "RelativeDocumentMoniker": "src\\lib\\sui.js",
+              "ToolTip": "C:\\Users\\scott\\Documents\\GitHub\\EvApp\\src\\lib\\sui.js",
+              "RelativeToolTip": "src\\lib\\sui.js",
+              "ViewState": "AgIAABEBAAAAAAAAAAAUwDMBAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-04-11T05:30:44.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "blueprints.recipes.combined.json",
+              "DocumentMoniker": "C:\\Users\\scott\\Documents\\GitHub\\EvApp\\data\\blueprints.recipes.combined.json",
+              "RelativeDocumentMoniker": "data\\blueprints.recipes.combined.json",
+              "ToolTip": "C:\\Users\\scott\\Documents\\GitHub\\EvApp\\data\\blueprints.recipes.combined.json",
+              "RelativeToolTip": "data\\blueprints.recipes.combined.json",
+              "ViewState": "AgIAADADAAAAAAAAAAAlwLMDAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-11T05:41:33.412Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "machines.js",
+              "DocumentMoniker": "C:\\Users\\scott\\Documents\\GitHub\\EvApp\\src\\lib\\machines.js",
+              "RelativeDocumentMoniker": "src\\lib\\machines.js",
+              "ToolTip": "C:\\Users\\scott\\Documents\\GitHub\\EvApp\\src\\lib\\machines.js",
+              "RelativeToolTip": "src\\lib\\machines.js",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowCAAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-04-11T04:28:36.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "useTypeCacheController.js",
               "DocumentMoniker": "C:\\Users\\scott\\Documents\\GitHub\\EvApp\\src\\hooks\\useTypeCacheController.js",
               "RelativeDocumentMoniker": "src\\hooks\\useTypeCacheController.js",
@@ -51,20 +268,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 12,
               "Title": "MachinesTab.jsx",
               "DocumentMoniker": "C:\\Users\\scott\\Documents\\GitHub\\EvApp\\src\\components\\tabs\\MachinesTab.jsx",
               "RelativeDocumentMoniker": "src\\components\\tabs\\MachinesTab.jsx",
               "ToolTip": "C:\\Users\\scott\\Documents\\GitHub\\EvApp\\src\\components\\tabs\\MachinesTab.jsx",
               "RelativeToolTip": "src\\components\\tabs\\MachinesTab.jsx",
-              "ViewState": "AgIAAIcAAAAAAAAAAAAUwLoAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAJ8AAAAAAAAAAAAUwL8AAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
               "WhenOpened": "2026-04-10T07:18:58.518Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 15,
               "Title": "appHelpers.js",
               "DocumentMoniker": "C:\\Users\\scott\\Documents\\GitHub\\EvApp\\src\\lib\\appHelpers.js",
               "RelativeDocumentMoniker": "src\\lib\\appHelpers.js",
@@ -77,20 +294,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "App.jsx",
-              "DocumentMoniker": "C:\\Users\\scott\\Documents\\GitHub\\EvApp\\src\\App.jsx",
-              "RelativeDocumentMoniker": "src\\App.jsx",
-              "ToolTip": "C:\\Users\\scott\\Documents\\GitHub\\EvApp\\src\\App.jsx",
-              "RelativeToolTip": "src\\App.jsx",
-              "ViewState": "AgIAAEMAAAAAAAAAAAAmwDoAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2026-04-10T07:00:46.826Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 16,
               "Title": "useMachineController.js",
               "DocumentMoniker": "C:\\Users\\scott\\Documents\\GitHub\\EvApp\\src\\hooks\\useMachineController.js",
               "RelativeDocumentMoniker": "src\\hooks\\useMachineController.js",
@@ -103,7 +307,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 17,
               "Title": "useWalletController.js",
               "DocumentMoniker": "C:\\Users\\scott\\Documents\\GitHub\\EvApp\\src\\hooks\\useWalletController.js",
               "RelativeDocumentMoniker": "src\\hooks\\useWalletController.js",

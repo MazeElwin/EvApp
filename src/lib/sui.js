@@ -262,11 +262,15 @@ export async function fetchTypeInfo(typeId) {
 }
 
 export async function machineFromInspection(inspection, walletAddress, system, typeCache) {
-    const object = inspection.object;
+    const object = inspection?.object || {};
     const rootType = String(object?.type || object?.content?.type || '');
     const broadType = extractMachineTypeLabel(rootType);
 
     const fields = object?.content?.fields || object?.fields || {};
+    const parsedInventories = Array.isArray(inspection?.parsedInventories)
+        ? inspection.parsedInventories
+        : [];
+
     const machineTypeId = String(fields?.type_id || '');
     const subtypeLabel = await resolveMachineSubtype(machineTypeId, broadType, typeCache);
     const customName = String(fields?.metadata?.fields?.name || '').trim();
@@ -275,10 +279,36 @@ export async function machineFromInspection(inspection, walletAddress, system, t
     const status = String(fields?.status?.fields?.status?.variant || 'UNKNOWN');
 
     const lowered = `${broadType} ${subtypeLabel} ${rootType}`.toLowerCase();
-    const looksMachineLike =
-        /(assembly|storage|turret|printer|berth|factory|industry|refinery)/.test(lowered);
 
-    if (!looksMachineLike && inspection.parsedInventories.length === 0) {
+    const looksMachineLike =
+        /(assembly|storage|turret|printer|berth|factory|industry|refinery|ship|vessel|cargo|hangar|network|node|power|energy|haf|usv|lorha|tades|chumaq|reiver|sojourn|embark)/.test(
+            lowered
+        );
+
+    const hasMachineIdentity =
+        Boolean(machineTypeId) ||
+        Boolean(itemId) ||
+        Boolean(fields?.location) ||
+        Boolean(fields?.metadata) ||
+        Boolean(fields?.status);
+
+    const isMoveObject =
+        object?.content?.dataType === 'moveObject' || object?.dataType === 'moveObject';
+
+    console.log('Rejected inspection object', {
+        rootType,
+        broadType,
+        subtypeLabel,
+        machineTypeId,
+        itemId,
+        hasMachineIdentity,
+        looksMachineLike,
+        parsedInventories: parsedInventories.length,
+        fields
+    });
+
+
+    if (!looksMachineLike && !hasMachineIdentity && parsedInventories.length === 0 && !isMoveObject) {
         return null;
     }
 
@@ -293,7 +323,7 @@ export async function machineFromInspection(inspection, walletAddress, system, t
         machineTypeId,
         itemId,
         status,
-        parsedInventories: inspection.parsedInventories,
+        parsedInventories,
         updatedAt: new Date().toISOString()
     };
 }
