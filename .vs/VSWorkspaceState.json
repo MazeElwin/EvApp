@@ -1,14 +1,12 @@
 {
   "ExpandedNodes": [
     "",
-    "\\saves",
-    "\\scripts",
     "\\src",
     "\\src\\components",
     "\\src\\components\\tabs",
     "\\src\\hooks",
     "\\src\\lib"
   ],
-  "SelectedNode": "\\src\\styles.css",
+  "SelectedNode": "\\src\\components\\PlannerNode.jsx",
   "PreviewInSolutionExplorer": false
 }

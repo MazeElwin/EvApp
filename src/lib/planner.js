@@ -16,67 +16,60 @@ function toBlueprintList(value) {
     return Array.isArray(value) ? value : [value];
 }
 
-function getCandidateBlueprints(materialTypeId, materialName, context) {
+function dedupeBlueprints(list) {
+    const seen = new Set();
+    const out = [];
+
+    for (const bp of list) {
+        if (!bp?.blueprintKey || seen.has(bp.blueprintKey)) continue;
+        seen.add(bp.blueprintKey);
+        out.push(bp);
+    }
+
+    return out;
+}
+
+function getCandidateBlueprints(outputTypeId, outputName, context) {
     const byType = toBlueprintList(
-        materialTypeId ? context.blueprintsByOutputTypeId.get(materialTypeId) : null
+        outputTypeId ? context.blueprintsByOutputTypeId.get(outputTypeId) : null
     );
 
     if (byType.length) {
-        return byType;
+        return dedupeBlueprints(byType);
     }
 
-    return toBlueprintList(
-        context.blueprintsByOutputName.get(normalizeName(materialName))
+    return dedupeBlueprints(
+        toBlueprintList(context.blueprintsByOutputName.get(normalizeName(outputName)))
     );
 }
 
-function pickPreferredBlueprint(candidates, currentBlueprintKey, pathKeys) {
-    const filtered = candidates.filter((bp) => {
-        if (!bp?.blueprintKey) return false;
-        if (bp.blueprintKey === currentBlueprintKey) return false;
-        if (pathKeys.has(bp.blueprintKey)) return false;
-        return true;
-    });
+function chooseBlueprint(candidates, fallbackBlueprint, forcedBlueprintKey, blockedKeys) {
+    const merged = dedupeBlueprints([
+        ...(fallbackBlueprint ? [fallbackBlueprint] : []),
+        ...candidates
+    ]);
 
-    if (!filtered.length) {
-        return null;
+    if (forcedBlueprintKey) {
+        const forced = merged.find((bp) => bp.blueprintKey === forcedBlueprintKey);
+        if (forced && !blockedKeys.has(forced.blueprintKey)) {
+            return forced;
+        }
     }
 
-    return [...filtered].sort((a, b) => {
-        const aMaterials = Array.isArray(a.materials) ? a.materials.length : 0;
-        const bMaterials = Array.isArray(b.materials) ? b.materials.length : 0;
-
-        return (
-            aMaterials - bMaterials ||
-            (a.durationSeconds || 0) - (b.durationSeconds || 0) ||
-            a.name.localeCompare(b.name)
-        );
-    })[0];
+    return (
+        merged.find((bp) => !blockedKeys.has(bp.blueprintKey)) ||
+        fallbackBlueprint ||
+        null
+    );
 }
 
-function makeCycleLeaf({
-    materialTypeId,
-    materialName,
-    need,
-    rawOwned,
-    rawUseOwned,
-    mode,
-    reason
-}) {
-    return {
-        id: `cycle-${materialTypeId || normalizeName(materialName)}-${need}-${mode}`,
-        mode,
-        name: materialName,
-        typeId: materialTypeId,
-        machineLabel: reason || 'Cycle blocked',
-        quantityNeeded: need,
-        owned: rawOwned,
-        useOwned: rawUseOwned,
-        quantityToCraft: Math.max(0, need - rawUseOwned),
-        runs: 0,
-        children: [],
-        alternativeBlueprints: []
-    };
+function toBlueprintOptions(candidates) {
+    return candidates.map((bp) => ({
+        blueprintKey: bp.blueprintKey,
+        name: bp.name,
+        machineLabel: bp.machineLabel,
+        category: bp.category
+    }));
 }
 
 export function createPlanTree(
@@ -87,38 +80,43 @@ export function createPlanTree(
     options = {},
     state = {}
 ) {
-    const mode = options.mode || 'planner';
-    const { itemsById, stockLookup } = context;
+    const pathKey = state.pathKey || options.rootNodeId || 'root';
+    const rootNodeId = state.rootNodeId || options.rootNodeId || pathKey;
+    const rootBlueprintKey = state.rootBlueprintKey || targetBlueprint.blueprintKey;
+    const rootQuantityNeeded = state.rootQuantityNeeded || quantityNeeded;
+    const blockedKeys =
+        state.blockedKeys instanceof Set ? state.blockedKeys : new Set();
 
-    const pathKeys = state.pathKeys instanceof Set ? state.pathKeys : new Set();
-    const depth = Number(state.depth || 0);
-    const maxDepth = Number(options.maxDepth || 25);
+    const currentCandidates = getCandidateBlueprints(
+        String(targetBlueprint.output?.typeId || '').trim(),
+        targetBlueprint.output?.name,
+        context
+    );
 
-    if (!targetBlueprint?.blueprintKey) {
-        return {
-            id: `invalid-blueprint-${depth}`,
-            mode,
-            name: 'Invalid blueprint',
-            typeId: '',
-            machineLabel: 'Invalid',
-            quantityNeeded,
-            owned: 0,
-            useOwned: 0,
-            quantityToCraft: quantityNeeded,
-            runs: 0,
-            children: [],
-            alternativeBlueprints: []
-        };
+    const activeBlueprint = chooseBlueprint(
+        currentCandidates,
+        targetBlueprint,
+        options.pathOverrides?.[pathKey],
+        blockedKeys
+    );
+
+    if (!activeBlueprint) {
+        return null;
     }
 
-    const outputTypeId = String(targetBlueprint.output?.typeId || '').trim();
+    const nextBlockedKeys = new Set(blockedKeys);
+    nextBlockedKeys.add(activeBlueprint.blueprintKey);
+
+    const { itemsById, stockLookup } = context;
+
+    const outputTypeId = String(activeBlueprint.output.typeId || '').trim();
     const outputName = resolveItemName(
         outputTypeId,
-        targetBlueprint.output?.name,
+        activeBlueprint.output.name,
         itemsById
     );
 
-    const perRunOutput = Number(targetBlueprint.output?.quantity || 1) || 1;
+    const perRunOutput = Number(activeBlueprint.output.quantity || 1) || 1;
 
     const stockKey = outputTypeId
         ? `type:${outputTypeId}`
@@ -134,34 +132,27 @@ export function createPlanTree(
     const remainingToCraft = Math.max(0, quantityNeeded - useOwned);
     const runs = remainingToCraft > 0 ? Math.ceil(remainingToCraft / perRunOutput) : 0;
 
-    const expansionQuantity =
-        mode === 'recipe' ? quantityNeeded : remainingToCraft;
-
-    const expansionRuns =
-        expansionQuantity > 0 ? Math.ceil(expansionQuantity / perRunOutput) : 0;
-
     const children = [];
 
-    const nextPathKeys = new Set(pathKeys);
-    nextPathKeys.add(targetBlueprint.blueprintKey);
-
-    if (expansionRuns > 0 && depth < maxDepth) {
-        for (let i = 0; i < targetBlueprint.materials.length; i += 1) {
-            const mat = targetBlueprint.materials[i];
+    if (runs > 0) {
+        for (let i = 0; i < activeBlueprint.materials.length; i += 1) {
+            const mat = activeBlueprint.materials[i];
             const materialTypeId = String(mat.typeId || '').trim();
             const materialName = resolveItemName(materialTypeId, mat.name, itemsById);
-            const need = Number(mat.quantity || 0) * expansionRuns;
+            const need = Number(mat.quantity || 0) * runs;
+            const childPathKey = `${pathKey}.${i}`;
 
-            const candidateBlueprints = getCandidateBlueprints(
+            const childCandidates = getCandidateBlueprints(
                 materialTypeId,
                 materialName,
                 context
             );
 
-            const nextBlueprint = pickPreferredBlueprint(
-                candidateBlueprints,
-                targetBlueprint.blueprintKey,
-                nextPathKeys
+            const nextBlueprint = chooseBlueprint(
+                childCandidates,
+                null,
+                options.pathOverrides?.[childPathKey],
+                nextBlockedKeys
             );
 
             if (nextBlueprint) {
@@ -172,26 +163,18 @@ export function createPlanTree(
                     allocations,
                     options,
                     {
-                        pathKeys: nextPathKeys,
-                        depth: depth + 1
+                        pathKey: childPathKey,
+                        rootNodeId,
+                        rootBlueprintKey,
+                        rootQuantityNeeded,
+                        blockedKeys: nextBlockedKeys
                     }
                 );
 
-                child.alternativeBlueprints = candidateBlueprints
-                    .filter(
-                        (bp) =>
-                            bp.blueprintKey !== nextBlueprint.blueprintKey &&
-                            bp.blueprintKey !== targetBlueprint.blueprintKey
-                    )
-                    .map((bp) => ({
-                        blueprintKey: bp.blueprintKey,
-                        name: bp.name,
-                        machineLabel: bp.machineLabel,
-                        category: bp.category
-                    }));
-
-                children.push(child);
-                continue;
+                if (child) {
+                    children.push(child);
+                    continue;
+                }
             }
 
             const rawOwned = getStockAmount(stockLookup, materialTypeId, materialName);
@@ -205,78 +188,57 @@ export function createPlanTree(
 
             allocations.set(rawKey, rawAllocated + rawUseOwned);
 
-            const hadBlockedCycleCandidate = candidateBlueprints.some(
-                (bp) =>
-                    bp?.blueprintKey === targetBlueprint.blueprintKey ||
-                    nextPathKeys.has(bp?.blueprintKey)
-            );
-
-            children.push(
-                hadBlockedCycleCandidate
-                    ? makeCycleLeaf({
-                        materialTypeId,
-                        materialName,
-                        need,
-                        rawOwned,
-                        rawUseOwned,
-                        mode,
-                        reason: 'Cycle blocked'
-                    })
-                    : {
-                        id: `raw-${rawKey}-${i}-${need}-${mode}`,
-                        mode,
-                        name: materialName,
-                        typeId: materialTypeId,
-                        machineLabel: mode === 'recipe' ? 'Raw ingredient' : 'Raw resource',
-                        quantityNeeded: need,
-                        owned: rawOwned,
-                        useOwned: rawUseOwned,
-                        quantityToCraft: Math.max(0, need - rawUseOwned),
-                        runs: 0,
-                        children: [],
-                        alternativeBlueprints: []
-                    }
-            );
+            children.push({
+                id: `raw-${childPathKey}-${need}`,
+                pathKey: childPathKey,
+                rootNodeId,
+                rootBlueprintKey,
+                rootQuantityNeeded,
+                blueprintKey: '',
+                blueprintOptions: [],
+                name: materialName,
+                typeId: materialTypeId,
+                machineLabel: 'Raw resource',
+                quantityNeeded: need,
+                owned: rawOwned,
+                useOwned: rawUseOwned,
+                quantityToCraft: Math.max(0, need - rawUseOwned),
+                runs: 0,
+                children: [],
+                alternativeBlueprints: []
+            });
         }
-    } else if (expansionRuns > 0 && depth >= maxDepth) {
-        children.push({
-            id: `depth-limit-${targetBlueprint.blueprintKey}-${depth}`,
-            mode,
-            name: 'Depth limit reached',
-            typeId: '',
-            machineLabel: 'Depth limit',
-            quantityNeeded: 0,
-            owned: 0,
-            useOwned: 0,
-            quantityToCraft: 0,
-            runs: 0,
-            children: [],
-            alternativeBlueprints: []
-        });
     }
 
     return {
-        id: `${targetBlueprint.blueprintKey}-${quantityNeeded}-${mode}-${depth}`,
-        mode,
+        id: `${pathKey}:${activeBlueprint.blueprintKey}:${quantityNeeded}`,
+        pathKey,
+        rootNodeId,
+        rootBlueprintKey,
+        rootQuantityNeeded,
+        blueprintKey: activeBlueprint.blueprintKey,
+        blueprintOptions: toBlueprintOptions(
+            dedupeBlueprints([activeBlueprint, ...currentCandidates])
+        ),
+        alternativeBlueprints: toBlueprintOptions(
+            dedupeBlueprints([activeBlueprint, ...currentCandidates]).filter(
+                (bp) => bp.blueprintKey !== activeBlueprint.blueprintKey
+            )
+        ),
         name: outputName,
         typeId: outputTypeId,
-        machineLabel: `Assembly - ${targetBlueprint.machineLabel || 'Assembler'}`,
+        machineLabel: `Assembly - ${activeBlueprint.machineLabel || 'Assembler'}`,
         quantityNeeded,
         owned,
         useOwned,
         quantityToCraft: remainingToCraft,
         runs,
-        children,
-        alternativeBlueprints: []
+        children
     };
 }
 
 export function collectRawShortages(node, out = []) {
     if (!node) return out;
-
-    if (node.mode === 'recipe') {
-        return out;
-    }
 
     if (
         (!node.children || node.children.length === 0) &&
