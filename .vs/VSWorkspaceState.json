@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\.github",
+    "\\.github\\workflows",
+    "\\data",
+    "\\saves",
+    "\\src",
+    "\\src\\components",
+    "\\src\\components\\tabs",
+    "\\src\\hooks",
+    "\\src\\lib"
+  ],
+  "SelectedNode": "\\vite.config.js",
+  "PreviewInSolutionExplorer": false
+}

@@ -30,6 +30,38 @@ import OtherTab from './components/tabs/OtherTab.jsx';
 
 const ZOOM_KEY = 'ev_planner_zoom';
 
+// ── Walk a node tree and rebuild one node by id using a new blueprint ───────
+function rebuildNodeById(node, targetId, blueprintKey, blueprintsByKey, context, options) {
+    if (!node) return node;
+
+    // Found the node — rebuild its entire subtree with the new blueprint
+    if (node.id === targetId) {
+        const newBp = blueprintsByKey.get(blueprintKey);
+        if (!newBp) return node; // blueprint not found, leave unchanged
+        return createPlanTree(
+            newBp,
+            node.quantityNeeded,
+            context,
+            new Map(),   // fresh allocations for this subtree
+            options,
+            {}
+        );
+    }
+
+    // Not this node — recurse into children
+    if (!node.children?.length) return node;
+
+    const newChildren = node.children.map(child =>
+        rebuildNodeById(child, targetId, blueprintKey, blueprintsByKey, context, options)
+    );
+
+    // Only create a new object if something actually changed
+    const changed = newChildren.some((c, i) => c !== node.children[i]);
+    if (!changed) return node;
+
+    return { ...node, children: newChildren };
+}
+
 function App() {
     const data = useMemo(() => loadBlueprintData(), []);
     const {
@@ -83,7 +115,7 @@ function App() {
     const [loading, setLoading] = useState(false);
     const [error, setError] = useState('');
 
-    // ── ZOOM (persisted) ──────────────────────────────────
+    // ── ZOOM (persisted) ───────────────────────────────────────────────────
     const [zoom, setZoom] = useState(() => {
         const stored = parseFloat(window.localStorage.getItem(ZOOM_KEY));
         return isNaN(stored) ? 1 : Math.min(2, Math.max(0.4, stored));
@@ -178,6 +210,15 @@ function App() {
         return shortages;
     }, [plannerQueue]);
 
+    // ── The context object passed to createPlanTree / rebuildNodeById ────────
+    const plannerContext = useMemo(() => ({
+        blueprintsByOutputTypeId,
+        blueprintsByOutputName,
+        itemsById,
+        stockLookup
+    }), [blueprintsByOutputTypeId, blueprintsByOutputName, itemsById, stockLookup]);
+
+    // ── PERSIST HELPERS ──────────────────────────────────────────────────────
     function persistSelectedBlueprintKey(next) {
         setSelectedBlueprintKey(next);
         window.localStorage.setItem(STORAGE_KEYS.selectedBlueprintKey, next);
@@ -199,13 +240,12 @@ function App() {
         window.localStorage.setItem(STORAGE_KEYS.debugVisible, next ? '1' : '0');
     }
 
+    // ── PLANNER ACTIONS ──────────────────────────────────────────────────────
     function addPlannerTarget() {
         if (!selectedBlueprint) return;
         const quantity = Math.max(1, numberOrZero(plannerQuantity) || 1);
         const plan = createPlanTree(
-            selectedBlueprint, quantity,
-            { blueprintsByOutputTypeId, blueprintsByOutputName, itemsById, stockLookup },
-            new Map()
+            selectedBlueprint, quantity, plannerContext, new Map()
         );
         persistPlannerQueue([...plannerQueue, plan]);
     }
@@ -214,9 +254,7 @@ function App() {
         if (!selectedBlueprint) return;
         const quantity = Math.max(1, numberOrZero(plannerQuantity) || 1);
         const plan = createPlanTree(
-            selectedBlueprint, quantity,
-            { blueprintsByOutputTypeId, blueprintsByOutputName, itemsById, stockLookup },
-            new Map(), { mode: 'recipe' }
+            selectedBlueprint, quantity, plannerContext, new Map(), { mode: 'recipe' }
         );
         persistPlannerQueue([...plannerQueue, plan]);
     }
@@ -224,8 +262,21 @@ function App() {
     function removePlannerNode(nodeId) {
         persistPlannerQueue(plannerQueue.filter((node) => node.id !== nodeId));
     }
+
     function clearPlannerQueue() { persistPlannerQueue([]); }
 
+    // ── SWAP BLUEPRINT IN A SUBTREE ──────────────────────────────────────────
+    // Called by PlannerNode when user clicks USE on an alt path.
+    // Finds the node anywhere in the queue tree and rebuilds it with the new blueprint.
+    function swapNodeBlueprint(nodeId, blueprintKey) {
+        const options = {}; // planner mode (not recipe) for sub-nodes
+        const next = plannerQueue.map(root =>
+            rebuildNodeById(root, nodeId, blueprintKey, blueprintsByKey, plannerContext, options)
+        );
+        persistPlannerQueue(next);
+    }
+
+    // ── CONTROLLERS ─────────────────────────────────────────────────────────
     const { saveLoadStatus, handleSaveExport, handleSaveImport, clearEverything } =
         useSaveController({
             makeSaveFilename, walletAddress, machines, plannerQueue,
@@ -259,6 +310,7 @@ function App() {
         setMachineIdInput, setSystemInput, setActiveTab
     });
 
+    // ── PAN HANDLERS ─────────────────────────────────────────────────────────
     function handlePanStart(event) {
         if (!plannerViewportRef.current) return;
         if (
@@ -302,7 +354,7 @@ function App() {
                         : <span>
                             <span style={{ display: 'inline-block', width: 6, height: 6, borderRadius: '50%', background: 'var(--success-hi)', boxShadow: '0 0 6px var(--success-hi)', marginRight: 5, verticalAlign: 'middle' }} />
                             READY
-                          </span>
+                        </span>
                     }
                     <span>{network.toUpperCase()}</span>
                 </div>
@@ -323,6 +375,7 @@ function App() {
 
             {error ? <div className="error-banner">{error}</div> : null}
 
+            {/* ── TAB PANELS ───────────────────────────── */}
             {activeTab === 'Wallet' && (
                 <WalletTab
                     walletLoadStatus={walletLoadStatus}
@@ -400,6 +453,7 @@ function App() {
                     totalRawShortages={totalRawShortages}
                     zoom={zoom}
                     onZoomChange={handleZoomChange}
+                    onSwapBlueprint={swapNodeBlueprint}
                 />
             )}
 

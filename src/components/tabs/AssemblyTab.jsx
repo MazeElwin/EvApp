@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect, useCallback } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import PlannerNode from '../PlannerNode.jsx';
 
 function normalizeName(value) {
@@ -26,7 +26,6 @@ function BlueprintSearch({
     const listRef = useRef(null);
     const wrapRef = useRef(null);
 
-    // Filter blueprints by search + category
     const filtered = blueprints.filter((bp) => {
         const catOk = selectedCategory === 'All' || bp.category === selectedCategory;
         const q = normalizeName(searchText);
@@ -34,7 +33,6 @@ function BlueprintSearch({
         return catOk && nameOk;
     });
 
-    // Deduplicate by name for display
     const seen = new Set();
     const suggestions = filtered.filter((bp) => {
         const key = normalizeName(bp.name);
@@ -43,7 +41,6 @@ function BlueprintSearch({
         return true;
     });
 
-    // Close on outside click
     useEffect(() => {
         function handler(e) {
             if (wrapRef.current && !wrapRef.current.contains(e.target)) setOpen(false);
@@ -52,7 +49,6 @@ function BlueprintSearch({
         return () => document.removeEventListener('mousedown', handler);
     }, []);
 
-    // Keep highlighted in view
     useEffect(() => {
         if (!listRef.current) return;
         const el = listRef.current.children[highlighted];
@@ -132,7 +128,7 @@ function BlueprintSearch({
                 </div>
             </div>
 
-            {/* Selected blueprint info strip */}
+            {/* Selected strip */}
             {!open && selectedBlueprint && (
                 <div className="bp-selected-strip">
                     <span className="bp-sel-label">SELECTED</span>
@@ -146,7 +142,7 @@ function BlueprintSearch({
                 </div>
             )}
 
-            {/* Dropdown list */}
+            {/* Dropdown */}
             {open && suggestions.length > 0 && (
                 <div className="bp-dropdown">
                     <ul className="bp-list" ref={listRef}>
@@ -208,6 +204,7 @@ export default function AssemblyTab({
     totalRawShortages,
     zoom,
     onZoomChange,
+    onSwapBlueprint,   // ← new: (nodeId, blueprintKey) => void
 }) {
     return (
         <section className="panel assembly-panel">
@@ -290,13 +287,20 @@ export default function AssemblyTab({
                     style={{ transform: `scale(${zoom})`, transformOrigin: 'top left' }}
                 >
                     {plannerQueue.length === 0 ? (
-                        <div className="empty-state large">No assembly plan yet.<br /><small style={{ fontSize: 11, opacity: 0.6 }}>Search a blueprint above and click ADD TO PLANNER</small></div>
+                        <div className="empty-state large">
+                            No assembly plan yet.
+                            <br />
+                            <small style={{ fontSize: 11, opacity: 0.6 }}>
+                                Search a blueprint above and click ADD TO PLANNER
+                            </small>
+                        </div>
                     ) : (
                         plannerQueue.map((node) => (
                             <PlannerNode
                                 key={node.id}
                                 node={node}
                                 onRemove={removePlannerNode}
+                                onSwapBlueprint={onSwapBlueprint}
                             />
                         ))
                     )}

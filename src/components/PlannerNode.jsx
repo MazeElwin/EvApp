@@ -9,8 +9,10 @@ function getStatusClass(node) {
     return 'node-status--craft';
 }
 
-// ── ALTERNATIVE PATH BADGE ──────────────────────────────────────────────────
-function AltPaths({ alts }) {
+// ── ALTERNATIVE PATHS ───────────────────────────────────────────────────────
+// alts: [{ blueprintKey, name, machineLabel, category }]
+// onSwap: (nodeId, blueprintKey) => void  — triggers a full subtree rebuild
+function AltPaths({ nodeId, alts, onSwap }) {
     const [expanded, setExpanded] = useState(false);
     if (!alts?.length) return null;
 
@@ -22,17 +24,33 @@ function AltPaths({ alts }) {
             >
                 {expanded ? '▼' : '▶'} {alts.length} ALT PATH{alts.length > 1 ? 'S' : ''}
             </button>
+
             {expanded && (
                 <div className="node-alts-list">
                     {alts.map((alt) => (
                         <div key={alt.blueprintKey} className="node-alt-item">
-                            <span className="node-alt-name">{alt.name}</span>
-                            {alt.machineLabel && (
-                                <span className="node-alt-machine">{alt.machineLabel}</span>
-                            )}
-                            {alt.category && (
-                                <span className="node-alt-cat">{alt.category}</span>
-                            )}
+                            <div className="node-alt-info">
+                                <span className="node-alt-name">{alt.name}</span>
+                                <div className="node-alt-meta">
+                                    {alt.machineLabel && (
+                                        <span className="node-alt-machine">{alt.machineLabel}</span>
+                                    )}
+                                    {alt.category && (
+                                        <span className="node-alt-cat">{alt.category}</span>
+                                    )}
+                                </div>
+                            </div>
+                            <button
+                                className="node-alt-use-btn"
+                                onClick={(e) => {
+                                    e.stopPropagation();
+                                    onSwap(nodeId, alt.blueprintKey);
+                                    setExpanded(false);
+                                }}
+                                title={`Switch to ${alt.name}`}
+                            >
+                                USE
+                            </button>
                         </div>
                     ))}
                 </div>
@@ -42,23 +60,27 @@ function AltPaths({ alts }) {
 }
 
 // ── PLANNER NODE ────────────────────────────────────────────────────────────
-export default function PlannerNode({ node, onRemove, depth = 0 }) {
+// onSwapBlueprint(nodeId, blueprintKey) — bubbles up to App to rebuild queue
+export default function PlannerNode({ node, onRemove, onSwapBlueprint, depth = 0 }) {
     const children = Array.isArray(node?.children) ? node.children : [];
     const alts = node?.alternativeBlueprints || [];
     const isRecipe = node?.mode === 'recipe';
     const isRoot = depth === 0;
     const isLeaf = children.length === 0;
-    const isRaw = isLeaf && (node?.machineLabel === 'Raw resource' || node?.machineLabel === 'Raw ingredient');
+    const isRaw = isLeaf && (
+        node?.machineLabel === 'Raw resource' ||
+        node?.machineLabel === 'Raw ingredient'
+    );
     const isCycle = node?.machineLabel === 'Cycle blocked';
     const statusClass = getStatusClass(node);
 
-    // Parse machine label — strip the "Assembly - " prefix for display
+    // Strip "Assembly - " prefix for display
     const machineRaw = node?.machineLabel || '';
     const machineName = machineRaw.startsWith('Assembly - ')
         ? machineRaw.slice('Assembly - '.length)
         : machineRaw;
 
-    // Build a summary of what goes INTO this node (its children = inputs)
+    // Input summary — child names
     const inputSummary = children.slice(0, 4).map(c => c.name).join(', ');
     const inputOverflow = children.length > 4 ? ` +${children.length - 4} more` : '';
 
@@ -71,12 +93,20 @@ export default function PlannerNode({ node, onRemove, depth = 0 }) {
                 isRoot ? 'is-root' : '',
             ].join(' ')}
         >
-            {/* CHILD NODES (rendered left of this card) */}
+            {/* CHILD NODES */}
             {children.length > 0 && (
-                <div className={['planner-tree-children', children.length === 1 ? 'single-child' : ''].join(' ')}>
+                <div className={[
+                    'planner-tree-children',
+                    children.length === 1 ? 'single-child' : ''
+                ].join(' ')}>
                     {children.map((child) => (
                         <div key={child.id} className="planner-tree-child">
-                            <PlannerNode node={child} onRemove={onRemove} depth={depth + 1} />
+                            <PlannerNode
+                                node={child}
+                                onRemove={onRemove}
+                                onSwapBlueprint={onSwapBlueprint}
+                                depth={depth + 1}
+                            />
                         </div>
                     ))}
                 </div>
@@ -84,7 +114,6 @@ export default function PlannerNode({ node, onRemove, depth = 0 }) {
 
             {/* NODE CARD */}
             <div className={`planner-node-card ${statusClass} ${isRaw ? 'node-raw' : ''} ${isCycle ? 'node-cycle' : ''}`}>
-                {/* Connector ports */}
                 {children.length > 0 && <span className="planner-port planner-port-in" />}
                 {!isRoot && <span className="planner-port planner-port-out" />}
 
@@ -100,7 +129,7 @@ export default function PlannerNode({ node, onRemove, depth = 0 }) {
                     )}
                 </div>
 
-                {/* Machine / type row */}
+                {/* Machine tag */}
                 <div className="node-machine-row">
                     {isRaw ? (
                         <span className="node-machine-tag node-machine-raw">⬡ RAW MATERIAL</span>
@@ -112,7 +141,7 @@ export default function PlannerNode({ node, onRemove, depth = 0 }) {
                     {isRecipe && <span className="node-recipe-tag">PREVIEW</span>}
                 </div>
 
-                {/* Stats grid */}
+                {/* Stats */}
                 <div className="planner-node-stat-grid">
                     <div>
                         <span>NEED</span>
@@ -120,7 +149,9 @@ export default function PlannerNode({ node, onRemove, depth = 0 }) {
                     </div>
                     <div>
                         <span>OWN</span>
-                        <strong className={node?.owned > 0 ? 'stat-owned' : ''}>{node?.owned ?? 0}</strong>
+                        <strong className={node?.owned > 0 ? 'stat-owned' : ''}>
+                            {node?.owned ?? 0}
+                        </strong>
                     </div>
                     <div>
                         <span>USE</span>
@@ -128,7 +159,9 @@ export default function PlannerNode({ node, onRemove, depth = 0 }) {
                     </div>
                     <div>
                         <span>{children.length ? 'CRAFT' : 'MISSING'}</span>
-                        <strong className={node?.quantityToCraft > 0 && !children.length ? 'stat-missing' : ''}>
+                        <strong className={
+                            node?.quantityToCraft > 0 && !children.length ? 'stat-missing' : ''
+                        }>
                             {node?.quantityToCraft ?? 0}
                         </strong>
                     </div>
@@ -140,7 +173,7 @@ export default function PlannerNode({ node, onRemove, depth = 0 }) {
                     )}
                 </div>
 
-                {/* Input summary (what materials feed this node) */}
+                {/* Inputs summary */}
                 {inputSummary && (
                     <div className="node-inputs-row">
                         <span className="node-inputs-label">INPUTS</span>
@@ -148,13 +181,19 @@ export default function PlannerNode({ node, onRemove, depth = 0 }) {
                     </div>
                 )}
 
-                {/* Type ID (subtle, only when useful) */}
+                {/* Type ID */}
                 {node?.typeId && !isRaw && (
                     <div className="node-typeid">ID {node.typeId}</div>
                 )}
 
-                {/* Alternative paths */}
-                <AltPaths alts={alts} />
+                {/* Alt paths — now actually functional */}
+                {!isRaw && !isCycle && onSwapBlueprint && (
+                    <AltPaths
+                        nodeId={node.id}
+                        alts={alts}
+                        onSwap={onSwapBlueprint}
+                    />
+                )}
             </div>
         </div>
     );
